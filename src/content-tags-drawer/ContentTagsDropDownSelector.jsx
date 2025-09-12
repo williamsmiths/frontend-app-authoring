@@ -234,6 +234,7 @@ const ContentTagsDropDownSelector = ({
         <div className="d-flex justify-content-center align-items-center flex-row">
           <Spinner
             animation="border"
+            variant="danger"
             size="xl"
             screenReaderText={intl.formatMessage(messages.loadingTagsDropdownMessage)}
           />

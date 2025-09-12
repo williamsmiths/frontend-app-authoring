@@ -249,8 +249,8 @@ const SectionCard = ({
               {actions.childAddable && (
                 <Button
                   data-testid="new-subsection-button"
-                  className="mt-4"
-                  variant="outline-primary"
+                  className="mt-4 custom-outline-btn"
+                  variant="outline"
                   iconBefore={IconAdd}
                   block
                   onClick={handleNewSubsectionSubmit}

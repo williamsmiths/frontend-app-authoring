@@ -267,8 +267,8 @@ const SubsectionCard = ({
                 <>
                   <Button
                     data-testid="new-unit-button"
-                    className="mt-4"
-                    variant="outline-primary"
+                    className="mt-4 custom-outline-btn"
+                    variant="outline"
                     iconBefore={IconAdd}
                     block
                     onClick={handleNewButtonClick}
@@ -286,8 +286,8 @@ const SubsectionCard = ({
                   {librariesV2Enabled && (
                     <Button
                       data-testid="use-unit-from-library"
-                      className="mt-4"
-                      variant="outline-primary"
+                      className="mt-4 custom-outline-btn"
+                      variant="outline"
                       iconBefore={IconAdd}
                       block
                       onClick={openAddLibraryUnitModal}

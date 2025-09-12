@@ -160,7 +160,7 @@ const GradingSettings = ({ courseId }) => {
                     contentTitle={intl.formatMessage(messages.policy)}
                     description={intl.formatMessage(messages.policiesDescription)}
                   />
-                  <section>
+                  <section className='custom-group-progress shadow-sm bg-white rounded p-4 mb-4'>
                     <GradingScale
                       gradeCutoffs={gradeCutoffs}
                       showSavePrompt={setShowSavePrompt}
@@ -176,7 +176,7 @@ const GradingSettings = ({ courseId }) => {
                     />
                   </section>
                   {courseSettingsData.creditEligibilityEnabled && courseSettingsData.isCreditCourse && (
-                    <section>
+                    <section className='custom-group-progress shadow-sm bg-white rounded p-4 mb-4'>
                       <SectionSubHeader
                         title={intl.formatMessage(messages.creditEligibilitySectionTitle)}
                         description={intl.formatMessage(messages.creditEligibilitySectionDescription)}
@@ -190,7 +190,7 @@ const GradingSettings = ({ courseId }) => {
                       />
                     </section>
                   )}
-                  <section>
+                  <section className='custom-group-progress shadow-sm bg-white rounded p-4 mb-4'>
                     <SectionSubHeader
                       title={intl.formatMessage(messages.gradingRulesPoliciesSectionTitle)}
                       description={intl.formatMessage(messages.gradingRulesPoliciesSectionDescription)}
@@ -202,7 +202,7 @@ const GradingSettings = ({ courseId }) => {
                       setShowSuccessAlert={setShowSuccessAlert}
                     />
                   </section>
-                  <section>
+                  <section className='custom-group-progress shadow-sm bg-white rounded p-4 mb-4'>
                     <header className="row justify-content-between align-items-center mt-4 mx-0 mb-2">
                       <h2 className="lead">
                         {intl.formatMessage(messages.assignmentTypeSectionTitle)}

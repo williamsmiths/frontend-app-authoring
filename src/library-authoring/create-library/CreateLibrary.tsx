@@ -21,6 +21,7 @@ import SubHeader from '../../generic/sub-header/SubHeader';
 import { useStudioHome } from '../../studio-home/hooks';
 import { useCreateLibraryV2 } from './data/apiHooks';
 import messages from './messages';
+import CustomFooter from '../../componentsa/CustomFooter';
 
 const CreateLibrary = () => {
   const intl = useIntl();
@@ -66,103 +67,106 @@ const CreateLibrary = () => {
   return (
     <>
       <Header isHiddenMainMenu />
-      <Container size="xl" className="p-4 mt-3">
+      <Container size="xl" className="p-4 mt-3 custom-group-progress shadow-sm bg-white">
         <SubHeader
           title={intl.formatMessage(messages.createLibrary)}
         />
-        <Formik
-          initialValues={{
-            title: '',
-            org: '',
-            slug: '',
-          }}
-          validationSchema={
-            Yup.object().shape({
-              title: Yup.string()
-                .required(intl.formatMessage(messages.requiredFieldError)),
-              org: Yup.string()
-                .required(intl.formatMessage(messages.requiredFieldError))
-                .matches(
-                  specialCharsRule,
-                  intl.formatMessage(messages.disallowedCharsError),
-                )
-                .matches(noSpaceRule, intl.formatMessage(messages.noSpaceError)),
-              slug: Yup.string()
-                .required(intl.formatMessage(messages.requiredFieldError))
-                .matches(
-                  validSlugIdRegex,
-                  intl.formatMessage(messages.invalidSlugError),
-                ),
-            })
-          }
-          onSubmit={(values) => mutate(values)}
-        >
-          {(formikProps) => (
-            <Form onSubmit={formikProps.handleSubmit}>
-              <FormikControl
-                name="title"
-                label={<Form.Label>{intl.formatMessage(messages.titleLabel)}</Form.Label>}
-                value={formikProps.values.title}
-                placeholder={intl.formatMessage(messages.titlePlaceholder)}
-                help={intl.formatMessage(messages.titleHelp)}
-                className=""
-                controlClasses="pb-2"
-              />
-              <Form.Group>
-                <Form.Label>{intl.formatMessage(messages.orgLabel)}</Form.Label>
-                <Form.Autosuggest
-                  name="org"
-                  isLoading={isOrganizationListLoading}
-                  onChange={(event) => formikProps.setFieldValue(
-                    'org',
-                    allowToCreateNewOrg
-                      ? (event.selectionId || event.userProvidedText)
-                      : event.selectionId,
-                  )}
-                  placeholder={intl.formatMessage(messages.orgPlaceholder)}
-                >
-                  {organizations.map((org) => (
-                    <Form.AutosuggestOption key={org} id={org}>{org}</Form.AutosuggestOption>
-                  ))}
-                </Form.Autosuggest>
-                <FormikErrorFeedback name="org">
-                  <Form.Text>{intl.formatMessage(messages.orgHelp)}</Form.Text>
-                </FormikErrorFeedback>
-              </Form.Group>
-              <FormikControl
-                name="slug"
-                label={<Form.Label>{intl.formatMessage(messages.slugLabel)}</Form.Label>}
-                value={formikProps.values.slug}
-                placeholder={intl.formatMessage(messages.slugPlaceholder)}
-                help={intl.formatMessage(messages.slugHelp)}
-                className=""
-                controlClasses="pb-2"
-              />
-              <ActionRow className="justify-content-start">
-                <Button
-                  variant="outline-primary"
-                  onClick={handleOnClickCancel}
-                >
-                  {intl.formatMessage(messages.cancelCreateLibraryButton)}
-                </Button>
-                <StatefulButton
-                  type="submit"
-                  variant="primary"
-                  className="action btn-primary"
-                  state={isLoading ? 'disabled' : 'enabled'}
-                  disabledStates={['disabled']}
-                  labels={{
-                    enabled: intl.formatMessage(messages.createLibraryButton),
-                    disabled: intl.formatMessage(messages.createLibraryButtonPending),
-                  }}
+        <div className='mt-4'>
+          <Formik
+            initialValues={{
+              title: '',
+              org: '',
+              slug: '',
+            }}
+            validationSchema={
+              Yup.object().shape({
+                title: Yup.string()
+                  .required(intl.formatMessage(messages.requiredFieldError)),
+                org: Yup.string()
+                  .required(intl.formatMessage(messages.requiredFieldError))
+                  .matches(
+                    specialCharsRule,
+                    intl.formatMessage(messages.disallowedCharsError),
+                  )
+                  .matches(noSpaceRule, intl.formatMessage(messages.noSpaceError)),
+                slug: Yup.string()
+                  .required(intl.formatMessage(messages.requiredFieldError))
+                  .matches(
+                    validSlugIdRegex,
+                    intl.formatMessage(messages.invalidSlugError),
+                  ),
+              })
+            }
+            onSubmit={(values) => mutate(values)}
+          >
+            {(formikProps) => (
+              <Form onSubmit={formikProps.handleSubmit}>
+                <FormikControl
+                  name="title"
+                  label={<Form.Label>{intl.formatMessage(messages.titleLabel)}</Form.Label>}
+                  value={formikProps.values.title}
+                  placeholder={intl.formatMessage(messages.titlePlaceholder)}
+                  help={intl.formatMessage(messages.titleHelp)}
+                  className=""
+                  controlClasses="pb-2"
                 />
-              </ActionRow>
-            </Form>
-          )}
-        </Formik>
+                <Form.Group>
+                  <Form.Label>{intl.formatMessage(messages.orgLabel)}</Form.Label>
+                  <Form.Autosuggest
+                    name="org"
+                    isLoading={isOrganizationListLoading}
+                    onChange={(event) => formikProps.setFieldValue(
+                      'org',
+                      allowToCreateNewOrg
+                        ? (event.selectionId || event.userProvidedText)
+                        : event.selectionId,
+                    )}
+                    placeholder={intl.formatMessage(messages.orgPlaceholder)}
+                  >
+                    {organizations.map((org) => (
+                      <Form.AutosuggestOption key={org} id={org}>{org}</Form.AutosuggestOption>
+                    ))}
+                  </Form.Autosuggest>
+                  <FormikErrorFeedback name="org">
+                    <Form.Text>{intl.formatMessage(messages.orgHelp)}</Form.Text>
+                  </FormikErrorFeedback>
+                </Form.Group>
+                <FormikControl
+                  name="slug"
+                  label={<Form.Label>{intl.formatMessage(messages.slugLabel)}</Form.Label>}
+                  value={formikProps.values.slug}
+                  placeholder={intl.formatMessage(messages.slugPlaceholder)}
+                  help={intl.formatMessage(messages.slugHelp)}
+                  className=""
+                  controlClasses="pb-2"
+                />
+                <ActionRow className="justify-content-start mt-4">
+                  <Button
+                    variant="outline-secondary"
+                    onClick={handleOnClickCancel}
+                  >
+                    {intl.formatMessage(messages.cancelCreateLibraryButton)}
+                  </Button>
+                  <StatefulButton
+                    type="submit"
+                    variant="primary"
+                    className="action btn-primary"
+                    state={isLoading ? 'disabled' : 'enabled'}
+                    disabledStates={['disabled']}
+                    labels={{
+                      enabled: intl.formatMessage(messages.createLibraryButton),
+                      disabled: intl.formatMessage(messages.createLibraryButtonPending),
+                    }}
+                  />
+                </ActionRow>
+              </Form>
+            )}
+          </Formik>
+        </div>
         {isError && (<AlertError error={error} />)}
       </Container>
-      <StudioFooterSlot />
+      {/* <StudioFooterSlot /> */}
+      <CustomFooter />
     </>
   );
 };

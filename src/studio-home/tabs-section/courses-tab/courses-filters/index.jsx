@@ -70,6 +70,7 @@ const CoursesFilters = ({
   };
 
   const handleSearchCourses = (searchValueDebounced) => {
+
     const valueFormatted = searchValueDebounced.trim();
     const filterParams = {
       search: valueFormatted.length > 0 ? valueFormatted : undefined,
@@ -89,26 +90,46 @@ const CoursesFilters = ({
 
       dispatch(fetchStudioHomeData(locationValue, false, { page: 1, ...filterParams }, true));
     }
-
-    setInputSearchValue(searchValueDebounced);
   };
 
   const handleSearchCoursesDebounced = useCallback(
-    debounce((value) => handleSearchCourses(value), 400),
-    [activeOnly, archivedOnly, order, inputSearchValue],
+    debounce((value) => handleSearchCourses(value), 500),
+    [activeOnly, archivedOnly, order],
   );
+
+  const onChangeSearch = (value) => {
+    setInputSearchValue(value);
+    handleSearchCoursesDebounced(value);
+  };
 
   return (
     <div className="d-flex">
       <div className="d-flex flex-row">
-        <SearchField
+        {/* <SearchField
           onSubmit={onSubmitSearchField}
           onChange={handleSearchCoursesDebounced}
           value={cleanFilters ? '' : inputSearchValue}
           className="mr-4"
           data-testid="input-filter-courses-search"
           placeholder="Search"
-        />
+        /> */}
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            onSubmitSearchField(inputSearchValue);
+          }}
+          className="mr-4 custom-input-search"
+          data-testid="input-filter-courses-search"
+        >
+          <input
+            type="text"
+            placeholder="Tìm kiếm"
+            value={cleanFilters ? '' : inputSearchValue}
+            onChange={(e) => onChangeSearch(e.target.value)}
+            className="form-control"
+          />
+        </form>
+
         {isLoading && (
           <span className="search-field-loading" data-testid="loading-search-spinner">
             <LoadingSpinner size="sm" />
@@ -124,7 +145,7 @@ const CoursesFilters = ({
 
 CoursesFilters.defaultProps = {
   locationValue: '',
-  onSubmitSearchField: () => {},
+  onSubmitSearchField: () => { },
   isLoading: false,
 };
 

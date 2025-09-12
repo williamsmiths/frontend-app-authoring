@@ -14,6 +14,7 @@ const UploadStatusIcon = ({ status }) => {
       return (
         <Spinner
           animation="border"
+          variant="danger"
           size="sm"
           screenReaderText="Loading"
         />

@@ -75,6 +75,8 @@ const PublishModal = ({
           <Button
             data-testid="publish-confirm-button"
             onClick={onPublishSubmit}
+            variant='light'
+            className='custom-confirm-btn'
           >
             {intl.formatMessage(messages.publishButton)}
           </Button>

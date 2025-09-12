@@ -157,7 +157,7 @@ const EditorContainer: React.FC<Props> = ({
               disabled={disableSave}
             >
               {disableSave
-                ? <Spinner animation="border" className="mr-3" />
+                ? <Spinner animation="border" variant="danger" className="mr-3" />
                 : <FormattedMessage {...messages.saveButtonLabel} />}
             </Button>
           </ActionRow>

@@ -6,6 +6,7 @@ import { Toast } from '@openedx/paragon';
 import AlertError, { type AlertErrorProps } from '../generic/alert-error';
 import Header from '../header';
 import { TaxonomyContext } from './common/context';
+import CustomFooter from '../componentsa/CustomFooter';
 
 export const TaxonomyLayout = () => {
   // Use `setToastMessage` to show the toast.
@@ -28,7 +29,7 @@ export const TaxonomyLayout = () => {
           />
         )}
         <Outlet />
-        <StudioFooterSlot />
+        <CustomFooter />
         {toastMessage && (
           <Toast
             show

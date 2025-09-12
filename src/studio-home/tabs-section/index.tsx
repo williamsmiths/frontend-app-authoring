@@ -89,6 +89,7 @@ const TabsSection = ({
         key={TABS_LIST.courses}
         eventKey={TABS_LIST.courses}
         title={intl.formatMessage(messages.coursesTabTitle)}
+        className="nav-item nav-link custom-nav-link"
       >
         <CoursesTab
           coursesDataItems={courses}
@@ -110,6 +111,7 @@ const TabsSection = ({
           key={TABS_LIST.archived}
           eventKey={TABS_LIST.archived}
           title={intl.formatMessage(messages.archivedTabTitle)}
+          className="nav-item nav-link custom-nav-link"
         >
           <ArchivedTab
             archivedCoursesData={archivedCourses}
@@ -128,9 +130,10 @@ const TabsSection = ({
           title={(
             <Stack gap={2} direction="horizontal">
               {intl.formatMessage(messages.librariesTabTitle)}
-              <Badge variant="info">{intl.formatMessage(messages.librariesV2TabBetaBadge)}</Badge>
+              <Badge variant="danger">{intl.formatMessage(messages.librariesV2TabBetaBadge)}</Badge>
             </Stack>
           )}
+          className="nav-item nav-link custom-nav-link"
         >
           <LibrariesV2Tab />
         </Tab>,
@@ -147,6 +150,7 @@ const TabsSection = ({
               ? messages.legacyLibrariesTabTitle
               : messages.librariesTabTitle,
           )}
+          className="nav-item nav-link custom-nav-link"
         >
           <LibrariesTab
             libraries={libraries}
@@ -163,6 +167,7 @@ const TabsSection = ({
           key={TABS_LIST.taxonomies}
           eventKey={TABS_LIST.taxonomies}
           title={intl.formatMessage(messages.taxonomiesTabTitle)}
+          className="nav-item nav-link custom-nav-link"
         />,
       );
     }

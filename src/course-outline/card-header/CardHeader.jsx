@@ -136,7 +136,9 @@ const CardHeader = ({
           <>
             {titleComponent}
             <IconButtonWithTooltip
+              variant="light"
               className={classNames(
+                'custom-dropdown-toggle',
                 'item-card-button-icon',
                 {
                   'item-card-button-icon-disabled': isDisabledEditField,
@@ -179,7 +181,8 @@ const CardHeader = ({
           )}
           <Dropdown data-testid={`${namePrefix}-card-header__menu`} onClick={onClickMenuButton}>
             <Dropdown.Toggle
-              className="item-card-header__menu"
+              className="item-card-header__menu mt-1 custom-dropdown-toggle"
+              variant="light"
               id={`${namePrefix}-card-header__menu`}
               data-testid={`${namePrefix}-card-header__menu-button`}
               as={IconButton}
@@ -187,11 +190,12 @@ const CardHeader = ({
               alt={`${namePrefix}-card-header__menu`}
               iconAs={Icon}
             />
-            <Dropdown.Menu>
+            <Dropdown.Menu className="p-2">
               {isSequential && proctoringExamConfigurationLink && (
                 <Dropdown.Item
                   as={Hyperlink}
                   target="_blank"
+                  className="custom-dropdown-item"
                   destination={fullProctoringExamConfigurationLink()}
                   href={fullProctoringExamConfigurationLink()}
                   externalLinkTitle={intl.formatMessage(messages.proctoringLinkTooltip)}
@@ -201,6 +205,7 @@ const CardHeader = ({
               )}
               <Dropdown.Item
                 data-testid={`${namePrefix}-card-header__menu-publish-button`}
+                  className="custom-dropdown-item"
                 disabled={isDisabledPublish}
                 onClick={onClickPublish}
               >
@@ -208,6 +213,7 @@ const CardHeader = ({
               </Dropdown.Item>
               <Dropdown.Item
                 data-testid={`${namePrefix}-card-header__menu-configure-button`}
+                  className="custom-dropdown-item"
                 disabled={isDisabledEditField}
                 onClick={onClickConfigure}
               >
@@ -216,6 +222,7 @@ const CardHeader = ({
               {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true' && (
                 <Dropdown.Item
                   data-testid={`${namePrefix}-card-header__menu-manage-tags-button`}
+                  className="custom-dropdown-item"
                   disabled={isDisabledEditField}
                   onClick={openManageTagsDrawer}
                 >
@@ -224,7 +231,7 @@ const CardHeader = ({
               )}
 
               {isVertical && enableCopyPasteUnits && (
-                <Dropdown.Item onClick={onClickCopy}>
+                <Dropdown.Item onClick={onClickCopy} className="custom-dropdown-item">
                   {intl.formatMessage(messages.menuCopy)}
                 </Dropdown.Item>
               )}
@@ -232,6 +239,7 @@ const CardHeader = ({
                 <Dropdown.Item
                   data-testid={`${namePrefix}-card-header__menu-duplicate-button`}
                   onClick={onClickDuplicate}
+                  className="custom-dropdown-item"
                 >
                   {intl.formatMessage(messages.menuDuplicate)}
                 </Dropdown.Item>
@@ -242,11 +250,13 @@ const CardHeader = ({
                     data-testid={`${namePrefix}-card-header__menu-move-up-button`}
                     onClick={onClickMoveUp}
                     disabled={!actions.allowMoveUp}
+                    className="custom-dropdown-item"
                   >
                     {intl.formatMessage(messages.menuMoveUp)}
                   </Dropdown.Item>
                   <Dropdown.Item
                     data-testid={`${namePrefix}-card-header__menu-move-down-button`}
+                    className="custom-dropdown-item"
                     onClick={onClickMoveDown}
                     disabled={!actions.allowMoveDown}
                   >
@@ -256,7 +266,7 @@ const CardHeader = ({
               )}
               {actions.deletable && (
                 <Dropdown.Item
-                  className="border-top border-light"
+                  className="border-top border-light custom-dropdown-item"
                   data-testid={`${namePrefix}-card-header__menu-delete-button`}
                   onClick={onClickDelete}
                 >

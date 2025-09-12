@@ -51,6 +51,7 @@ const VideoEditor: React.FC<EditorComponent> = ({
           >
             <Spinner
               animation="border"
+              variant="danger"
               className="m-3"
               screenreadertext={intl.formatMessage(messages.spinnerScreenReaderText)}
             />

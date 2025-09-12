@@ -25,6 +25,7 @@ import CreateNewCourseForm from './create-new-course-form';
 import messages from './messages';
 import { useStudioHome } from './hooks';
 import AlertMessage from '../generic/alert-message';
+import CustomFooter from '../componentsa/CustomFooter';
 
 const StudioHome = () => {
   const intl = useIntl();
@@ -76,10 +77,11 @@ const StudioHome = () => {
     if (hasAbilityToCreateNewCourse) {
       headerButtons.push(
         <Button
-          variant="outline-primary"
+          variant="outline"
           iconBefore={AddIcon}
           size="sm"
           disabled={showNewCourseContainer}
+          className='custom-outline-btn'
           onClick={() => setShowNewCourseContainer(true)}
         >
           {intl.formatMessage(messages.addNewCourseBtnText)}
@@ -99,10 +101,11 @@ const StudioHome = () => {
 
       headerButtons.push(
         <Button
-          variant="outline-primary"
+          variant="outline"
           iconBefore={AddIcon}
           size="sm"
           onClick={newLibraryClick}
+          className='custom-outline-btn'
           data-testid="new-library-button"
         >
           {intl.formatMessage(messages.addNewLibraryBtnText)}
@@ -149,14 +152,16 @@ const StudioHome = () => {
               <CreateNewCourseForm handleOnClickCancel={() => setShowNewCourseContainer(false)} />
             )}
             {isShowOrganizationDropdown && <OrganizationSection />}
-            <TabsSection
-              showNewCourseContainer={showNewCourseContainer}
-              onClickNewCourse={() => setShowNewCourseContainer(true)}
-              isShowProcessing={isShowProcessing && !isFiltered}
-              isPaginationCoursesEnabled={isPaginationCoursesEnabled}
-              librariesV1Enabled={librariesV1Enabled}
-              librariesV2Enabled={librariesV2Enabled}
-            />
+            <div className='custom-group-progress p-4 my-4 shadow-sm bg-white'>
+              <TabsSection
+                showNewCourseContainer={showNewCourseContainer}
+                onClickNewCourse={() => setShowNewCourseContainer(true)}
+                isShowProcessing={isShowProcessing && !isFiltered}
+                isPaginationCoursesEnabled={isPaginationCoursesEnabled}
+                librariesV1Enabled={librariesV1Enabled}
+                librariesV2Enabled={librariesV2Enabled}
+              />
+            </div>
           </section>
         </Layout.Element>
         <Layout.Element>
@@ -188,7 +193,8 @@ const StudioHome = () => {
           isQueryPending={anyQueryIsPending}
         />
       </div>
-      <StudioFooterSlot />
+      {/* <StudioFooterSlot /> */}
+      <CustomFooter />
     </>
   );
 };

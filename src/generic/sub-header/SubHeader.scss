@@ -16,7 +16,7 @@
   .sub-header-breadcrumbs {
     font: normal $font-weight-normal .875rem/1.5rem $font-family-base;
     display: block;
-    color: $text-color-base;
+    color: $text-color-base !important;
   }
 }
 

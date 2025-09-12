@@ -24,6 +24,7 @@ const VideoUploadEditor = ({ onUpload, onClose }) => {
     >
       <Spinner
         animation="border"
+        variant="danger"
         className="m-3"
         screenreadertext={intl.formatMessage(messages.spinnerScreenReaderText)}
       />

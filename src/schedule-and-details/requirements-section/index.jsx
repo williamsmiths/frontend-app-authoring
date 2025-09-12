@@ -36,15 +36,17 @@ const RequirementsSection = ({
         <Dropdown.Toggle id="prerequisiteDropdown" variant="outline-primary">
           {formattedSelectedItem}
         </Dropdown.Toggle>
-        <Dropdown.Menu>
+        <Dropdown.Menu className="p-2">
           <Dropdown.Item
             key={intl.formatMessage(messages.dropdownEmptyText)}
             onClick={() => onChange([], 'preRequisiteCourses')}
+            className="custom-dropdown-item"
           >
             {intl.formatMessage(messages.dropdownEmptyText)}
           </Dropdown.Item>
           {possiblePreRequisiteCourses.map((course) => (
             <Dropdown.Item
+            className="custom-dropdown-item"
               key={course.courseKey}
               onClick={() => onChange([course.courseKey], 'preRequisiteCourses')}
             >
@@ -60,7 +62,7 @@ const RequirementsSection = ({
   );
 
   return (
-    <section className="section-container requirements-section">
+    <section className="section-container requirements-section custom-group-progress shadow-sm bg-white rounded p-4 mb-4">
       <SectionSubHeader
         title={intl.formatMessage(messages.requirementsTitle)}
         description={intl.formatMessage(messages.requirementsDescription)}

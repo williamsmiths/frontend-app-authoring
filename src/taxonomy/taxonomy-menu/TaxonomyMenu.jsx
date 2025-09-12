@@ -143,16 +143,18 @@ const TaxonomyMenu = ({
       <Dropdown.Toggle
         id={`taxonomy-menu-toggle-${taxonomy.id}`}
         {...toggleProps}
-        variant="primary"
+        variant="light"
+        className="custom-dropdown-toggle"
         alt={intl.formatMessage(messages.actionsButtonAlt, { name: taxonomy.name })}
         data-testid="taxonomy-menu-button"
         disabled={Object.keys(menuItems).length === 0}
       >
         {intl.formatMessage(messages.actionsButtonLabel)}
       </Dropdown.Toggle>
-      <Dropdown.Menu data-testid="taxonomy-menu">
+      <Dropdown.Menu data-testid="taxonomy-menu" className="p-2">
         {Object.keys(menuItems).map((key) => (
           <Dropdown.Item
+            className="custom-dropdown-item"
             key={key}
             data-testid={`taxonomy-menu-${key}`}
             as="button" // Prevents <a> cannot appear as a descendant of <a> warning

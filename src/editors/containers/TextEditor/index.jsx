@@ -93,6 +93,7 @@ const TextEditor = ({
           ? (
             <div className="text-center p-6">
               <Spinner
+                variant="danger"
                 animation="border"
                 className="m-3"
                 screenreadertext={intl.formatMessage(messages.spinnerScreenReaderText)}

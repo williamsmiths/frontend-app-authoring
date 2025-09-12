@@ -118,7 +118,7 @@ const LibrariesV2Tab: React.FC<Props> = () => {
                 <p>
                   {intl.formatMessage(messages.librariesV2TabLibraryNotFoundAlertMessage)}
                 </p>
-                <Button variant="primary" onClick={handleClearFilters}>
+                <Button variant="light" className='custom-confirm-btn' onClick={handleClearFilters}>
                   {intl.formatMessage(messages.coursesTabCourseNotFoundAlertCleanFiltersButton)}
                 </Button>
               </Alert>
@@ -128,6 +128,7 @@ const LibrariesV2Tab: React.FC<Props> = () => {
             hasV2Libraries && (data!.numPages || 0) > 1
             && (
               <Pagination
+                size="small"
                 className="d-flex justify-content-center"
                 paginationLabel="pagination navigation"
                 pageCount={data!.numPages}

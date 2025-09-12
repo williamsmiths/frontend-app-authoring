@@ -8,6 +8,7 @@ import Header from '../header';
 import messages from './messages';
 import AccessibilityBody from './AccessibilityBody';
 import AccessibilityForm from './AccessibilityForm';
+import CustomFooter from '../componentsa/CustomFooter';
 
 const AccessibilityPage = ({
   // injected
@@ -29,7 +30,7 @@ const AccessibilityPage = ({
         <AccessibilityBody {...{ email, communityAccessibilityLink }} />
         <AccessibilityForm accessibilityEmail={email} />
       </Container>
-      <StudioFooterSlot />
+      <CustomFooter />
     </>
   );
 };

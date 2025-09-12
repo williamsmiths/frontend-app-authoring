@@ -202,7 +202,7 @@ const CreateOrRerunCourseForm = ({
   }, []);
 
   return (
-    <div className="create-or-rerun-course-form">
+    <div className="create-or-rerun-course-form mt-4 custom-group-progress p-4 my-4 shadow-sm bg-white">
       <TransitionReplace>
         {(errors[TOTAL_LENGTH_KEY] || showErrorBanner) ? (
           <AlertMessage
@@ -219,7 +219,7 @@ const CreateOrRerunCourseForm = ({
           />
         ) : null}
       </TransitionReplace>
-      <h3 className="mb-3">{title}</h3>
+      <h3 className="mb-3 text-gray-700">{title}</h3>
       <Form>
         {newCourseFields.map((field) => (
           <Form.Group
@@ -253,9 +253,9 @@ const CreateOrRerunCourseForm = ({
             )}
           </Form.Group>
         ))}
-        <ActionRow className="justify-content-start">
+        <ActionRow className="justify-content-start mt-4">
           <Button
-            variant="outline-primary"
+            variant="outline-secondary"
             onClick={handleOnClickCancel}
           >
             {intl.formatMessage(messages.cancelButton)}

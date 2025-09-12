@@ -13,7 +13,7 @@ const PacingSection = ({
   const canTogglePace = new Date() <= new Date(startDate);
 
   return (
-    <section className="section-container pacing-section">
+    <section className="section-container pacing-section custom-group-progress shadow-sm bg-white rounded p-4 mb-4">
       <SectionSubHeader
         title={intl.formatMessage(messages.pacingTitle)}
         description={intl.formatMessage(messages.pacingDescription)}

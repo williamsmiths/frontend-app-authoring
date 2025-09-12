@@ -96,7 +96,7 @@ const ModalDropzone = ({
           <Card>
             <Card.Body className="image-body">
               {uploadProgress > 0 ? (
-                <Spinner animation="border" variant="primary" className="mr-3" screenReaderText={uploadProgress} />
+                <Spinner animation="border" variant="danger" className="mr-3" screenReaderText={uploadProgress} />
               ) : (
                 <Dropzone
                   onProcessUpload={handleSelectFile}

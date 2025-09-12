@@ -7,7 +7,7 @@ export const LoadingSpinner = ({ size }) => (
   <Spinner
     animation="border"
     role="status"
-    variant="primary"
+    variant="danger"
     size={size}
     screenReaderText={(
       <FormattedMessage

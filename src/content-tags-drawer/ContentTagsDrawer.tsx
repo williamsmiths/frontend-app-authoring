@@ -36,7 +36,7 @@ const TaxonomyList = ({ contentId }: TaxonomyListProps) => {
     if (tagsByTaxonomy.length !== 0) {
       return (
         <div>
-          { tagsByTaxonomy.map((data) => (
+          {tagsByTaxonomy.map((data) => (
             <div key={data.id}>
               <ContentTagsCollapsible
                 contentId={contentId}
@@ -63,7 +63,7 @@ const TaxonomyList = ({ contentId }: TaxonomyListProps) => {
               className="text-info-500 p-0 enable-taxonomies-button"
               onClick={() => navigate('/taxonomies')}
             >
-              { intl.formatMessage(messages.emptyDrawerContentLink) }
+              {intl.formatMessage(messages.emptyDrawerContentLink)}
             </Button>
           ),
         }}
@@ -83,11 +83,12 @@ const ContentTagsDrawerTitle = () => {
 
   return (
     <>
-      { isContentDataLoaded
-        ? <h2 className="h3 pl-2.5">{ contentName }</h2>
+      {isContentDataLoaded
+        ? <h2 className="h3 pl-2.5">{contentName}</h2>
         : (
           <div className="d-flex justify-content-center align-items-center flex-column">
             <Spinner
+              variant="danger"
               animation="border"
               size="xl"
               screenReaderText={intl.formatMessage(messages.loadingMessage)}
@@ -119,7 +120,7 @@ const ContentTagsDrawerVariantFooter = ({ onClose, readOnly }: ContentTagsDrawer
       className="bg-white position-sticky p-3.5 box-shadow-up-2 tags-drawer-footer"
     >
       <div className="d-flex justify-content-end">
-        { commitGlobalStagedTagsStatus !== 'loading' ? (
+        {commitGlobalStagedTagsStatus !== 'loading' ? (
           <Stack direction="horizontal" gap={2}>
             <Button
               className="font-weight-bold tags-drawer-cancel-button"
@@ -128,7 +129,7 @@ const ContentTagsDrawerVariantFooter = ({ onClose, readOnly }: ContentTagsDrawer
                 ? toReadMode
                 : onClose}
             >
-              { intl.formatMessage(isEditMode
+              {intl.formatMessage(isEditMode
                 ? messages.tagsDrawerCancelButtonText
                 : messages.tagsDrawerCloseButtonText)}
             </Button>
@@ -139,7 +140,7 @@ const ContentTagsDrawerVariantFooter = ({ onClose, readOnly }: ContentTagsDrawer
                   ? commitGlobalStagedTags
                   : toEditMode}
               >
-                { intl.formatMessage(isEditMode
+                {intl.formatMessage(isEditMode
                   ? messages.tagsDrawerSaveButtonText
                   : messages.tagsDrawerEditTagsButtonText)}
               </Button>
@@ -148,6 +149,7 @@ const ContentTagsDrawerVariantFooter = ({ onClose, readOnly }: ContentTagsDrawer
         )
           : (
             <Spinner
+              variant="danger"
               animation="border"
               size="xl"
               screenReaderText={intl.formatMessage(messages.loadingMessage)}
@@ -176,7 +178,7 @@ const ContentTagsComponentVariantFooter = ({ readOnly = false }: ContentTagsComp
     <div>
       {isEditMode ? (
         <div>
-          { commitGlobalStagedTagsStatus !== 'loading' ? (
+          {commitGlobalStagedTagsStatus !== 'loading' ? (
             <Stack direction="horizontal" gap={2}>
               <Button
                 className="font-weight-bold tags-drawer-cancel-button"
@@ -196,6 +198,7 @@ const ContentTagsComponentVariantFooter = ({ readOnly = false }: ContentTagsComp
           ) : (
             <div className="d-flex justify-content-center">
               <Spinner
+                variant="danger"
                 animation="border"
                 size="xl"
                 screenReaderText={intl.formatMessage(messages.loadingMessage)}
@@ -292,7 +295,7 @@ const ContentTagsDrawer = ({
         document.removeEventListener('keydown', handleEsc);
       };
     }
-    return () => {};
+    return () => { };
   }, [blockingSheet]);
 
   useEffect(() => {
@@ -370,7 +373,7 @@ const ContentTagsDrawer = ({
                 <p className="other-description text-gray-500">
                   {intl.formatMessage(messages.otherTagsDescription)}
                 </p>
-                { isTaxonomyListLoaded && isContentTaxonomyTagsLoaded && (
+                {isTaxonomyListLoaded && isContentTaxonomyTagsLoaded && (
                   otherTaxonomies.map((data) => (
                     <div key={data.id}>
                       <ContentTagsCollapsible

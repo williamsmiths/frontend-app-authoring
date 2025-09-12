@@ -207,7 +207,7 @@ const GradingScale = ({
         tooltipContent={intl.formatMessage(messages.addNewSegmentButtonAltText)}
         disabled={gradingSegments.length >= (defaultGradeDesignations.length + 1)}
         data-testid="grading-scale-btn-add-segment"
-        className="mr-3"
+        className="mr-3 custom-icon-filled"
         src={IconAdd}
         iconAs={Icon}
         alt={intl.formatMessage(messages.addNewSegmentButtonAltText)}

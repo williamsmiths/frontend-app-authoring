@@ -45,6 +45,7 @@ import { allLibraryPageTabs, ContentType, useLibraryRoutes } from './routes';
 
 import messages from './messages';
 import LibraryFilterByPublished from './generic/filter-by-published';
+import CustomFooter from '../componentsa/CustomFooter';
 
 const HeaderActions = () => {
   const intl = useIntl();
@@ -319,7 +320,7 @@ const LibraryAuthoringPage = ({
             <LibraryContent contentType={activeKey} />
           </SearchContextProvider>
         </Container>
-        {!componentPickerMode && <StudioFooterSlot containerProps={{ size: undefined }} />}
+        {!componentPickerMode && <CustomFooter />}
       </div>
       {!!sidebarComponentInfo?.type && (
         <div className="library-authoring-sidebar box-shadow-left-1 bg-white" data-testid="library-sidebar">

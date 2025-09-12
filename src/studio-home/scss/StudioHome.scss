@@ -44,11 +44,23 @@
 
   .nav-link {
     border-bottom: .125rem solid $light-400;
+    padding: 15px;
+
+    &:hover {
+      color: $primary-red !important;
+    }
   }
 
   .nav-link.active {
     background-color: transparent;
+    color: $primary-red !important;
+    border-bottom: 2px solid $primary-red !important;
   }
+}
+
+.nav-tabs .nav-link:focus::before,
+.nav-tabs .nav-item.show .nav-link:focus::before {
+  border: none !important;
 }
 
 .courses-tab {

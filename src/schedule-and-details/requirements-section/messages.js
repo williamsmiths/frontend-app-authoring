@@ -3,31 +3,31 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   requirementsTitle: {
     id: 'course-authoring.schedule-section.requirements.title',
-    defaultMessage: 'Requirements',
+    defaultMessage: 'Yêu cầu',
   },
   requirementsDescription: {
     id: 'course-authoring.schedule-section.requirements.description',
-    defaultMessage: 'Expectations of the students taking this course',
+    defaultMessage: 'Những kỳ vọng đối với học viên tham gia khóa học này',
   },
   timepickerLabel: {
     id: 'course-authoring.schedule-section.requirements.timepicker.label',
-    defaultMessage: 'Hours of effort per week',
+    defaultMessage: 'Số giờ học mỗi tuần',
   },
   timepickerHelpText: {
     id: 'course-authoring.schedule-section.requirements.timepicker.help-text',
-    defaultMessage: 'Time spent on all course work',
+    defaultMessage: 'Thời gian dành cho tất cả các công việc của khóa học',
   },
   dropdownLabel: {
     id: 'course-authoring.schedule-section.requirements.dropdown.label',
-    defaultMessage: 'Prerequisite course',
+    defaultMessage: 'Khóa học tiên quyết',
   },
   dropdownHelpText: {
     id: 'course-authoring.schedule-section.requirements.dropdown.help-text',
-    defaultMessage: 'Course that students must complete before beginning this course',
+    defaultMessage: 'Khóa học mà học viên phải hoàn thành trước khi bắt đầu khóa học này',
   },
   dropdownEmptyText: {
     id: 'course-authoring.schedule-section.requirements.dropdown.empty-text',
-    defaultMessage: 'None',
+    defaultMessage: 'Không có',
   },
 });
 

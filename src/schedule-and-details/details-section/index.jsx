@@ -16,7 +16,7 @@ const DetailsSection = ({
   };
 
   return (
-    <section className="section-container details-section">
+    <section className="section-container details-section custom-group-progress shadow-sm bg-white rounded p-4 mb-4">
       <SectionSubHeader
         title={intl.formatMessage(messages.detailsTitle)}
         description={intl.formatMessage(messages.detailsDescription)}

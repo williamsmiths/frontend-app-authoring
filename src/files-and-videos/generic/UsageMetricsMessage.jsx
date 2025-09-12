@@ -50,6 +50,7 @@ const UsageMetricsMessage = ({
       <>
         <Spinner
           animation="border"
+          variant="danger"
           size="sm"
           className="mie-3"
           screenReaderText={intl.formatMessage(messages.usageLoadingMessage)}

@@ -42,6 +42,7 @@ const Gallery = ({
       >
         <Spinner
           animation="border"
+          variant="danger"
           className="mie-3"
           screenReaderText={intl.formatMessage(messages.loading)}
         />

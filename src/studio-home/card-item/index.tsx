@@ -97,19 +97,21 @@ const CardItem: React.FC<Props> = ({
               <Dropdown.Toggle
                 as={IconButton}
                 iconAs={MoreHoriz}
-                variant="primary"
+                variant="light"
                 data-testid="toggle-dropdown"
+                className="custom-dropdown-toggle"
               />
-              <Dropdown.Menu>
+              <Dropdown.Menu className="p-2">
                 {isShowRerunLink && (
                   <Dropdown.Item
                     as={Link}
                     to={rerunLink ?? ''}
+                    className="custom-dropdown-item"
                   >
                     {messages.btnReRunText.defaultMessage}
                   </Dropdown.Item>
                 )}
-                <Dropdown.Item href={lmsLink}>
+                <Dropdown.Item href={lmsLink} className="custom-dropdown-item">
                   {intl.formatMessage(messages.viewLiveBtnText)}
                 </Dropdown.Item>
               </Dropdown.Menu>

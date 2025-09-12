@@ -177,10 +177,12 @@ const CoursesTab: React.FC<Props> = ({
                 className="d-flex justify-content-center"
                 paginationLabel="pagination navigation"
                 pageCount={numPages}
+                size="small"
+                va
                 currentPage={currentPage}
                 onPageSelect={handlePageSelected}
               />
-            )}
+            )} 
           </>
         ) : (!optimizationEnabled && isNotFilteringCourses && (
           <ContactAdministrator
@@ -199,7 +201,7 @@ const CoursesTab: React.FC<Props> = ({
             <p data-testid="courses-not-found-alert">
               {intl.formatMessage(messages.coursesTabCourseNotFoundAlertMessage)}
             </p>
-            <Button variant="primary" onClick={handleCleanFilters}>
+            <Button variant="light" className='custom-confirm-btn' onClick={handleCleanFilters}>
               {intl.formatMessage(messages.coursesTabCourseNotFoundAlertCleanFiltersButton)}
             </Button>
           </Alert>

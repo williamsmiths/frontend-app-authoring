@@ -36,6 +36,7 @@ import messages from './messages';
 import { LibrarySidebar } from '../library-sidebar';
 import LibraryCollectionComponents from './LibraryCollectionComponents';
 import LibraryFilterByPublished from '../generic/filter-by-published';
+import CustomFooter from '../../componentsa/CustomFooter';
 
 const HeaderActions = () => {
   const intl = useIntl();
@@ -226,7 +227,7 @@ const LibraryCollectionPage = () => {
             <LibraryCollectionComponents />
           </SearchContextProvider>
         </Container>
-        {!componentPickerMode && <StudioFooterSlot containerProps={{ size: undefined }} />}
+        {!componentPickerMode && <CustomFooter />}
       </div>
       {!!sidebarComponentInfo?.type && (
         <div className="library-authoring-sidebar box-shadow-left-1 bg-white" data-testid="library-sidebar">

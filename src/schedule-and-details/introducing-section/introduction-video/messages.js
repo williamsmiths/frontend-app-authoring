@@ -3,19 +3,19 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   courseIntroductionVideoLabel: {
     id: 'course-authoring.schedule-section.introducing.introduction-video.label',
-    defaultMessage: 'Course introduction video',
+    defaultMessage: 'Video giới thiệu khóa học',
   },
   courseIntroductionVideoDelete: {
     id: 'course-authoring.schedule-section.introducing.introduction-video.delete',
-    defaultMessage: 'Delete current video',
+    defaultMessage: 'Xóa video hiện tại',
   },
   courseIntroductionVideoHelpText: {
     id: 'course-authoring.schedule-section.introducing.introduction-video.help-text',
-    defaultMessage: 'Enter your YouTube video\'s ID (along with any restriction parameters)',
+    defaultMessage: 'Nhập ID video YouTube của bạn (bao gồm bất kỳ tham số hạn chế nào)',
   },
   courseIntroductionVideoPlaceholder: {
     id: 'course-authoring.schedule-section.introducing.introduction-video.placeholder',
-    defaultMessage: 'YouTube video ID',
+    defaultMessage: 'ID video YouTube',
   },
 });
 

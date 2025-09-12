@@ -43,6 +43,7 @@ const ProblemEditor: React.FC<Props> = ({
       <div className="text-center p-6">
         <Spinner
           animation="border"
+          variant="danger"
           className="m-3"
           screenreadertext="Loading Problem Editor"
         />

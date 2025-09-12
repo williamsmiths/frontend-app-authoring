@@ -74,20 +74,22 @@ const HandoutWidget = ({
                 as={IconButton}
                 src={MoreHoriz}
                 iconAs={Icon}
-                variant="primary"
+                variant="light"
+                className="custom-dropdown-toggle"
                 alt="Actions dropdown"
               />
-              <Dropdown.Menu className="video_handout Action Menu">
+              <Dropdown.Menu className="video_handout Action Menu p-2">
                 <Dropdown.Item
                   key="handout-actions-replace"
+                  className="custom-dropdown-item"
                   onClick={fileInput.click}
                 >
                   <FormattedMessage {...messages.replaceHandout} />
                 </Dropdown.Item>
-                <Dropdown.Item key="handout-actions-download" target="_blank" href={downloadLink}>
+                <Dropdown.Item className="custom-dropdown-item" key="handout-actions-download" target="_blank" href={downloadLink}>
                   <FormattedMessage {...messages.downloadHandout} />
                 </Dropdown.Item>
-                <Dropdown.Item key="handout-actions-delete" onClick={() => updateField({ handout: null })}>
+                <Dropdown.Item className="custom-dropdown-item" key="handout-actions-delete" onClick={() => updateField({ handout: null })}>
                   <FormattedMessage {...messages.deleteHandout} />
                 </Dropdown.Item>
               </Dropdown.Menu>

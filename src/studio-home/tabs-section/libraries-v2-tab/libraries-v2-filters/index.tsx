@@ -1,10 +1,11 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { SearchField } from '@openedx/paragon';
 import { useIntl } from '@edx/frontend-platform/i18n';
 
 import { LoadingSpinner } from '../../../../generic/Loading';
 import LibrariesV2OrderFilterMenu from './libraries-v2-order-filter-menu';
 import messages from '../../messages';
+import { debounce } from 'lodash';
 
 export interface LibrariesV2FiltersProps {
   isLoading?: boolean;
@@ -75,24 +76,53 @@ const LibrariesV2Filters: React.FC<LibrariesV2FiltersProps> = ({
       order,
     };
 
+
+    setFilterParams(updatedFilterParams);
+    setCurrentPage(1);
+  }, [order, search]);
+
+
+  const debouncedSearchRef = useRef(
+    debounce((value: string) => {
+      handleSearchLibrariesV2(value);
+    }, 500)
+  );
+
+  const onChangeSearch = (value: string) => {
+    const valueFormatted = value.trim();
     // Check if the search is different from the current search and it's not only spaces
     if (valueFormatted !== search || valueFormatted) {
-      setSearch(valueFormatted);
-      setFilterParams(updatedFilterParams);
-      setCurrentPage(1);
+      setSearch(value);
+      debouncedSearchRef.current(value);
     }
-  }, [order, search]);
+  };
+
 
   return (
     <div className="d-flex">
       <div className="d-flex flex-row">
-        <SearchField
-          onSubmit={() => {}}
+        {/* <SearchField
+          onSubmit={() => { }}
           onChange={handleSearchLibrariesV2}
           value={search}
           className="mr-4"
           placeholder={intl.formatMessage(messages.librariesV2TabLibrarySearchPlaceholder)}
-        />
+        /> */}
+
+        <form
+          onSubmit={(e) => {
+          }}
+          className="mr-4 custom-input-search"
+          data-testid="input-filter-courses-search"
+        >
+          <input
+            type="text"
+            placeholder={intl.formatMessage(messages.librariesV2TabLibrarySearchPlaceholder)}
+            value={search}
+            onChange={(e) => onChangeSearch(e.target.value)}
+            className="form-control"
+          />
+        </form>
         {isLoading && (
           <span className="search-field-loading">
             <LoadingSpinner size="sm" />

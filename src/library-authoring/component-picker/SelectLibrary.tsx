@@ -117,6 +117,7 @@ const SelectLibrary = ({ selectedLibrary, setSelectedLibrary }: SelectLibraryPro
             pageCount={data!.numPages}
             currentPage={data!.currentPage}
             onPageSelect={setCurrentPage}
+            size="small"
             variant="secondary"
             className="align-self-center"
           />

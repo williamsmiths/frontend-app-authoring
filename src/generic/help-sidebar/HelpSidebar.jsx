@@ -41,7 +41,7 @@ const HelpSidebar = ({
   const groupConfigurationsDestination = generateLegacyURL(groupConfigurations);
 
   return (
-    <aside className={classNames('help-sidebar', className)}>
+    <aside className={classNames('help-sidebar custom-group-progress p-4 my-4 shadow-sm bg-white', className)}>
       <div className="help-sidebar-about">{children}</div>
       {showOtherSettings && (
         <>

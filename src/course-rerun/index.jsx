@@ -20,6 +20,7 @@ import CourseRerunForm from './course-rerun-form';
 import CourseRerunSideBar from './course-rerun-sidebar';
 import messages from './messages';
 import { useCourseRerun } from './hooks';
+import CustomFooter from '../componentsa/CustomFooter';
 
 const CourseRerun = () => {
   const { courseId } = useParams();
@@ -89,7 +90,7 @@ const CourseRerun = () => {
           isQueryPending={savingStatus === RequestStatus.PENDING}
         />
       </div>
-      <StudioFooterSlot />
+      <CustomFooter />
     </>
   );
 };

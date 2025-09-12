@@ -314,7 +314,7 @@ const CourseOutline = ({ courseId }) => {
             <Layout.Element>
               <article>
                 <div>
-                  <section className="course-outline-section">
+                  <section className="course-outline-section custom-group-progress shadow-sm bg-white p-4 mt-4">
                     <StatusBar
                       courseId={courseId}
                       isLoading={isLoading}
@@ -433,8 +433,8 @@ const CourseOutline = ({ courseId }) => {
                             {courseActions.childAddable && (
                               <Button
                                 data-testid="new-section-button"
-                                className="mt-4"
-                                variant="outline-primary"
+                                className="mt-4 custom-outline-btn"
+                                variant="outline"
                                 onClick={handleNewSectionSubmit}
                                 iconBefore={IconAdd}
                                 block

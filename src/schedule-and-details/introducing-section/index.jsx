@@ -71,7 +71,7 @@ const IntroducingSection = ({
   );
 
   return (
-    <section className="section-container introducing-section">
+    <section className="section-container introducing-section custom-group-progress shadow-sm bg-white rounded p-4 mb-4">
       {aboutPageEditable && (
         <SectionSubHeader
           title={intl.formatMessage(messages.introducingTitle)}

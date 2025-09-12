@@ -3,43 +3,43 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.grading-settings.heading.title',
-    defaultMessage: 'Grading',
+    defaultMessage: 'Chấm điểm',
   },
   headingSubtitle: {
     id: 'course-authoring.grading-settings.heading.subtitle',
-    defaultMessage: 'Settings',
+    defaultMessage: 'Cài đặt',
   },
   policy: {
     id: 'course-authoring.grading-settings.policies.title',
-    defaultMessage: 'Overall grade range',
+    defaultMessage: 'Phạm vi điểm tổng thể',
   },
   policiesDescription: {
     id: 'course-authoring.grading-settings.policies.description',
-    defaultMessage: 'Your overall grading scale for student final grades',
+    defaultMessage: 'Thang điểm tổng thể của bạn cho điểm cuối cùng của học viên',
   },
   alertWarning: {
     id: 'course-authoring.grading-settings.alert.warning',
-    defaultMessage: "You've made some changes",
+    defaultMessage: 'Bạn đã thực hiện một số thay đổi',
   },
   alertWarningDescriptions: {
     id: 'course-authoring.grading-settings.alert.warning.descriptions',
-    defaultMessage: 'Your changes will not take effect until you save your progress. Take care with key and value formatting, as validation is not implemented.',
+    defaultMessage: 'Các thay đổi của bạn sẽ không có hiệu lực cho đến khi bạn lưu tiến trình. Hãy cẩn thận với định dạng khóa và giá trị, vì tính hợp lệ chưa được triển khai.',
   },
   alertSuccess: {
     id: 'course-authoring.grading-settings.alert.success',
-    defaultMessage: 'Your changes have been saved.',
+    defaultMessage: 'Các thay đổi của bạn đã được lưu.',
   },
   buttonSaveText: {
     id: 'course-authoring.grading-settings.alert.button.save',
-    defaultMessage: 'Save changes',
+    defaultMessage: 'Lưu thay đổi',
   },
   buttonSavingText: {
     id: 'course-authoring.grading-settings.alert.button.saving',
-    defaultMessage: 'Saving',
+    defaultMessage: 'Đang lưu',
   },
   buttonCancelText: {
     id: 'course-authoring.grading-settings.alert.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   alertWarningAriaLabelledby: {
     id: 'course-authoring.grading-settings.alert.warning.aria.labelledby',
@@ -59,31 +59,31 @@ const messages = defineMessages({
   },
   creditEligibilitySectionTitle: {
     id: 'course-authoring.grading-settings.credit-eligibility.title',
-    defaultMessage: 'Credit eligibility',
+    defaultMessage: 'Điều kiện nhận tín chỉ',
   },
   creditEligibilitySectionDescription: {
     id: 'course-authoring.grading-settings.credit-eligibility.description',
-    defaultMessage: 'Settings for course credit eligibility',
+    defaultMessage: 'Cài đặt về điều kiện nhận tín chỉ của khóa học',
   },
   gradingRulesPoliciesSectionTitle: {
     id: 'course-authoring.grading-settings.grading-rules-policies.title',
-    defaultMessage: 'Grading rules & policies',
+    defaultMessage: 'Quy tắc & chính sách chấm điểm',
   },
   gradingRulesPoliciesSectionDescription: {
     id: 'course-authoring.grading-settings.grading-rules-policies.description',
-    defaultMessage: 'Deadlines, requirements, and logistics around grading student work',
+    defaultMessage: 'Hạn chót, yêu cầu và logistics liên quan đến việc chấm điểm công việc của học viên',
   },
   assignmentTypeSectionTitle: {
     id: 'course-authoring.grading-settings.assignment-type.title',
-    defaultMessage: 'Assignment types',
+    defaultMessage: 'Loại bài tập',
   },
   assignmentTypeSectionDescription: {
     id: 'course-authoring.grading-settings.assignment-type.description',
-    defaultMessage: 'Categories and labels for any exercises that are gradable',
+    defaultMessage: 'Danh mục và nhãn cho bất kỳ bài tập nào có thể chấm điểm',
   },
   addNewAssignmentTypeBtn: {
     id: 'course-authoring.grading-settings.add-new-assignment-type.btn',
-    defaultMessage: 'New assignment type',
+    defaultMessage: 'Loại bài tập mới',
   },
 });
 
