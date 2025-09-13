@@ -129,6 +129,7 @@ const AppSettingsModal = ({
               isMobile={isMobile}
               footer={(
                 <StatefulButton
+                  className="custom-confirm-btn"
                   labels={{
                     default: formatMessage(messages.save),
                     pending: formatMessage(messages.saving),

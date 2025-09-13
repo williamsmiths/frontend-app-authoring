@@ -79,9 +79,10 @@ const PagesAndResources = ({ courseId }) => {
             destination={learningCourseURL}
             target="_blank"
             rel="noopener noreferrer"
+            className='text-decoration-none'
             showLaunchIcon={false}
           >
-            <Button variant="outline-primary" className="p-2"> {intl.formatMessage(messages.viewLiveButton)}</Button>
+            <Button variant="outline" className="p-2 custom-outline-btn" size='sm'> {intl.formatMessage(messages.viewLiveButton)}</Button>
           </Hyperlink>
         </div>
 

@@ -223,13 +223,14 @@ export const CourseLibraries: React.FC<Props> = ({ courseId }) => {
         <section className="mb-4">
           <Tabs
             id="course-library-tabs"
+            className="studio-home-tabs"
             activeKey={tabKey}
             onSelect={tabChange}
           >
             <Tab
               eventKey={CourseLibraryTabs.all}
               title={intl.formatMessage(messages.homeTabTitle)}
-              className="px-2 mt-3"
+              className="nav-item nav-link custom-nav-link"
             >
               {renderLibrariesTabContent()}
             </Tab>
@@ -242,7 +243,7 @@ export const CourseLibraries: React.FC<Props> = ({ courseId }) => {
                 </Stack>
               )}
               notification={outOfSyncCount}
-              className="px-2 mt-3"
+              className="nav-item nav-link custom-nav-link"
             >
               {renderReviewTabContent()}
             </Tab>

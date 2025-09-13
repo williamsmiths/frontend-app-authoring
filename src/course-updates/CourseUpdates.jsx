@@ -150,7 +150,8 @@ const CourseUpdates = ({ courseId }) => {
                     instruction={intl.formatMessage(messages.sectionInfo)}
                     headerActions={(
                       <Button
-                        variant="primary"
+                        variant="outline"
+                        className='custom-confirm-btn'
                         iconBefore={AddIcon}
                         size="sm"
                         onClick={() => handleOpenUpdateForm(REQUEST_TYPES.add_new_update)}

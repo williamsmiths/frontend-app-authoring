@@ -19,6 +19,8 @@ const CourseHandouts = ({ contentForHandouts, onEdit, isDisabledButtons }) => {
           iconAs={Icon}
           disabled={isDisabledButtons}
           data-testid="course-handouts-edit-button"
+          variant='light'
+          className='text-primary-red custom-icon-filled'
           onClick={onEdit}
         />
       </div>

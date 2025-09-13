@@ -33,6 +33,8 @@ const CourseUpdate = ({
             iconAs={Icon}
             disabled={isDisabledButtons}
             data-testid="course-update-edit-button"
+            variant='light'
+            className='text-primary-red custom-icon-filled'
             onClick={onEdit}
           />
           <IconButtonWithTooltip
@@ -41,6 +43,8 @@ const CourseUpdate = ({
             iconAs={Icon}
             disabled={isDisabledButtons}
             data-testid="course-update-delete-button"
+            variant='light'
+            className='text-primary-red custom-icon-filled'
             onClick={onDelete}
           />
         </div>

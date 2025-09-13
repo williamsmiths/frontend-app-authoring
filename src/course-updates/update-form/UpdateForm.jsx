@@ -112,7 +112,7 @@ const UpdateForm = ({
               <Button variant="tertiary" type="button" onClick={close}>
                 {intl.formatMessage(messages.cancelButton)}
               </Button>
-              <Button onClick={handleSubmit} type="submit" disabled={!isValid}>
+              <Button onClick={handleSubmit} type="submit" className='custom-confirm-btn' disabled={!isValid}>
                 {submitButtonText}
               </Button>
             </ActionRow>

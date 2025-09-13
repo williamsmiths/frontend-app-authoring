@@ -3,39 +3,39 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   cancel: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   save: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.save',
-    defaultMessage: 'Save',
+    defaultMessage: 'Lưu',
   },
   saving: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.saving',
-    defaultMessage: 'Saving',
+    defaultMessage: 'Đang lưu',
   },
   saved: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.saved',
-    defaultMessage: 'Saved',
+    defaultMessage: 'Đã lưu',
   },
   retry: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.retry',
-    defaultMessage: 'Retry',
+    defaultMessage: 'Thử lại',
   },
   enabled: {
     id: 'course-authoring.pages-resources.app-settings-modal.badge.enabled',
-    defaultMessage: 'Enabled',
+    defaultMessage: 'Đã bật',
   },
   disabled: {
     id: 'course-authoring.pages-resources.app-settings-modal.badge.disabled',
-    defaultMessage: 'Disabled',
+    defaultMessage: 'Đã tắt',
   },
   errorSavingTitle: {
     id: 'course-authoring.pages-resources.app-settings-modal.save-error.title',
-    defaultMessage: 'We couldn\'t apply your changes.',
+    defaultMessage: 'Không thể áp dụng thay đổi của bạn.',
   },
   errorSavingMessage: {
     id: 'course-authoring.pages-resources.app-settings-modal.save-error.message',
-    defaultMessage: 'Please check your entries and try again.',
+    defaultMessage: 'Vui lòng kiểm tra dữ liệu nhập và thử lại.',
   },
 });
 

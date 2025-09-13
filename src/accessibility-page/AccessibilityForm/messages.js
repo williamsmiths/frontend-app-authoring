@@ -3,72 +3,72 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   accessibilityPolicyFormEmailLabel: {
     id: 'accessibilityPolicyFormEmailLabel',
-    defaultMessage: 'Email Address',
+    defaultMessage: 'Địa chỉ Email',
     description: 'Label for the email form field',
   },
   accessibilityPolicyFormErrorHighVolume: {
     id: 'accessibilityPolicyFormErrorHighVolume',
-    defaultMessage: 'We are currently experiencing high volume. Try again later today or send an email message to {emailLink}.',
+    defaultMessage: 'Hiện tại chúng tôi đang có lưu lượng cao. Vui lòng thử lại sau hôm nay hoặc gửi email đến {emailLink}.',
     description: 'Error message when site is experiencing high volume that will include an email link',
   },
   accessibilityPolicyFormErrorMissingFields: {
     id: 'accessibilityPolicyFormErrorMissingFields',
-    defaultMessage: 'Make sure to fill in all fields.',
+    defaultMessage: 'Hãy điền đầy đủ tất cả các trường.',
     description: 'Error message to instruct user to fill in all fields',
   },
   accessibilityPolicyFormHeader: {
     id: 'accessibilityPolicyFormHeader',
-    defaultMessage: 'Studio Accessibility Feedback',
+    defaultMessage: 'Phản hồi về Khả năng Tiếp cận của Studio',
     description: 'The heading for the form',
   },
   accessibilityPolicyFormMessageLabel: {
     id: 'accessibilityPolicyFormMessageLabel',
-    defaultMessage: 'Message',
+    defaultMessage: 'Tin nhắn',
     description: 'Label for the message form field',
   },
   accessibilityPolicyFormNameLabel: {
     id: 'accessibilityPolicyFormNameLabel',
-    defaultMessage: 'Name',
+    defaultMessage: 'Họ tên',
     description: 'Label for the name form field',
   },
   accessibilityPolicyFormSubmitAria: {
     id: 'accessibilityPolicyFormSubmitAria',
-    defaultMessage: 'Submit Accessibility Feedback Form',
+    defaultMessage: 'Gửi Biểu mẫu Phản hồi về Khả năng Tiếp cận',
     description: 'Detailed aria-label for the submit button',
   },
   accessibilityPolicyFormSubmitLabel: {
     id: 'accessibilityPolicyFormSubmitLabel',
-    defaultMessage: 'Submit',
+    defaultMessage: 'Gửi',
     description: 'General label for the submit button',
   },
   accessibilityPolicyFormSubmittingFeedbackLabel: {
     id: 'accessibilityPolicyFormSubmittingFeedbackLabel',
-    defaultMessage: 'Submitting',
+    defaultMessage: 'Đang gửi',
     description: 'Loading message while form feedback is being submitted',
   },
   accessibilityPolicyFormSuccess: {
     id: 'accessibilityPolicyFormSuccess',
-    defaultMessage: 'Thank you for contacting edX!',
+    defaultMessage: 'Cảm ơn bạn đã liên hệ với edX!',
     description: 'Simple thank you message when form submission is successful',
   },
   accessibilityPolicyFormSuccessDetails: {
     id: 'accessibilityPolicyFormSuccessDetails',
-    defaultMessage: 'Thank you for your feedback regarding the accessibility of Studio. We typically respond within one business day ({day_start} to {day_end}, {time_start} to {time_end}).',
+    defaultMessage: 'Cảm ơn bạn đã gửi phản hồi về khả năng tiếp cận của Studio. Chúng tôi thường phản hồi trong vòng một ngày làm việc ({day_start} đến {day_end}, {time_start} đến {time_end}).',
     description: 'Detailed thank you message when form submission is successful',
   },
   accessibilityPolicyFormValidEmail: {
     id: 'accessibilityPolicyFormValidEmail',
-    defaultMessage: 'Enter a valid email address.',
+    defaultMessage: 'Vui lòng nhập một địa chỉ email hợp lệ.',
     description: 'Error message for when an invalid email is entered into the form',
   },
   accessibilityPolicyFormValidMessage: {
     id: 'accessibilityPolicyFormValidMessage',
-    defaultMessage: 'Enter a message.',
+    defaultMessage: 'Vui lòng nhập nội dung tin nhắn.',
     description: 'Error message an invalid message is entered into the form',
   },
   accessibilityPolicyFormValidName: {
     id: 'accessibilityPolicyFormValidName',
-    defaultMessage: 'Enter a name.',
+    defaultMessage: 'Vui lòng nhập họ tên.',
     description: 'Error message an invalid name is entered into the form',
   },
 });

@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'authoring.pagesAndResources.live.enableLive.heading',
-    defaultMessage: 'Configure Live',
+    defaultMessage: 'Cấu hình Live',
     description: 'Heading for live configuration',
   },
   enableLiveLabel: {
@@ -13,112 +13,112 @@ const messages = defineMessages({
   },
   enableLiveHelp: {
     id: 'authoring.pagesAndResources.live.enableLive.help',
-    defaultMessage: 'Schedule meetings and conduct live course sessions with learners.',
+    defaultMessage: 'Lên lịch họp và tổ chức các buổi học trực tiếp với người học.',
     description: 'Tells the purpose of live configuration',
   },
   enableLiveLink: {
     id: 'authoring.pagesAndResources.live.enableLive.link',
-    defaultMessage: 'Learn more about live',
+    defaultMessage: 'Tìm hiểu thêm về Live',
     description: 'Link text that tells the user to learn about the live',
   },
   saveButton: {
     id: 'authoring.discussions.saveButton',
-    defaultMessage: 'Save',
+    defaultMessage: 'Lưu',
     description: 'Button allowing the user to submit their discussion configuration.',
   },
   savingButton: {
     id: 'authoring.discussions.savingButton',
-    defaultMessage: 'Saving',
+    defaultMessage: 'Đang lưu',
     description: 'Button label when the discussion configuration is being submitted.',
   },
   savedButton: {
     id: 'authoring.discussions.savedButton',
-    defaultMessage: 'Saved',
+    defaultMessage: 'Đã lưu',
     description: 'Button label when the discussion configuration has been successfully submitted.',
   },
   selectProvider: {
     id: 'authoring.live.selectProvider',
-    defaultMessage: 'Select a video conferencing tool',
+    defaultMessage: 'Chọn công cụ hội nghị trực tuyến',
     description: '',
   },
   formInstructions: {
     id: 'authoring.live.formInstructions',
-    defaultMessage: 'Complete the fields below to set up your video conferencing tool.',
+    defaultMessage: 'Hoàn thành các trường dưới đây để thiết lập công cụ hội nghị trực tuyến của bạn.',
     description: 'Instruction for configure the video conferencing tool.',
   },
   consumerKey: {
     id: 'authoring.live.consumerKey',
-    defaultMessage: 'Consumer Key',
+    defaultMessage: 'Khóa người dùng (Consumer Key)',
     description: 'Label for the Consumer Key field.',
   },
   consumerKeyRequired: {
     id: 'authoring.live.consumerKey.required',
-    defaultMessage: 'Consumer key is a required field',
+    defaultMessage: 'Khóa người dùng là trường bắt buộc',
     description: 'Tells the user that the Consumer Key field is required and must have a value.',
   },
   consumerSecret: {
     id: 'authoring.live.consumerSecret',
-    defaultMessage: 'Consumer Secret',
+    defaultMessage: 'Mã bí mật (Consumer Secret)',
     description: 'Label for the Consumer Secret field.',
   },
   consumerSecretRequired: {
     id: 'authoring.live.consumerSecret.required',
-    defaultMessage: 'Consumer secret is a required field',
+    defaultMessage: 'Mã bí mật là trường bắt buộc',
     description: 'Tells the user that the Consumer Secret field is required and must have a value.',
   },
   launchUrl: {
     id: 'authoring.live.launchUrl',
-    defaultMessage: 'Launch URL',
+    defaultMessage: 'URL khởi chạy',
     description: 'Label for the Launch URL field.',
   },
   launchUrlRequired: {
     id: 'authoring.live.launchUrl.required',
-    defaultMessage: 'Launch URL is a required field',
+    defaultMessage: 'URL khởi chạy là trường bắt buộc',
     description: 'Tells the user that the Launch URL field is required and must have a value.',
   },
   launchEmail: {
     id: 'authoring.live.launchEmail',
-    defaultMessage: 'Launch Email',
+    defaultMessage: 'Email khởi chạy',
     description: 'Label for the Launch Email field.',
   },
   launchEmailRequired: {
     id: 'authoring.live.launchEmail.required',
-    defaultMessage: 'Launch Email is a required field',
+    defaultMessage: 'Email khởi chạy là trường bắt buộc',
     description: 'Tells the user that the Launch Email field is required and must have a value.',
   },
   providerHelperText: {
     id: 'authoring.live.provider.helpText',
-    defaultMessage: 'This configuration will require sharing username and emails of learners and the course team with {providerName}.',
+    defaultMessage: 'Cấu hình này sẽ yêu cầu chia sẻ tên người dùng và email của người học và nhóm giảng dạy với {providerName}.',
     description: 'Tells the user that sharing username and email is required for configuration',
   },
   requestPiiSharingEnable: {
     id: 'authoring.live.requestPiiSharingEnable',
-    defaultMessage: 'This configuration will require sharing usernames and emails of learners and the course team with {provider}. To access the LTI configuration for {provider}, please request your edX project coordinator to get PII sharing enabled for this course.',
+    defaultMessage: 'Cấu hình này sẽ yêu cầu chia sẻ tên người dùng và email của người học và nhóm giảng dạy với {provider}. Để truy cập cấu hình LTI cho {provider}, vui lòng yêu cầu điều phối viên dự án edX của bạn bật chia sẻ PII cho khóa học này.',
     description: 'Tells the user that request edx project coordinator to enable the PII sharing to access the LTI configuration for a provider.',
   },
   general: {
     id: 'authoring.live.appDocInstructions.documentationLink',
-    defaultMessage: 'General documentation',
+    defaultMessage: 'Tài liệu chung',
     description: 'Application Document Instructions message for documentation link',
   },
   accessibility: {
     id: 'authoring.live.appDocInstructions.accessibilityDocumentationLink',
-    defaultMessage: 'Accessibility documentation',
+    defaultMessage: 'Tài liệu về khả năng truy cập',
     description: 'Application Document Instructions message for accessibility link',
   },
   configuration: {
     id: 'authoring.live.appDocInstructions.configurationLink',
-    defaultMessage: 'Configuration documentation',
+    defaultMessage: 'Tài liệu cấu hình',
     description: 'Application Document Instructions message for configurations link',
   },
   learnMore: {
     id: 'authoring.live.appDocInstructions.learnMoreLink',
-    defaultMessage: 'Learn more about {providerName}',
+    defaultMessage: 'Tìm hiểu thêm về {providerName}',
     description: 'Application Document Instructions message for learn more links',
   },
   linkTextHeading: {
     id: 'authoring.live.appDocInstructions.linkTextHeading',
-    defaultMessage: 'External help and documentation',
+    defaultMessage: 'Hỗ trợ và tài liệu bên ngoài',
     description: 'External help and documentation heading',
   },
   linkText: {
@@ -148,24 +148,24 @@ const messages = defineMessages({
   },
   requestPiiSharingEnableForBbb: {
     id: 'authoring.live.requestPiiSharingEnableForBbb',
-    defaultMessage: 'This configuration will require sharing usernames of learners and the course team with {provider}.',
+    defaultMessage: 'Cấu hình này sẽ yêu cầu chia sẻ tên người dùng của người học và nhóm giảng dạy với {provider}.',
     description: 'Tells the user that they require sharing usernames with the provider to use this feature',
   },
 
   piiSharingEnableHelpTextBbb: {
     id: 'authoring.live.piiSharingEnableHelpText',
-    defaultMessage: 'To enable this feature, contact your edX support team to enable PII sharing for this course.',
+    defaultMessage: 'Để bật tính năng này, hãy liên hệ với nhóm hỗ trợ edX của bạn để bật chia sẻ PII cho khóa học này.',
     description: 'Tells the user that request edx project coordinator to enable the PII sharing to access the LTI configuration for a provider.',
   },
 
   freePlanMessage: {
     id: 'authoring.live.freePlanMessage',
-    defaultMessage: 'The free plan is pre-configured, and no additional configurations are required. By selecting the free plan, you are agreeing to Blindside Networks',
+    defaultMessage: 'Gói miễn phí đã được cấu hình sẵn, không cần cấu hình bổ sung. Khi chọn gói miễn phí, bạn đồng ý với Blindside Networks',
     description: 'Tells user that free plans requires no additional configurations',
   },
   privacyPolicy: {
     id: 'authoring.live.privacyPolicy',
-    defaultMessage: 'Privacy Policy.',
+    defaultMessage: 'Chính sách quyền riêng tư.',
     description: 'The text of privacy policy hyperlink for free plan',
   },
 });

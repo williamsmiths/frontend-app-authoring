@@ -49,6 +49,8 @@ const PageSettingButton = ({
           src={ArrowForward}
           iconAs={Icon}
           size="inline"
+          variant='outline'
+          className='custom-icon-filled'
           alt={formatMessage(messages.settings)}
         />
       </Link>
@@ -63,6 +65,8 @@ const PageSettingButton = ({
     <IconButton
       src={Settings}
       iconAs={Icon}
+      variant='outline'
+      className='custom-icon-filled'
       size="inline"
       alt={formatMessage(messages.settings)}
       onClick={() => navigate(`${pagesAndResourcesPath}/${id}/settings`)}

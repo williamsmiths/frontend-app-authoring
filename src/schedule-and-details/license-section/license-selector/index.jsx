@@ -35,7 +35,8 @@ const LicenseSelector = ({ licenseType, onChangeLicenseType }) => {
         }
       >
         <Button
-          variant={isActive ? 'primary' : 'outline-primary'}
+          variant={isActive ? 'outline' : 'outline'}
+          className={isActive ? 'custom-confirm-btn' : 'custom-outline-btn'}
           onClick={() => onChangeLicenseType(type, 'license')}
         >
           {LICENSE_BUTTON_GROUP_LABELS[type].label}
