@@ -79,14 +79,18 @@ const HeaderTitle = ({
         ) : unitTitle}
         <IconButton
           alt={intl.formatMessage(messages.altButtonEdit)}
-          className="ml-1 flex-shrink-0"
+          variant='light'
+          size='sm'
+          className='text-primary-red custom-icon-filled ml-3'
           iconAs={EditIcon}
           onClick={handleTitleEdit}
           disabled={readOnly}
         />
         <IconButton
           alt={intl.formatMessage(messages.altButtonSettings)}
-          className="flex-shrink-0"
+          variant='light'
+          size='sm'
+          className='text-primary-red custom-icon-filled ml-2'
           iconAs={SettingsIcon}
           onClick={openConfigureModal}
         />

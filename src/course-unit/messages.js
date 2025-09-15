@@ -3,54 +3,54 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   alertFailedGeneric: {
     id: 'course-authoring.course-unit.general.alert.error.description',
-    defaultMessage: 'Unable to {actionName} {type}. Please try again.',
+    defaultMessage: 'Không thể {actionName} {type}. Vui lòng thử lại.',
   },
   alertUnpublishedVersion: {
     id: 'course-authoring.course-unit.general.alert.unpublished-version.description',
-    defaultMessage: 'Note: The last published version of this unit is live. By publishing changes you will change the student experience.',
+    defaultMessage: 'Lưu ý: Phiên bản đã xuất bản cuối cùng của đơn vị này đang được hiển thị. Khi xuất bản các thay đổi, bạn sẽ thay đổi trải nghiệm của học viên.',
   },
   pasteButtonText: {
     id: 'course-authoring.course-unit.paste-component.btn.text',
-    defaultMessage: 'Paste component',
+    defaultMessage: 'Dán thành phần',
   },
   alertMoveSuccessTitle: {
     id: 'course-authoring.course-unit.alert.xblock.move.success.title',
-    defaultMessage: 'Success!',
+    defaultMessage: 'Thành công!',
     description: 'Title for the success alert when an XBlock is moved successfully',
   },
   alertMoveSuccessDescription: {
     id: 'course-authoring.course-unit.alert.xblock.move.success.description',
-    defaultMessage: '{title} has been moved',
+    defaultMessage: '{title} đã được di chuyển',
     description: 'Description for the success alert when an XBlock is moved successfully',
   },
   alertMoveCancelTitle: {
     id: 'course-authoring.course-unit.alert.xblock.move.cancel.title',
-    defaultMessage: 'Move cancelled',
+    defaultMessage: 'Đã hủy di chuyển',
     description: 'Title for the alert when moving an XBlock is cancelled',
   },
   alertMoveCancelDescription: {
     id: 'course-authoring.course-unit.alert.xblock.move.cancel.description',
-    defaultMessage: '{title} has been moved back to its original location',
+    defaultMessage: '{title} đã được di chuyển về vị trí ban đầu',
     description: 'Description for the alert when moving an XBlock is cancelled and the XBlock is moved back to its original location',
   },
   undoMoveButton: {
     id: 'course-authoring.course-unit.alert.xblock.move.undo.btn.text',
-    defaultMessage: 'Undo move',
+    defaultMessage: 'Hoàn tác di chuyển',
     description: 'Text for the button allowing users to undo a move action of an XBlock',
   },
   newLocationButton: {
     id: 'course-authoring.course-unit.alert.xblock.new.location.btn.text',
-    defaultMessage: 'Take me to the new location',
+    defaultMessage: 'Đưa tôi đến vị trí mới',
     description: 'Text for the button allowing users to navigate to the new location after an XBlock has been moved',
   },
   alertLibraryUnitReadOnlyText: {
     id: 'course-authoring.course-unit.alert.read-only.text',
-    defaultMessage: 'This unit can only be edited from the {link}.',
+    defaultMessage: 'Đơn vị này chỉ có thể được chỉnh sửa từ {link}.',
     description: 'Text of the alert when the unit is read only because is a library unit',
   },
   alertLibraryUnitReadOnlyLinkText: {
     id: 'course-authoring.course-unit.alert.read-only.link.text',
-    defaultMessage: 'library',
+    defaultMessage: 'thư viện',
     description: 'Text of the link in the alert when the unit is read only because is a library unit',
   },
 });

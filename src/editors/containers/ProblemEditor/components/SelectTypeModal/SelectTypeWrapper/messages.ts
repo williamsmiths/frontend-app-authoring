@@ -4,27 +4,27 @@ const messages = defineMessages({
 
   selectTypeTitle: {
     id: 'authoring.problemEditor.selectType.title',
-    defaultMessage: 'Select problem type',
+    defaultMessage: 'Chọn loại bài tập',
     description: 'Title for select problem type modal',
   },
   cancelButtonLabel: {
     id: 'authoring.problemeditor.selecttype.cancelButton.label',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
     description: 'Label for cancel button.',
   },
   cancelButtonAriaLabel: {
     id: 'authoring.problemeditor.selecttype.cancelButton.ariaLabel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
     description: 'Screen reader label for cancel button.',
   },
   selectButtonLabel: {
     id: 'authoring.problemeditor.selecttype.selectButton.label',
-    defaultMessage: 'Select',
+    defaultMessage: 'Chọn',
     description: 'Label for select button.',
   },
   selectButtonAriaLabel: {
     id: 'authoring.problemeditor.selecttype.selectButton.ariaLabel',
-    defaultMessage: 'Select',
+    defaultMessage: 'Chọn',
     description: 'Screen reader label for select button.',
   },
 });

@@ -48,19 +48,21 @@ const SequenceNavigationTabs = ({
     <div className="sequence-navigation-tabs-wrapper">
       <div className="sequence-navigation-tabs-container d-flex" ref={containerRef}>
         <div
-          className="sequence-navigation-tabs d-flex flex-grow-1"
+          className="sequence-navigation-tabs d-flex"
           style={shouldDisplayDropdown ? invisibleStyle : null}
         >
           {unitIds.map((buttonUnitId) => (
             <UnitButton
               key={buttonUnitId}
               unitId={buttonUnitId}
+              className="ml-2"
               isActive={unitId === buttonUnitId}
             />
           ))}
           <Button
-            className="sequence-navigation-tabs-action-btn"
-            variant="outline-primary"
+            className="sequence-navigation-tabs-action-btn custom-outline-btn ml-2"
+            variant="outline"
+            size='sm'
             iconBefore={PlusIcon}
             onClick={handleAddNewSequenceUnit}
           >
@@ -68,8 +70,9 @@ const SequenceNavigationTabs = ({
           </Button>
           {showPasteUnit && (
             <Button
-              className="sequence-navigation-tabs-action-btn"
-              variant="outline-primary"
+              className="sequence-navigation-tabs-action-btn custom-outline-btn"
+              size='sm'
+              variant="outline"
               iconBefore={ContentPasteGoIcon}
               onClick={handlePasteNewSequenceUnit}
             >

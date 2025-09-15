@@ -12,14 +12,14 @@ const AddComponentButton = ({
 
   return (
     <Button
-      variant="outline-primary"
-      className="add-component-button flex-column rounded-sm"
+      variant="outline"
+      className="add-component-button custom-icon-filled bg-gray-100"
       onClick={onClick}
     >
       <AddComponentIcon type={type} />
       <span className="sr-only">{intl.formatMessage(messages.buttonText)}</span>
       <span className="small mt-2">{displayName}</span>
-      {beta && <Badge className="pb-1 mt-1" variant="primary">Beta</Badge>}
+      {beta && <Badge className="pb-1 mt-1" variant="danger">Beta</Badge>}
     </Button>
   );
 };

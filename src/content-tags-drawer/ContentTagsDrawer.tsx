@@ -208,7 +208,9 @@ const ContentTagsComponentVariantFooter = ({ readOnly = false }: ContentTagsComp
         </div>
       ) : !readOnly && (
         <Button
-          variant="outline-primary"
+          variant="outline"
+          className='custom-outline-btn'
+          size="sm"
           onClick={toEditMode}
           block
         >

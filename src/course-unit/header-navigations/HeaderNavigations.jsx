@@ -15,13 +15,17 @@ const HeaderNavigations = ({ headerNavigationsActions, category }) => {
       {category === COURSE_BLOCK_NAMES.vertical.id && (
         <>
           <Button
-            variant="outline-primary"
+            variant="outline"
+            size='sm'
             onClick={handleViewLive}
+            className='custom-outline-btn mr-2'
           >
             {intl.formatMessage(messages.viewLiveButton)}
           </Button>
           <Button
-            variant="outline-primary"
+            variant="outline"
+            size='sm'
+            className='custom-outline-btn'
             onClick={handlePreview}
           >
             {intl.formatMessage(messages.previewButton)}

@@ -97,8 +97,8 @@ const TagsSidebarBody = ({ readOnly }: TagsSidebarBodyProps) => {
             )}
 
           <Button
-            className="mt-3 ml-2"
-            variant="outline-primary"
+            className="mt-3 ml-2 custom-outline-btn"
+            variant="outline"
             size="sm"
             onClick={() => setShowManageTags(true)}
             disabled={readOnly}

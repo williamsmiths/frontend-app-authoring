@@ -156,41 +156,43 @@ const CourseUnit = ({ courseId }) => {
               variant="info"
             />
           )}
-          <SubHeader
-            hideBorder
-            title={(
-              <HeaderTitle
-                unitTitle={unitTitle}
-                isTitleEditFormOpen={isTitleEditFormOpen}
-                handleTitleEdit={handleTitleEdit}
-                handleTitleEditSubmit={handleTitleEditSubmit}
-                handleConfigureSubmit={handleConfigureSubmit}
-              />
-            )}
-            breadcrumbs={(
-              <Breadcrumbs
-                courseId={courseId}
-                parentUnitId={sequenceId}
-              />
-            )}
-            headerActions={(
-              <CourseUnitHeaderActionsSlot
-                category={unitCategory}
-                headerNavigationsActions={headerNavigationsActions}
-                unitTitle={unitTitle}
-                verticalBlocks={courseVerticalChildren.children}
-              />
-            )}
-          />
-          {isUnitVerticalType && (
-            <Sequence
-              courseId={courseId}
-              sequenceId={sequenceId}
-              unitId={blockId}
-              handleCreateNewCourseXBlock={handleCreateNewCourseXBlock}
-              showPasteUnit={showPasteUnit}
+          <div className='custom-group-progress shadow-sm p-4 bg-white mb-4'>
+            <SubHeader
+              hideBorder
+              title={(
+                <HeaderTitle
+                  unitTitle={unitTitle}
+                  isTitleEditFormOpen={isTitleEditFormOpen}
+                  handleTitleEdit={handleTitleEdit}
+                  handleTitleEditSubmit={handleTitleEditSubmit}
+                  handleConfigureSubmit={handleConfigureSubmit}
+                />
+              )}
+              breadcrumbs={(
+                <Breadcrumbs
+                  courseId={courseId}
+                  parentUnitId={sequenceId}
+                />
+              )}
+              headerActions={(
+                <CourseUnitHeaderActionsSlot
+                  category={unitCategory}
+                  headerNavigationsActions={headerNavigationsActions}
+                  unitTitle={unitTitle}
+                  verticalBlocks={courseVerticalChildren.children}
+                />
+              )}
             />
-          )}
+            {isUnitVerticalType && (
+              <Sequence
+                courseId={courseId}
+                sequenceId={sequenceId}
+                unitId={blockId}
+                handleCreateNewCourseXBlock={handleCreateNewCourseXBlock}
+                showPasteUnit={showPasteUnit}
+              />
+            )}
+          </div>
           <Layout {...layoutGrid}>
             <Layout.Element>
               {currentlyVisibleToStudents && (

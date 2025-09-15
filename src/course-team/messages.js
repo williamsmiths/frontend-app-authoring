@@ -3,15 +3,15 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.course-team.headingTitle',
-    defaultMessage: 'Course team',
+    defaultMessage: 'Nhóm khóa học',
   },
   headingSubtitle: {
     id: 'course-authoring.course-team.subTitle',
-    defaultMessage: 'Settings',
+    defaultMessage: 'Cài đặt',
   },
   addNewMemberButton: {
     id: 'course-authoring.course-team.button.new-team-member',
-    defaultMessage: 'New team member',
+    defaultMessage: 'Thành viên mới',
   },
 });
 

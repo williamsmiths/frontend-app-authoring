@@ -20,7 +20,7 @@ import messages from './messages';
 import { getVideoSharingOptionText } from '../utils';
 
 const StatusBarItem = ({ title, children }) => (
-  <div className="d-flex flex-column justify-content-between">
+  <div className="d-flex flex-column justify-content-between mr-2">
     <h5 className='text-gray-700'>{title}</h5>
     <div className="d-flex align-items-center">
       {children}

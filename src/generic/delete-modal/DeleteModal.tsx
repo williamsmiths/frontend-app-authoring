@@ -62,7 +62,9 @@ const DeleteModal = ({
               e.stopPropagation();
               await onDeleteSubmit();
             }}
-            variant="brand"
+            
+            variant="ouline"
+            className='custom-confirm-btn'
             label={defaultBtnLabel}
           />
         </ActionRow>

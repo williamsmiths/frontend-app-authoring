@@ -1,11 +1,6 @@
 .sub-header {
   display: flex;
   gap: map-get($spacers, 4\.5);
-
-  .sub-header-actions {
-    margin-bottom: 1.75rem;
-    align-self: flex-end;
-  }
 }
 
 .sub-header-title {

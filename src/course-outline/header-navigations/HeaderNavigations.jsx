@@ -38,6 +38,9 @@ const HeaderNavigations = ({
           <Button
             iconBefore={IconAdd}
             onClick={handleNewSection}
+            size='sm'
+            variant="outline"
+            className='custom-confirm-btn'
             disabled={errors?.outlineIndexApi}
           >
             {intl.formatMessage(messages.newSectionButton)}
@@ -57,6 +60,7 @@ const HeaderNavigations = ({
             onClick={handleReIndex}
             data-testid="course-reindex"
             variant="outline"
+            size='sm'
             className='custom-outline-btn'
             disabled={isDisabledReindexButton}
           >
@@ -68,6 +72,7 @@ const HeaderNavigations = ({
         <Button
           variant="outline"
           id="expand-collapse-all-button"
+          size='sm'
           className='custom-outline-btn'
           data-testid="expand-collapse-all-button"
           iconBefore={isSectionsExpanded ? ArrowUpIcon : ArrowDownIcon}
@@ -89,6 +94,7 @@ const HeaderNavigations = ({
         <Button
           href={lmsLink}
           target="_blank"
+          size='sm'
           className='custom-outline-btn'
           variant="outline"
         >

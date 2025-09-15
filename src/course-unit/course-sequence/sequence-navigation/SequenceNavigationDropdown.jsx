@@ -17,17 +17,19 @@ const SequenceNavigationDropdown = ({
 
   return (
     <Dropdown className="sequence-navigation-dropdown">
-      <Dropdown.Toggle id="sequence-navigation-dropdown" variant="outline-primary" className="w-100">
-        {intl.formatMessage(messages.sequenceDropdownTitle, {
-          current: unitIds.indexOf(unitId) + 1,
-          total: unitIds.length,
-        })}
-      </Dropdown.Toggle>
-      <Dropdown.Menu className="w-100">
+      <div className='w-100 px-2'>
+        <Dropdown.Toggle id="sequence-navigation-dropdown" variant="outline" className="w-100 custom-outline-btn">
+          {intl.formatMessage(messages.sequenceDropdownTitle, {
+            current: unitIds.indexOf(unitId) + 1,
+            total: unitIds.length,
+          })}
+        </Dropdown.Toggle>
+      </div>
+      <Dropdown.Menu className="p-2 w-100">
         {unitIds.map(buttonUnitId => (
           <Dropdown.Item
             as={UnitButton}
-            className="w-100"
+            className="w-100 custom-dropdown-item mt-2"
             isActive={unitId === buttonUnitId}
             key={buttonUnitId}
             showTitle
@@ -36,7 +38,8 @@ const SequenceNavigationDropdown = ({
         ))}
         <Button
           as={Dropdown.Item}
-          variant="outline-primary"
+          variant="outline"
+          className='custom-outline-btn mt-2'
           iconBefore={PlusIcon}
           onClick={handleAddNewSequenceUnit}
         >

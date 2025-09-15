@@ -14,9 +14,10 @@ const UnitButton = ({
 
   return (
     <Button
-      className={className}
-      variant={isActive ? 'primary' : 'outline-primary'}
+      variant={isActive ? 'outline' : 'outline'}
+      className={isActive ? `custom-confirm-btn px-4 ${className}` : `custom-icon-filled bg-gray-100 px-4 ${className}`}
       as={Link}
+      size='sm'
       title={title}
       to={`/course/${courseId}/container/${unitId}/${sequenceId}/`}
       data-testid="course-unit-btn"

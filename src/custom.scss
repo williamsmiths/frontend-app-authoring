@@ -163,6 +163,7 @@ $gray-100: #F3F4F6;
 }
 
 .custom-dropdown-item{
+  margin: 0 !important;
   &:hover,
   &:focus {
     background: $gray-100 !important;
@@ -172,7 +173,7 @@ $gray-100: #F3F4F6;
 
 .custom-group-progress {
   border: 1px solid $gray-100 !important;
-  border-radius: 15px !important;
+  border-radius: 10px !important;
 }
 
 .pgn__checkpoint {

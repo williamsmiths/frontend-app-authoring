@@ -58,8 +58,9 @@ const SequenceNavigation = ({
     if (!isFirstUnit) {
       return (
         <Button
-          className="sequence-navigation-prev-btn"
-          variant="outline-primary"
+          className="sequence-navigation-prev-btn custom-outline-btn"
+          variant="outline"
+          size='sm'
           iconBefore={prevArrow}
           as={Link}
           to={previousLink}
@@ -79,8 +80,9 @@ const SequenceNavigation = ({
     if (!isLastUnit) {
       return (
         <Button
-          className="sequence-navigation-next-btn"
-          variant="outline-primary"
+          className="sequence-navigation-next-btn custom-outline-btn"
+          variant="outline"
+          size='sm'
           iconAfter={nextArrow}
           as={Link}
           to={nextLink}

@@ -3,87 +3,87 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   title: {
     id: 'course-authoring.course-unit.add.component.title',
-    defaultMessage: 'Add a new component',
+    defaultMessage: 'Thêm một thành phần mới',
     description: 'Title text for add component section in course unit.',
   },
   buttonText: {
     id: 'course-authoring.course-unit.add.component.button.text',
-    defaultMessage: 'Add Component:',
+    defaultMessage: 'Thêm thành phần:',
     description: 'Information text for screen-readers about each add component button',
   },
   modalBtnText: {
     id: 'course-authoring.course-unit.modal.button.text',
-    defaultMessage: 'Select',
+    defaultMessage: 'Chọn',
     description: 'Information text for screen-readers about each add component button',
   },
   singleComponentPickerModalTitle: {
     id: 'course-authoring.course-unit.modal.single-title.text',
-    defaultMessage: 'Select component',
+    defaultMessage: 'Chọn thành phần',
     description: 'Library content picker modal title.',
   },
   multipleComponentPickerModalTitle: {
     id: 'course-authoring.course-unit.modal.multiple-title.text',
-    defaultMessage: 'Select components',
+    defaultMessage: 'Chọn các thành phần',
     description: 'Problem bank component picker modal title.',
   },
   multipleComponentPickerModalBtn: {
     id: 'course-authoring.course-unit.modal.multiple-btn.text',
-    defaultMessage: 'Add selected components',
+    defaultMessage: 'Thêm các thành phần đã chọn',
     description: 'Problem bank component add button text.',
   },
   videoPickerModalTitle: {
     id: 'course-authoring.course-unit.modal.video-title.text',
-    defaultMessage: 'Select video',
+    defaultMessage: 'Chọn video',
     description: 'Video picker modal title.',
   },
   modalContainerTitle: {
     id: 'course-authoring.course-unit.modal.container.title',
-    defaultMessage: 'Add {componentTitle} component',
+    defaultMessage: 'Thêm thành phần {componentTitle}',
     description: 'Modal title for adding components',
   },
   modalContainerCancelBtnText: {
     id: 'course-authoring.course-unit.modal.container.cancel.button.text',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
     description: 'Modal cancel button text.',
   },
   modalComponentSupportLabelFullySupported: {
     id: 'course-authoring.course-unit.modal.component.support.label.fully-supported',
-    defaultMessage: 'Fully supported',
+    defaultMessage: 'Được hỗ trợ đầy đủ',
     description: 'Label for advance problem type\'s support status with full platform support',
   },
   modalComponentSupportLabelProvisionallySupported: {
     id: 'course-authoring.course-unit.modal.component.support.label.provisionally-support',
-    defaultMessage: 'Provisionally supported',
+    defaultMessage: 'Được hỗ trợ tạm thời',
     description: 'Label for advance problem type\'s support status with provisional platform support',
   },
   modalComponentSupportLabelNotSupported: {
     id: 'course-authoring.course-unit.modal.component.support.label.not-supported',
-    defaultMessage: 'Not supported',
+    defaultMessage: 'Không được hỗ trợ',
     description: 'Label for advance problem type\'s support status with no platform support',
   },
   modalComponentSupportTooltipFullySupported: {
     id: 'course-authoring.course-unit.modal.component.support.tooltip.fully-supported',
-    defaultMessage: 'Fully supported tools and features are available for Open edX installations, '
-      + 'are fully tested, have user interfaces where applicable, and are documented in the '
-      + 'official Open edX guides that are available on docs.openedx.org.',
+    defaultMessage: 'Các công cụ và tính năng được hỗ trợ đầy đủ có sẵn cho các cài đặt Open edX, '
+      + 'được kiểm thử đầy đủ, có giao diện người dùng (nếu có), và được ghi lại trong '
+      + 'tài liệu chính thức của Open edX tại docs.openedx.org.',
     description: 'Message for support status tooltip for modules with full platform support',
   },
   modalComponentSupportTooltipNotSupported: {
     id: 'course-authoring.course-unit.modal.component.support.tooltip.not-supported',
-    defaultMessage: 'Tools with no support are not maintained by the Open edX community, '
-      + 'and might be deprecated in the future. They are not recommended for use in '
-      + 'courses due to non-compliance with one or more of the base requirements, such as '
-      + 'testing, accessibility, internationalization, and documentation.',
+    defaultMessage: 'Các công cụ không được hỗ trợ sẽ không được cộng đồng Open edX duy trì, '
+      + 'và có thể bị ngừng trong tương lai. Chúng không được khuyến nghị sử dụng trong '
+      + 'các khóa học do không tuân thủ một hoặc nhiều yêu cầu cơ bản như '
+      + 'kiểm thử, khả năng truy cập, quốc tế hóa và tài liệu.',
     description: 'Message for support status tooltip for modules which is not supported',
   },
   modalComponentSupportTooltipProvisionallySupported: {
     id: 'course-authoring.course-unit.modal.component.support.tooltip.provisionally-support',
-    defaultMessage: 'Provisionally supported tools might lack the robustness of functionality '
-      + 'that your courses require. Open edX does not have control over the quality of the software, '
-      + 'or of the content that can be provided using these tools. Test these tools thoroughly '
-      + 'before using them in your course, especially in graded sections. Complete documentation '
-      + 'might not be available for provisionally supported tools, or documentation might be '
-      + 'available from sources other than the Open edX community.',
+    defaultMessage: 'Các công cụ được hỗ trợ tạm thời có thể thiếu sự ổn định hoặc chức năng '
+      + 'mà khóa học của bạn cần. Open edX không kiểm soát chất lượng của phần mềm '
+      + 'hoặc nội dung được cung cấp bằng các công cụ này. Hãy kiểm thử kỹ lưỡng '
+      + 'trước khi sử dụng trong khóa học, đặc biệt là trong các phần có điểm số. '
+      + 'Tài liệu đầy đủ có thể không có sẵn cho các công cụ này, hoặc có thể '
+      + 'được cung cấp từ các nguồn ngoài cộng đồng Open edX.',
     description: 'Message for support status tooltip for modules with provisional platform support',
   },
 });

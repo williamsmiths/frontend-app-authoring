@@ -31,8 +31,8 @@ const ActionButtons = ({
       {(!published || hasChanges) && (
         <Button
           size="sm"
-          className="mt-3.5"
-          variant="outline-primary"
+          className="mt-3.5 custom-outline-btn"
+          variant="outline"
           onClick={handlePublishing}
         >
           {intl.formatMessage(messages.actionButtonPublishTitle)}
@@ -53,7 +53,8 @@ const ActionButtons = ({
           <Divider className="course-unit-sidebar-footer__divider" />
           <Button
             onClick={() => copyToClipboard(id)}
-            variant="outline-primary"
+            variant="outline"
+            className='custom-outline-btn'
             size="sm"
           >
             {intl.formatMessage(messages.actionButtonCopyUnitTitle)}

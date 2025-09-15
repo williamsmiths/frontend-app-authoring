@@ -4,7 +4,7 @@ const messages = defineMessages({
 
   blockFailed: {
     id: 'authoring.problemEditor.blockFailed',
-    defaultMessage: 'Problem failed to load',
+    defaultMessage: 'Không thể tải bài tập',
     description: 'Error message for problem block failing to load',
   },
 });

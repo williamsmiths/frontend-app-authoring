@@ -143,10 +143,10 @@ const AddComponent = ({
 
   if (isUnitVerticalType || isSplitTestType) {
     return (
-      <div className="py-4">
+      <div className="custom-group-progress shadow-sm bg-white p-4 pb-5">
         {Object.keys(componentTemplates).length && isUnitVerticalType ? (
           <>
-            <h5 className="h3 mb-4 text-center">{intl.formatMessage(messages.title)}</h5>
+            <h5 className="h3 mb-4 text-center text-gray-700">{intl.formatMessage(messages.title)}</h5>
             <ul className="new-component-type list-unstyled m-0 d-flex flex-wrap justify-content-center">
               {componentTemplates.map((component) => {
                 const { type, displayName, beta } = component;
