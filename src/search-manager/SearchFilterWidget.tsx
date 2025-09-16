@@ -42,8 +42,9 @@ const SearchFilterWidget: React.FC<{
       <div className="d-flex mr-3">
         <Button
           ref={setTarget}
-          variant={appliedFilters.length ? 'light' : 'outline-primary'}
+          variant={appliedFilters.length ? 'outline' : 'outline'}
           size="sm"
+          className={appliedFilters.length ? 'custom-confirm-btn' : 'custom-icon-filled bg-gray-100'}
           onClick={open}
           iconBefore={props.icon}
           iconAfter={ArrowDropDown}

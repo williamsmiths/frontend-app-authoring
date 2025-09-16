@@ -91,8 +91,8 @@ export const SearchSortWidget = ({
         id="search-sort-toggle"
         title={intl.formatMessage(messages.searchSortWidgetAltTitle)}
         alt={intl.formatMessage(messages.searchSortWidgetAltTitle)}
-        variant="outline-primary"
-        className={classNames('dropdown-toggle-menu-items d-flex', {
+        variant="outline"
+        className={classNames('custom-outline-btn d-flex', {
           'border-0': iconOnly,
         })}
         size="sm"
@@ -100,11 +100,12 @@ export const SearchSortWidget = ({
         <Icon src={SwapVert} className="d-inline" />
         { !iconOnly && <div className="py-0 px-1">{toggleLabel}</div>}
       </Dropdown.Toggle>
-      <Dropdown.Menu>
+      <Dropdown.Menu className="p-2">
         <Dropdown.Header>{menuHeader}</Dropdown.Header>
         {shownMenuItems.map(({ id, name, value }) => (
           <Dropdown.Item
             key={id}
+            className="custom-dropdown-item"
             onClick={() => {
               // If the selected sort option was re-clicked, de-select it (reset to default)
               const searchOrder = value === searchSortOrder ? defaultSearchSortOrder : value;
