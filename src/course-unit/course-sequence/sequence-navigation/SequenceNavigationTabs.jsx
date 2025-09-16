@@ -70,7 +70,7 @@ const SequenceNavigationTabs = ({
           </Button>
           {showPasteUnit && (
             <Button
-              className="sequence-navigation-tabs-action-btn custom-outline-btn"
+              className="sequence-navigation-tabs-action-btn custom-outline-btn ml-2"
               size='sm'
               variant="outline"
               iconBefore={ContentPasteGoIcon}

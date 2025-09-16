@@ -223,7 +223,7 @@ export const CourseLibraries: React.FC<Props> = ({ courseId }) => {
         <section className="mb-4">
           <Tabs
             id="course-library-tabs"
-            className="studio-home-tabs"
+            className="custom-tabs"
             activeKey={tabKey}
             onSelect={tabChange}
           >

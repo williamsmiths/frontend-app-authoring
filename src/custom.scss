@@ -207,3 +207,28 @@ $gray-100: #F3F4F6;
 .btn-icon.btn-icon-primary:focus{
     box-shadow: none !important;
 }
+
+.custom-tabs {
+  border: none;
+  margin-bottom: 1.625rem;
+
+  .nav-link {
+    border-bottom: .125rem solid $gray-100;
+    padding: 15px;
+
+    &:hover {
+      color: $primary-red !important;
+    }
+  }
+
+  .nav-link.active {
+    background-color: transparent;
+    color: $primary-red !important;
+    border-bottom: 2px solid $primary-red !important;
+  }
+}
+
+.nav-tabs .nav-link:focus::before,
+.nav-tabs .nav-item.show .nav-link:focus::before {
+  border: none !important;
+}

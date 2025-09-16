@@ -24,32 +24,37 @@ const CollapsibleFormWidget = ({
   intl,
 }) => (
   <Collapsible.Advanced
-    className="collapsible-card rounded mx-4 my-3 px-4 text-primary-500"
+    className="collapsible-card rounded mx-4 my-3 text-primary-500"
     defaultOpen
     open={isError || undefined}
   >
     <Collapsible.Trigger
-      className="collapsible-trigger d-flex border-0 align-items-center pt-4 p-0"
+      className="collapsible-trigger d-flex border-0 align-items-center"
       style={{ justifyContent: 'unset' }}
     >
-      <Collapsible.Visible whenClosed className="p-0 pb-3">
+      <Collapsible.Visible whenClosed>
         <div className="d-flex flex-column flex-grow-1">
           <div className="d-flex flex-grow-1 w-75 x-small">{title}</div>
-          {subtitle ? <div className={`${fontSize} mb-4 mt-3`}>{subtitle}</div> : <div className="mb-4" />}
+          {subtitle ? <div className={`${fontSize}`}>{subtitle}</div> : <div />}
         </div>
         <div className="d-flex flex-row align-self-start">
           {isError && <Icon className="alert-icon" src={InfoOutline} />}
-          <IconButton alt={intl.formatMessage(messages.expandAltText)} src={ExpandMore} iconAs={Icon} variant="dark" />
+          <IconButton alt={intl.formatMessage(messages.expandAltText)} src={ExpandMore} iconAs={Icon} variant="light"
+            className='custom-dropdown-toggle' />
         </div>
       </Collapsible.Visible>
       <Collapsible.Visible whenOpen>
-        <div className="d-flex flex-grow-1 w-75 x-small">{title}</div>
-        <div className="align-self-start">
-          <IconButton alt={intl.formatMessage(messages.collapseAltText)} src={ExpandLess} iconAs={Icon} variant="dark" />
+        <div className="d-flex flex-column flex-grow-1">
+          <div className="d-flex flex-grow-1 w-75 x-small">{title}</div>
+          <div />
+        </div>
+        <div className="d-flex flex-row align-self-start">
+          <IconButton alt={intl.formatMessage(messages.collapseAltText)} src={ExpandLess} iconAs={Icon} variant="light"
+            className='custom-dropdown-toggle' />
         </div>
       </Collapsible.Visible>
     </Collapsible.Trigger>
-    <Collapsible.Body className={`collapsible-body rounded px-0 ${fontSize} pb-4`}>
+    <Collapsible.Body className={`collapsible-body rounded px-4 ${fontSize} pb-4`}>
       {children}
     </Collapsible.Body>
   </Collapsible.Advanced>

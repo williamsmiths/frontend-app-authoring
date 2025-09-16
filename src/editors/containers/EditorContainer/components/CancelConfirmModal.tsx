@@ -20,7 +20,7 @@ const CancelConfirmModal = ({
       size="lg"
       footerAction={(
         <Button
-          variant="outline-brand"
+          variant="tertiary"
           onClick={() => onCloseEditor?.()}
         >
           <FormattedMessage {...messages.discardChangesButtonlabel} />
@@ -28,7 +28,8 @@ const CancelConfirmModal = ({
       )}
       confirmAction={(
         <Button
-          variant="primary"
+          variant="outline"
+          className='custom-confirm-btn'
           onClick={closeCancelConfirmModal}
         >
           <FormattedMessage {...messages.keepEditingButtonLabel} />

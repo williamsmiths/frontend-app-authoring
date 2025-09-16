@@ -85,7 +85,7 @@ const TopicItem = ({
             {intl.formatMessage(messages.cancelButton)}
           </Button>
           <Button
-            variant="outline-brand"
+            variant="tertiary"
             className="ml-2"
             onClick={onDelete}
           >

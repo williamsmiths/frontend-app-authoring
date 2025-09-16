@@ -191,7 +191,7 @@ const TabsSection = ({
 
   return (
     <Tabs
-      className="studio-home-tabs"
+      className="custom-tabs"
       variant="tabs"
       activeKey={tabKey}
       onSelect={handleSelectTab}

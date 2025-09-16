@@ -80,21 +80,21 @@ const HeaderActions = () => {
   return (
     <div className="header-actions">
       <Button
-        className={classNames('mr-1', {
+        className={classNames('mr-1 custom-outline-btn', {
           'normal-border': !infoSidebarIsOpen,
           'open-border': infoSidebarIsOpen,
         })}
         iconBefore={InfoOutline}
-        variant="outline-primary rounded-0"
+        variant="outline"
         onClick={handleOnClickInfoSidebar}
       >
         {intl.formatMessage(messages.libraryInfoButton)}
       </Button>
       {!componentPickerMode && (
         <Button
-          className="ml-1"
+          className="ml-1 custom-confirm-btn"
           iconBefore={Add}
-          variant="primary rounded-0"
+          variant="primary"
           onClick={openAddContentSidebar}
           disabled={readOnly}
         >
@@ -262,7 +262,7 @@ const LibraryAuthoringPage = ({
     [ContentType.units]: intl.formatMessage(messages.unitsTab),
   };
   const visibleTabsToRender = visibleTabs.map((contentType) => (
-    <Tab key={contentType} eventKey={contentType} title={tabTitles[contentType]} />
+    <Tab key={contentType} eventKey={contentType} title={tabTitles[contentType]} className="nav-item nav-link custom-nav-link"/>
   ));
 
   return (
@@ -297,7 +297,7 @@ const LibraryAuthoringPage = ({
               variant="tabs"
               activeKey={activeKey}
               onSelect={handleTabChange}
-              className="my-3"
+              className="custom-tabs"
             >
               {visibleTabsToRender}
             </Tabs>

@@ -133,6 +133,9 @@ const EditorContainer: React.FC<Props> = ({
           <IconButton
             src={Close}
             iconAs={Icon}
+            variant='light'
+            size='sm'
+            className='custom-icon-filled'
             onClick={confirmCancelIfDirty}
             alt={intl.formatMessage(messages.exitButtonAlt)}
           />

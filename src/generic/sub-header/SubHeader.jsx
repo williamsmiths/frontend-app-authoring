@@ -18,8 +18,8 @@ const SubHeader = ({
     {breadcrumbs && (
       <div className="sub-header-breadcrumbs">{breadcrumbs}</div>
     )}
-    <header className="sub-header">
-      <h2 className="sub-header-title">
+    <header className="sub-header my-2">
+      <h2 className="sub-header-title mb-0">
         <small className="sub-header-title-subtitle">{subtitle}</small>
         {title}
         {titleActions && (
