@@ -3,12 +3,12 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   warningTitle: {
     id: 'course-authoring.generic.saving-error-alert.title',
-    defaultMessage: 'Studio\'s having trouble saving your work',
+    defaultMessage: 'Studio gặp sự cố khi lưu công việc của bạn',
     description: 'Title for an alert indicating saving error in the studio environment',
   },
   warningDescription: {
     id: 'course-authoring.generic.saving-error-alert.description',
-    defaultMessage: 'This may be happening because of an error with our server or your internet connection. Try refreshing the page or making sure you are online.',
+    defaultMessage: 'Điều này có thể xảy ra do lỗi từ máy chủ của chúng tôi hoặc kết nối Internet của bạn. Hãy thử làm mới trang hoặc đảm bảo rằng bạn đang trực tuyến.',
     description: 'Description providing possible reasons and solutions for saving error in the studio environment',
   },
   warningTitleAriaLabelledBy: {

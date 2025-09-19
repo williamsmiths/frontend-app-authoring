@@ -4,17 +4,17 @@ const messages = defineMessages({
 
   solutionWidgetTitle: {
     id: 'authoring.problemEditor.explanationwidget.explanationWidgetTitle',
-    defaultMessage: 'Explanation',
+    defaultMessage: 'Giải thích',
     description: 'Explanation Title',
   },
   solutionDescriptionText: {
     id: 'authoring.problemEditor.explanationwidget.solutionDescriptionText',
-    defaultMessage: 'Provide an explanation for the correct answer',
+    defaultMessage: 'Thêm phần giải thích cho đáp án đúng',
     description: 'Description of the solution widget',
   },
   placeholder: {
     id: 'authoring.problemEditor.explanationwidget.placeholder',
-    defaultMessage: 'Enter your explanation',
+    defaultMessage: 'Nhập nội dung giải thích',
     description: 'Placeholder text for tinyMCE editor',
   },
 });

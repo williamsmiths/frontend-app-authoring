@@ -3,16 +3,16 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   transcriptSettingsTitle: {
     id: 'course-authoring.video-uploads.transcriptSettings.title',
-    defaultMessage: 'Transcript settings',
+    defaultMessage: 'Cài đặt phụ đề',
     description: 'Title for transcript settings sheet',
   },
   invalidCielo24TranscriptionPlanMessage: {
     id: 'course-authoring.video-uploads.transcriptSettings.cielo24.errorAlert.message',
-    defaultMessage: 'No transcription plans found for Cielo24.',
+    defaultMessage: 'Không tìm thấy gói phụ đề cho Cielo24.',
   },
   invalid3PlayMediaTranscriptionPlanMessage: {
     id: 'course-authoring.video-uploads.transcriptSettings.3PlayMedia.errorAlert.message',
-    defaultMessage: 'No transcription plans found for 3PlayMedia.',
+    defaultMessage: 'Không tìm thấy gói phụ đề cho 3PlayMedia.',
   },
   errorAlertMessage: {
     id: 'course-authoring.video-uploads.transcriptSettings.errorAlert.message',
@@ -20,12 +20,12 @@ const messages = defineMessages({
   },
   orderTranscriptsTitle: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.title',
-    defaultMessage: 'Order transcripts',
+    defaultMessage: 'Sắp xếp phụ đề',
     description: 'Title for order transcript collapsible',
   },
   noneLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.none.label',
-    defaultMessage: 'None',
+    defaultMessage: 'Không có',
     description: 'Label for order transcript None option',
   },
   cieloLabel: {
@@ -40,52 +40,52 @@ const messages = defineMessages({
   },
   updateSettingsLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.updateSettings.label',
-    defaultMessage: 'Update settings',
+    defaultMessage: 'Cập nhật cài đặt',
     description: 'Label for  order transcript update settings button',
   },
   discardSettingsLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.discardSettings.label',
-    defaultMessage: 'Discard changes',
+    defaultMessage: 'Hủy thay đổi',
     description: 'Label for order transcript discard settings button',
   },
   lastUpdatedMessage: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.lastUpdated.message',
-    defaultMessage: 'Last updated',
+    defaultMessage: 'Cập nhật lần cuối',
     description: 'Message that lets user know when the update was made to transcript settings',
   },
   threePlayMediaTurnaroundLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.3PlayMedia.turnaround.label',
-    defaultMessage: 'Transcript turnaround',
+    defaultMessage: 'Thời gian hoàn thành phụ đề',
     description: 'Label for 3Play Media transcript turnaround dropdown',
   },
   threePlayMediaTurnaroundPlaceholder: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.3PlayMedia.turnaround.dropdown.placeholder',
-    defaultMessage: 'Select turnaround',
+    defaultMessage: 'Chọn thời gian hoàn thành',
     description: 'Label for 3Play Media transcript turnaround dropdown placeholder',
   },
   threePlayMediaSourceLanguageLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.3PlayMedia.sourceLanguage.label',
-    defaultMessage: 'Video source language',
+    defaultMessage: 'Ngôn ngữ gốc video',
     description: 'Label for 3Play Media video source language dropdown',
   },
   threePlayMediaSourceLanguagePlaceholder: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.3PlayMedia.sourceLanguage.dropdown.placeholder',
-    defaultMessage: 'Select language',
+    defaultMessage: 'Chọn ngôn ngữ',
     description: 'Label for 3Play Media video source language dropdown placeholder',
   },
   threePlayMediaTranscriptLanguageLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.3PlayMedia.transcriptLanguage.label',
-    defaultMessage: 'Transcript language',
+    defaultMessage: 'Ngôn ngữ phụ đề',
     description: 'Label for 3Play Media video source language dropdown',
   },
   threePlayMediaTranscriptLanguagePlaceholder: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.3PlayMedia.transcriptLanguage.dropdown.placeholder',
-    defaultMessage: 'Select language(s)',
-    description: 'Label for 3Play Media transcript  language dropdown placeholder',
+    defaultMessage: 'Chọn ngôn ngữ',
+    description: 'Label for 3Play Media transcript language dropdown placeholder',
   },
   threePlayMediaCredentialMessage: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.3PlayMedia.credential.message',
-    defaultMessage: 'Enter the account information for your organization.',
+    defaultMessage: 'Nhập thông tin tài khoản cho tổ chức của bạn.',
     description: 'Message for 3Play Media credential view',
   },
   threePlayMediaApiKeyLabel: {
@@ -100,47 +100,47 @@ const messages = defineMessages({
   },
   cieloTurnaroundLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.turnaround.label',
-    defaultMessage: 'Transcript turnaround',
+    defaultMessage: 'Thời gian hoàn thành phụ đề',
     description: 'Label for Cielo24 transcript turnaround dropdown',
   },
   cieloTurnaroundPlaceholder: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.turnaround.dropdown.placeholder',
-    defaultMessage: 'Select turnaround',
+    defaultMessage: 'Chọn thời gian hoàn thành',
     description: 'Label for Cielo24 transcript turnaround dropdown placeholder',
   },
   cieloFidelityLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.fidelity.label',
-    defaultMessage: 'Transcript fidelity',
+    defaultMessage: 'Độ chính xác phụ đề',
     description: 'Label for Cielo24 transcript fidelity dropdown',
   },
   cieloFidelityPlaceholder: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.fidelity.dropdown.placeholder',
-    defaultMessage: 'Select fidelity',
+    defaultMessage: 'Chọn độ chính xác',
     description: 'Label for Cielo24 transcript fidelity dropdown placeholder',
   },
   cieloSourceLanguageLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.sourceLanguage.label',
-    defaultMessage: 'Video source language',
+    defaultMessage: 'Ngôn ngữ gốc video',
     description: 'Label for Cielo24 video source language dropdown',
   },
   cieloSourceLanguagePlaceholder: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.sourceLanguage.dropdown.placeholder',
-    defaultMessage: 'Select language',
+    defaultMessage: 'Chọn ngôn ngữ',
     description: 'Label for Cielo24 video source language dropdown placeholder',
   },
   cieloTranscriptLanguageLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.transcriptLanguage.label',
-    defaultMessage: 'Transcript language',
+    defaultMessage: 'Ngôn ngữ phụ đề',
     description: 'Label for Cielo24 video source language dropdown',
   },
   cieloTranscriptLanguagePlaceholder: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.transcriptLanguage.dropdown.placeholder',
-    defaultMessage: 'Select language',
-    description: 'Label for Cielo24 transcript  language dropdown placeholder',
+    defaultMessage: 'Chọn ngôn ngữ',
+    description: 'Label for Cielo24 transcript language dropdown placeholder',
   },
   cieloCredentialMessage: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.credential.message',
-    defaultMessage: 'Enter the account information for your organization.',
+    defaultMessage: 'Nhập thông tin tài khoản cho tổ chức của bạn.',
     description: 'Message for Cielo24 credential view',
   },
   cieloApiKeyLabel: {
@@ -150,7 +150,7 @@ const messages = defineMessages({
   },
   cieloUsernameLabel: {
     id: 'course-authoring.video-uploads.transcriptSettings.orderTranscripts.cielo24.username.label',
-    defaultMessage: 'Username',
+    defaultMessage: 'Tên đăng nhập',
     description: 'Label for Cielo24 username input',
   },
 });

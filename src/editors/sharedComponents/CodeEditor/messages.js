@@ -4,7 +4,7 @@ const messages = defineMessages({
 
   escapeHTMLButtonLabel: {
     id: 'authoring.texteditor.codeEditor.escapeHTMLButton',
-    defaultMessage: 'Unescape HTML Literals',
+    defaultMessage: 'Giải mã ký tự HTML đặc biệt',
     description: 'Label For escape special html charectars button',
   },
 });

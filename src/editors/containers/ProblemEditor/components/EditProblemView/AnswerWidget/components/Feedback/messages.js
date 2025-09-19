@@ -4,32 +4,32 @@ const messages = defineMessages({
 
   feedbackPlaceholder: {
     id: 'authoring.answerwidget.feedback.placeholder',
-    defaultMessage: 'Feedback message',
+    defaultMessage: 'Nhập phản hồi',
     description: 'Placeholder text for feedback text',
   },
   feedbackToggleIconAltText: {
     id: 'authoring.answerwidget.feedback.icon.alt',
-    defaultMessage: 'Toggle feedback',
+    defaultMessage: 'Bật/tắt phản hồi',
     description: 'Alt text for feedback toggle icon',
   },
   selectedFeedbackLabel: {
     id: 'authoring.answerwidget.feedback.selected.label',
-    defaultMessage: 'Show following feedback when {answerId} {boldunderline}:',
+    defaultMessage: 'Hiển thị phản hồi khi {answerId} {boldunderline}:',
     description: 'Label text for feedback if option is selected',
   },
   selectedFeedbackLabelBoldUnderlineText: {
     id: 'authoring.answerwidget.feedback.selected.label.boldunderline',
-    defaultMessage: 'is selected',
+    defaultMessage: 'được chọn',
     description: 'Bold & underlined text for feedback if option is selected',
   },
   unSelectedFeedbackLabel: {
     id: 'authoring.answerwidget.feedback.unselected.label',
-    defaultMessage: 'Show following feedback when {answerId} {boldunderline}:',
+    defaultMessage: 'Hiển thị phản hồi khi {answerId} {boldunderline}:',
     description: 'Label text for feedback if option is not selected',
   },
   unSelectedFeedbackLabelBoldUnderlineText: {
     id: 'authoring.answerwidget.feedback.unselected.label.boldunderline',
-    defaultMessage: 'is not selected',
+    defaultMessage: 'không được chọn',
     description: 'Bold & underlined text for feedback if option is not selected',
   },
 });

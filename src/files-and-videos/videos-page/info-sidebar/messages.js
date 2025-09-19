@@ -3,32 +3,32 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   infoTabTitle: {
     id: 'course-authoring.video-uploads.file-info.infoTab.title',
-    defaultMessage: 'Info',
+    defaultMessage: 'Thông tin',
     description: 'Title for info tab',
   },
   transcriptTabTitle: {
     id: 'course-authoring.video-uploads.file-info.transcriptTab.title',
-    defaultMessage: 'Transcript ({transcriptCount})',
+    defaultMessage: 'Bản ghi âm ({transcriptCount})',
     description: 'Title for info tab',
   },
   notificationScreenReaderText: {
     id: 'course-authoring.video-uploads.file-info.transcriptTab.notification.screenReader.text',
-    defaultMessage: 'Transcription error',
+    defaultMessage: 'Lỗi phiên âm',
     description: 'Scrren reader text for transcript tab notification',
   },
   dateAddedTitle: {
     id: 'course-authoring.video-uploads.file-info.infoTab.dateAdded.title',
-    defaultMessage: 'Date added',
+    defaultMessage: 'Ngày thêm',
     description: 'Title for date added section',
   },
   fileSizeTitle: {
     id: 'course-authoring.video-uploads.file-info.infoTab.fileSize.title',
-    defaultMessage: 'File size',
+    defaultMessage: 'Kích thước tệp',
     description: 'Title for file size section',
   },
   videoLengthTitle: {
     id: 'course-authoring.video-uploads.file-info.infoTab.videoLength.title',
-    defaultMessage: 'Video length',
+    defaultMessage: 'Độ dài video',
     description: 'Title for video length section',
   },
   errorAlertMessage: {
@@ -37,7 +37,7 @@ const messages = defineMessages({
   },
   uploadButtonLabel: {
     id: 'course-authoriong.video-uploads.file-info.transcriptTab.upload.label',
-    defaultMessage: 'Add a transcript',
+    defaultMessage: 'Thêm bản ghi âm',
     description: 'Label for upload button',
   },
 });

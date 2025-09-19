@@ -3,52 +3,52 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   collectionButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.collection',
-    defaultMessage: 'Collection',
+    defaultMessage: 'Bộ sưu tập',
     description: 'Content of button to create a Collection.',
   },
   unitButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.unit',
-    defaultMessage: 'Unit',
+    defaultMessage: 'Đơn vị',
     description: 'Content of button to create a Unit.',
   },
   libraryContentButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.library-content',
-    defaultMessage: 'Existing Library Content',
+    defaultMessage: 'Nội dung thư viện hiện có',
     description: 'Content of button to add existing library content to a collection.',
   },
   addToCollectionButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.library-content.add-to-collection',
-    defaultMessage: 'Add to Collection',
+    defaultMessage: 'Thêm vào Bộ sưu tập',
     description: 'Button to add library content to a collection.',
   },
   addToUnitButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.library-content.add-to-unit',
-    defaultMessage: 'Add to Unit',
+    defaultMessage: 'Thêm vào Đơn vị',
     description: 'Button to add library content to a unit.',
   },
   selectedComponents: {
     id: 'course-authoring.library-authoring.add-content.selected-components',
-    defaultMessage: '{count, plural, one {# Selected Component} other {# Selected Components}}',
+    defaultMessage: '{count, plural, one {# Thành phần đã chọn} other {# Thành phần đã chọn}}',
     description: 'Title for selected components in library.',
   },
   textTypeButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.types.text',
-    defaultMessage: 'Text',
+    defaultMessage: 'Văn bản',
     description: 'Content of button to create a Text component.',
   },
   problemTypeButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.types.problem',
-    defaultMessage: 'Problem',
+    defaultMessage: 'Bài tập',
     description: 'Content of button to create a Problem component.',
   },
   openResponseTypeButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.types.open-response',
-    defaultMessage: 'Open Reponse',
+    defaultMessage: 'Trả lời mở',
     description: 'Content of button to create a Open Response component.',
   },
   dragDropTypeButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.types.drag-drop',
-    defaultMessage: 'Drag Drop',
+    defaultMessage: 'Kéo thả',
     description: 'Content of button to create a Drag Drod component.',
   },
   videoTypeButton: {
@@ -58,27 +58,27 @@ const messages = defineMessages({
   },
   otherTypeButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.types.other',
-    defaultMessage: 'Advanced / Other',
+    defaultMessage: 'Nâng cao / Khác',
     description: 'Content of button to create a Advanced / Other component.',
   },
   pasteButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.paste',
-    defaultMessage: 'Paste From Clipboard',
+    defaultMessage: 'Dán từ Clipboard',
     description: 'Content of button to paste from clipboard.',
   },
   successCreateMessage: {
     id: 'course-authoring.library-authoring.add-content.success.text',
-    defaultMessage: 'Content created successfully.',
+    defaultMessage: 'Tạo nội dung thành công.',
     description: 'Message when creation of content in library is success',
   },
   errorCreateMessage: {
     id: 'course-authoring.library-authoring.add-content.error.text',
-    defaultMessage: 'There was an error creating the content.',
+    defaultMessage: 'Có lỗi xảy ra khi tạo nội dung.',
     description: 'Message when creation of content in library is on error.',
   },
   errorCreateMessageWithDetail: {
     id: 'course-authoring.library-authoring.add-content.error.text-detail',
-    defaultMessage: 'There was an error creating the content: {detail}',
+    defaultMessage: 'Có lỗi xảy ra khi tạo nội dung: {detail}',
     description: (
       'Message when creation of content in library is on error.'
       + ' The {detail} text provides more information about the error.'
@@ -86,32 +86,32 @@ const messages = defineMessages({
   },
   successAssociateComponentToContainerMessage: {
     id: 'course-authoring.library-authoring.associate-container-content.success.text',
-    defaultMessage: 'Content linked successfully.',
+    defaultMessage: 'Liên kết nội dung thành công.',
     description: 'Message when linking of content to a container in library is success',
   },
   errorAssociateComponentToContainerMessage: {
     id: 'course-authoring.library-authoring.associate-container-content.error.text',
-    defaultMessage: 'There was an error linking the content to this container.',
+    defaultMessage: 'Có lỗi xảy ra khi liên kết nội dung với container này.',
     description: 'Message when linking of content to a container in library fails',
   },
   addContentTitle: {
     id: 'course-authoring.library-authoring.sidebar.title.add-content',
-    defaultMessage: 'Add Content',
+    defaultMessage: 'Thêm nội dung',
     description: 'Title of add content in library container.',
   },
   successPasteClipboardMessage: {
     id: 'course-authoring.library-authoring.paste-clipboard.success.text',
-    defaultMessage: 'Content pasted successfully.',
+    defaultMessage: 'Dán nội dung thành công.',
     description: 'Message when pasting clipboard in library is successful',
   },
   errorPasteClipboardMessage: {
     id: 'course-authoring.library-authoring.paste-clipboard.error.text',
-    defaultMessage: 'There was an error pasting the content.',
+    defaultMessage: 'Có lỗi xảy ra khi dán nội dung.',
     description: 'Message when pasting clipboard in library errors',
   },
   errorPasteClipboardMessageWithDetail: {
     id: 'course-authoring.library-authoring.paste-clipboard.error.text-detail',
-    defaultMessage: 'There was an error pasting the content: {detail}',
+    defaultMessage: 'Có lỗi xảy ra khi dán nội dung: {detail}',
     description: (
       'Message when pasting clipboard in library errors.'
       + ' The {detail} text provides more information about the error.'
@@ -119,17 +119,17 @@ const messages = defineMessages({
   },
   pastingClipboardMessage: {
     id: 'course-authoring.library-authoring.paste-clipboard.loading.text',
-    defaultMessage: 'Pasting content from clipboard...',
+    defaultMessage: 'Đang dán nội dung từ clipboard...',
     description: 'Message when in process of pasting content in library',
   },
   unsupportedBlockPasteClipboardMessage: {
     id: 'course-authoring.library-authoring.paste-clipboard.unsupportedblock-error.text',
-    defaultMessage: 'Libraries do not support this type of content yet.',
+    defaultMessage: 'Thư viện hiện chưa hỗ trợ loại nội dung này.',
     description: 'Message when unsupported block is pasted in library',
   },
   backToAddContentListButton: {
     id: 'course-authoring.library-authoring.add-content.buttons.back',
-    defaultMessage: 'Back to List',
+    defaultMessage: 'Quay lại danh sách',
     description: 'Messag of button in advanced creation view to return to the main creation view.',
   },
 });

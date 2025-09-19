@@ -3,55 +3,55 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   exportedDataTitle: {
     id: 'course-authoring.export.footer.exportedData.title',
-    defaultMessage: 'Data exported with your course:',
+    defaultMessage: 'Dữ liệu được xuất cùng khóa học của bạn:',
   },
   exportedDataItem1: {
     id: 'course-authoring.export.footer.exportedData.item.1',
-    defaultMessage: 'Values from Advanced settings, including MATLAB API keys and LTI passports',
+    defaultMessage: 'Giá trị từ Cài đặt nâng cao, bao gồm khóa API MATLAB và LTI passport',
   },
   exportedDataItem2: {
     id: 'course-authoring.export.footer.exportedData.item.2',
-    defaultMessage: 'Course content (all sections, sub-sections, and units)',
+    defaultMessage: 'Nội dung khóa học (tất cả các phần, mục con và đơn vị)',
   },
   exportedDataItem3: {
     id: 'course-authoring.export.footer.exportedData.item.3',
-    defaultMessage: 'Course structure',
+    defaultMessage: 'Cấu trúc khóa học',
   },
   exportedDataItem4: {
     id: 'course-authoring.export.footer.exportedData.item.4',
-    defaultMessage: 'Individual problems',
+    defaultMessage: 'Các bài tập riêng lẻ',
   },
   exportedDataItem5: {
     id: 'course-authoring.export.footer.exportedData.item.5',
-    defaultMessage: 'Pages',
+    defaultMessage: 'Các trang',
   },
   exportedDataItem6: {
     id: 'course-authoring.export.footer.exportedData.item.6',
-    defaultMessage: 'Course assets',
+    defaultMessage: 'Tài nguyên khóa học',
   },
   exportedDataItem7: {
     id: 'course-authoring.export.footer.exportedData.item.7',
-    defaultMessage: 'Course settings',
+    defaultMessage: 'Cài đặt khóa học',
   },
   notExportedDataTitle: {
     id: 'course-authoring.export.footer.notExportedData.title',
-    defaultMessage: 'Data not exported with your course:',
+    defaultMessage: 'Dữ liệu không được xuất cùng khóa học của bạn:',
   },
   notExportedDataItem1: {
     id: 'course-authoring.export.footer.notExportedData.item.1',
-    defaultMessage: 'User data',
+    defaultMessage: 'Dữ liệu người dùng',
   },
   notExportedDataItem2: {
     id: 'course-authoring.export.footer.notExportedData.item.2',
-    defaultMessage: 'Course team data',
+    defaultMessage: 'Dữ liệu nhóm khóa học',
   },
   notExportedDataItem3: {
     id: 'course-authoring.export.footer.notExportedData.item.3',
-    defaultMessage: 'Forum/discussion data',
+    defaultMessage: 'Dữ liệu diễn đàn/thảo luận',
   },
   notExportedDataItem4: {
     id: 'course-authoring.export.footer.notExportedData.item.4',
-    defaultMessage: 'Certificates',
+    defaultMessage: 'Chứng chỉ',
   },
 });
 
