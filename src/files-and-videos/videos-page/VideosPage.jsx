@@ -284,7 +284,7 @@ const VideosPage = ({
           ) : null}
         </ActionRow>
         {loadingStatus !== RequestStatus.FAILED && (
-          <>
+          <div className='bg-white shadow p-4 rounded mt-4'>
             {isVideoTranscriptEnabled && (
               <TranscriptSettings
                 {...{
@@ -314,7 +314,7 @@ const VideosPage = ({
                 files: videos,
               }}
             />
-          </>
+          </div>
         )}
         <UploadModal
           {...{

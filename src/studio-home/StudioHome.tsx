@@ -152,7 +152,7 @@ const StudioHome = () => {
               <CreateNewCourseForm handleOnClickCancel={() => setShowNewCourseContainer(false)} />
             )}
             {isShowOrganizationDropdown && <OrganizationSection />}
-            <div className='custom-group-progress p-4 my-4 shadow-sm bg-white'>
+            <div className='custom-group-progress p-4 shadow-sm bg-white'>
               <TabsSection
                 showNewCourseContainer={showNewCourseContainer}
                 onClickNewCourse={() => setShowNewCourseContainer(true)}

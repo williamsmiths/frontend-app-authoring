@@ -193,7 +193,7 @@ const FilesPage = ({
           <FormattedMessage {...messages.heading} />
         </div>
         {loadingStatus !== RequestStatus.FAILED && (
-          <>
+          <div className='bg-white shadow p-4 rounded mt-4'>
             <FileTable
               {...{
                 courseId,
@@ -213,7 +213,7 @@ const FilesPage = ({
               }}
             />
             <FileValidationModal {...{ handleFileOverwrite }} />
-          </>
+          </div>
         )}
       </Container>
     </FilesPageProvider>

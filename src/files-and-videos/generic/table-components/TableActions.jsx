@@ -40,14 +40,15 @@ const TableActions = ({
 
   return (
     <>
-      <Button variant="outline-primary" onClick={openSort} iconBefore={Tune}>
+      <Button variant="outline" className='custom-outline-btn' onClick={openSort} iconBefore={Tune}>
         <FormattedMessage {...messages.sortButtonLabel} />
       </Button>
       <Dropdown className="mx-2">
         <Dropdown.Toggle
           id="actions-menu-toggle"
           alt="actions-menu-toggle"
-          variant="outline-primary"
+          variant="outline"
+          className='custom-outline-btn'
         >
           <FormattedMessage {...messages.actionsButtonLabel} />
         </Dropdown.Toggle>
@@ -76,7 +77,7 @@ const TableActions = ({
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Button iconBefore={Add} onClick={handleOpenFileSelector}>
+      <Button iconBefore={Add} onClick={handleOpenFileSelector} variant="outline" className='custom-confirm-btn'>
         {intl.formatMessage(messages.addFilesButtonLabel, { fileType })}
       </Button>
       <SortAndFilterModal {...{ isSortOpen, closeSort, handleSort }} />
