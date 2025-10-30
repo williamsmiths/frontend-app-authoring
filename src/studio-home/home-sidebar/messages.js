@@ -3,47 +3,47 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   aboutTitle: {
     id: 'course-authoring.studio-home.sidebar.about.title',
-    defaultMessage: 'Mới làm quen với {studioName}?',
+    defaultMessage: 'New to {studioName}?',
   },
   aboutDescription: {
     id: 'course-authoring.studio-home.sidebar.about.description',
-    defaultMessage: 'Nhấp vào "Looking for help with Studio" ở cuối trang để truy cập tài liệu liên tục được cập nhật và các tài nguyên {studioShortName} khác.',
+    defaultMessage: 'Click "Looking for help with Studio" at the bottom of the page to access our continually updated documentation and other {studioShortName} resources.',
   },
   studioHomeLinkToGettingStarted: {
     id: 'course-authoring.studio-home.sidebar.about.getting-started',
-    defaultMessage: 'Bắt đầu với {studioName}',
+    defaultMessage: 'Getting started with {studioName}',
   },
   sidebarHeader2: {
     id: 'course-authoring.studio-home.sidebar.about.header-2',
-    defaultMessage: 'Tôi có thể tạo khóa học trong {studioName} không?',
+    defaultMessage: 'Can I create courses in {studioName}?',
   },
   sidebarDescription2: {
     id: 'course-authoring.studio-home.sidebar.about.description-2',
-    defaultMessage: 'Để tạo khóa học trong {studioName}, bạn cần {mailTo}',
+    defaultMessage: 'In order to create courses in {studioName}, you must {mailTo}',
   },
   sidebarDescription2MailTo: {
     id: 'course-authoring.studio-home.sidebar.about.description-2.mail-to',
-    defaultMessage: 'liên hệ với nhân viên {platformName} để được hỗ trợ tạo khóa học.',
+    defaultMessage: 'contact {platformName} staff to help you create a course.',
   },
   sidebarHeader3: {
     id: 'course-authoring.studio-home.sidebar.about.header-3',
-    defaultMessage: 'Tôi có thể tạo khóa học trong {studioName} không?',
+    defaultMessage: 'Can I create courses in {studioName}?',
   },
   sidebarDescription3: {
     id: 'course-authoring.studio-home.sidebar.about.description-3',
-    defaultMessage: 'Để tạo khóa học trong {studioName}, bạn phải có quyền tạo khóa học để tự tạo khóa học của riêng mình.',
+    defaultMessage: 'In order to create courses in {studioName}, you must have course creator privileges to create your own course.',
   },
   sidebarHeader4: {
     id: 'course-authoring.studio-home.sidebar.about.header-4',
-    defaultMessage: 'Tôi có thể tạo khóa học trong {studioName} không?',
+    defaultMessage: 'Can I create courses in {studioName}?',
   },
   sidebarDescription4: {
     id: 'course-authoring.studio-home.sidebar.about.description-4',
-    defaultMessage: 'Yêu cầu của bạn để tạo khóa học trong {studioName} đã bị từ chối. Vui lòng {mailTo}.',
+    defaultMessage: 'Your request to author courses in {studioName} has been denied. Please {mailTo}.',
   },
   sidebarDescription4MailTo: {
     id: 'course-authoring.studio-home.sidebar.about.description-4.mail-to',
-    defaultMessage: 'liên hệ với nhân viên {platformName} nếu có thắc mắc thêm',
+    defaultMessage: 'contact {platformName} staff with further questions',
   },
 });
 

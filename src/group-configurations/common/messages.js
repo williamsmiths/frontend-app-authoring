@@ -8,12 +8,12 @@ const messages = defineMessages({
   },
   accessTo: {
     id: 'course-authoring.group-configurations.container.access-to',
-    defaultMessage: 'Nhóm này kiểm soát quyền truy cập vào:',
+    defaultMessage: 'This group controls access to:',
     description: 'Indicates that the units are contained in content group',
   },
   experimentAccessTo: {
     id: 'course-authoring.group-configurations.experiment-card.experiment-access-to',
-    defaultMessage: 'Cấu hình nhóm này được sử dụng trong:',
+    defaultMessage: 'This group configuration is used in:',
     description: 'Indicates that the units are contained in experiment configurations',
   },
 });

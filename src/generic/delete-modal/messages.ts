@@ -3,23 +3,23 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   title: {
     id: 'course-authoring.course-outline.delete-modal.title',
-    defaultMessage: 'Xóa {category} này?',
+    defaultMessage: 'Delete this {category}?',
   },
   description: {
     id: 'course-authoring.course-outline.delete-modal.description',
-    defaultMessage: 'Việc xóa {category} này là vĩnh viễn và không thể hoàn tác.',
+    defaultMessage: 'Deleting this {category} is permanent and cannot be undone.',
   },
   deleteButton: {
     id: 'course-authoring.course-outline.delete-modal.button.delete',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   pendingDeleteButton: {
     id: 'course-authoring.course-outline.delete-modal.button.pending-delete',
-    defaultMessage: 'Đang xóa',
+    defaultMessage: 'Deleting',
   },
   cancelButton: {
     id: 'course-authoring.course-outline.delete-modal.button.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
 });
 

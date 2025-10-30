@@ -4,27 +4,27 @@ const messages = defineMessages({
 
   loading: {
     id: 'authoring.texteditor.title.loading',
-    defaultMessage: 'Đang tải...',
+    defaultMessage: 'Loading...',
     description: 'Message displayed while loading content',
   },
   cancelChangesLabel: {
     id: 'authoring.texteditor.header.cancelChangesLabel',
-    defaultMessage: 'Hủy thay đổi và quay lại ngữ cảnh học tập',
+    defaultMessage: 'Cancel Changes and Return to Learning Context',
     description: 'Screen reader label title for icon button to return to learning context',
   },
   editTitleLabel: {
     id: 'authoring.texteditor.header.editTitleLabel',
-    defaultMessage: 'Chỉnh sửa tiêu đề',
+    defaultMessage: 'Edit Title',
     description: 'Screen reader label title for icon button to edit the xblock title',
   },
   cancelTitleEdit: {
     id: 'authoring.texteditor.header.cancelTitleEdit',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
     description: 'Screen reader label title for icon button to edit the xblock title',
   },
   saveTitleEdit: {
     id: 'authoring.texteditor.header.saveTitleEdit',
-    defaultMessage: 'Lưu',
+    defaultMessage: 'Save',
     description: 'Screen reader label title for icon button to edit the xblock title',
   },
 });

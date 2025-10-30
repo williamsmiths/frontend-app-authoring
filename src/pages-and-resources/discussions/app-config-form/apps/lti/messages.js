@@ -3,92 +3,92 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   documentationPage: {
     id: 'authoring.discussions.documentationPage',
-    defaultMessage: 'Truy cập trang tài liệu {name}',
+    defaultMessage: 'Visit the {name} documentation page',
   },
   formInstructions: {
     id: 'authoring.discussions.formInstructions',
-    defaultMessage: 'Hoàn thành các trường dưới đây để thiết lập công cụ thảo luận của bạn.',
+    defaultMessage: 'Complete the fields below to set up your discussion tool.',
   },
   consumerKey: {
     id: 'authoring.discussions.consumerKey',
-    defaultMessage: 'Khóa Consumer',
+    defaultMessage: 'Consumer Key',
     description: 'Label for the Consumer Key field.',
   },
   consumerKeyRequired: {
     id: 'authoring.discussions.consumerKey.required',
-    defaultMessage: 'Khóa Consumer là trường bắt buộc',
+    defaultMessage: 'Consumer key is a required field',
     description: 'Tells the user that the Consumer Key field is required and must have a value.',
   },
   consumerSecret: {
     id: 'authoring.discussions.consumerSecret',
-    defaultMessage: 'Bí mật Consumer',
+    defaultMessage: 'Consumer Secret',
     description: 'Label for the Consumer Secret field.',
   },
   consumerSecretRequired: {
     id: 'authoring.discussions.consumerSecret.required',
-    defaultMessage: 'Bí mật Consumer là trường bắt buộc',
+    defaultMessage: 'Consumer secret is a required field',
     description: 'Tells the user that the Consumer Secret field is required and must have a value.',
   },
   launchUrl: {
     id: 'authoring.discussions.launchUrl',
-    defaultMessage: 'URL khởi chạy',
+    defaultMessage: 'Launch URL',
     description: 'Label for the Launch URL field.',
   },
   launchUrlRequired: {
     id: 'authoring.discussions.launchUrl.required',
-    defaultMessage: 'URL khởi chạy là trường bắt buộc',
+    defaultMessage: 'Launch URL is a required field',
     description: 'Tells the user that the Launch URL field is required and must have a value.',
   },
   staffOnlyConfigInfo: {
     id: 'authoring.discussions.stuffOnlyConfigInfo',
-    defaultMessage: 'Để kích hoạt {providerName} cho khóa học của bạn, vui lòng liên hệ nhóm hỗ trợ của họ tại {supportEmail} để tìm hiểu thêm về giá và cách sử dụng.',
+    defaultMessage: 'To enable {providerName} for your course, please contact their support team at {supportEmail} to learn more about pricing and usage.',
   },
   staffOnlyConfigGuide: {
     id: 'authoring.discussions.stuffOnlyConfigGuide',
-    defaultMessage: 'Để cấu hình đầy đủ {providerName} cũng sẽ yêu cầu chia sẻ tên người dùng và email của học viên và nhóm khóa học. Vui lòng liên hệ điều phối viên dự án edX của bạn để bật chia sẻ PII cho khóa học này.',
+    defaultMessage: 'To fully configure {providerName} will also require sharing usernames and emails for learners and course team. Please contact your edX project coordinator to enable PII sharing for this course.',
   },
   piiSharing: {
     id: 'authoring.discussions.piiSharing',
-    defaultMessage: 'Tùy chọn chia sẻ tên người dùng và/hoặc email với nhà cung cấp LTI:',
+    defaultMessage: 'Optionally share a user\'s username and/or email with the LTI provider:',
   },
   piiShareUsername: {
     id: 'authoring.discussions.piiShareUsername',
-    defaultMessage: 'Chia sẻ tên người dùng',
+    defaultMessage: 'Share username',
     description: 'Label for the Share Username field.',
   },
   piiShareEmail: {
     id: 'authoring.discussions.piiShareEmail',
-    defaultMessage: 'Chia sẻ email',
+    defaultMessage: 'Share email',
     description: 'Label for the Share Email field.',
   },
   contact: {
     id: 'authoring.discussions.appDocInstructions.contact',
-    defaultMessage: 'Liên hệ: {link}',
+    defaultMessage: 'Contact: {link}',
     description: 'Contact',
   },
   general: {
     id: 'authoring.discussions.appDocInstructions.documentationLink',
-    defaultMessage: 'Tài liệu chung',
+    defaultMessage: 'General documentation',
     description: 'Application Document Instructions message for documentation link',
   },
   accessibility: {
     id: 'authoring.discussions.appDocInstructions.accessibilityDocumentationLink',
-    defaultMessage: 'Tài liệu về khả năng truy cập',
+    defaultMessage: 'Accessibility documentation',
     description: 'Application Document Instructions message for accessibility link',
   },
   configuration: {
     id: 'authoring.discussions.appDocInstructions.configurationLink',
-    defaultMessage: 'Tài liệu cấu hình',
+    defaultMessage: 'Configuration documentation',
     description: 'Application Document Instructions message for configurations link',
   },
   learnMore: {
     id: 'authoring.discussions.appDocInstructions.learnMoreLink',
-    defaultMessage: 'Tìm hiểu thêm về {providerName}',
+    defaultMessage: 'Learn more about {providerName}',
     description: 'Application Document Instructions message for learn more links',
   },
   linkTextHeading: {
     id: 'authoring.discussions.appDocInstructions.linkTextHeading',
-    defaultMessage: 'Hướng dẫn và tài liệu bên ngoài',
+    defaultMessage: 'External help and documentation',
     description: 'External help and documentation heading',
   },
   linkText: {

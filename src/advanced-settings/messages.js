@@ -3,59 +3,59 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.advanced-settings.heading.title',
-    defaultMessage: 'Cài đặt nâng cao',
+    defaultMessage: 'Advanced settings',
   },
   headingSubtitle: {
     id: 'course-authoring.advanced-settings.heading.subtitle',
-    defaultMessage: 'Cài đặt',
+    defaultMessage: 'Settings',
   },
   policy: {
     id: 'course-authoring.advanced-settings.policies.title',
-    defaultMessage: 'Định nghĩa chính sách thủ công',
+    defaultMessage: 'Manual policy definition',
   },
   alertWarning: {
     id: 'course-authoring.advanced-settings.alert.warning',
-    defaultMessage: 'Bạn đã thực hiện một số thay đổi',
+    defaultMessage: "You've made some changes",
   },
   alertWarningDescriptions: {
     id: 'course-authoring.advanced-settings.alert.warning.descriptions',
-    defaultMessage: 'Các thay đổi sẽ không có hiệu lực cho đến khi bạn lưu lại. Hãy cẩn thận với định dạng key và value, vì hiện chưa có kiểm tra hợp lệ.',
+    defaultMessage: 'Your changes will not take effect until you save your progress. Take care with key and value formatting, as validation is not implemented.',
   },
   alertSuccess: {
     id: 'course-authoring.advanced-settings.alert.success',
-    defaultMessage: 'Các thay đổi chính sách của bạn đã được lưu.',
+    defaultMessage: 'Your policy changes have been saved.',
   },
   alertSuccessDescriptions: {
     id: 'course-authoring.advanced-settings.alert.success.descriptions',
-    defaultMessage: 'Không có kiểm tra hợp lệ nào được thực hiện trên các key hoặc cặp giá trị của chính sách. Nếu gặp khó khăn, hãy kiểm tra lại định dạng.',
+    defaultMessage: 'No validation is performed on policy keys or value pairs. If you are having difficulties, check your formatting.',
   },
   alertProctoringError: {
     id: 'course-authoring.advanced-settings.alert.proctoring.error',
-    defaultMessage: 'Khoá học này có cài đặt kỳ thi được bảo vệ chưa đầy đủ hoặc không hợp lệ.',
+    defaultMessage: 'This course has protected exam setting that are incomplete or invalid.',
   },
   alertProctoringErrorDescriptions: {
     id: 'course-authoring.advanced-settings.alert.proctoring.error.descriptions',
-    defaultMessage: 'Bạn sẽ không thể thực hiện thay đổi cho đến khi các cài đặt sau được cập nhật ở trang bên dưới.',
+    defaultMessage: 'You will be unable to make changes until the following setting are updated on the page below.',
   },
   buttonSaveText: {
     id: 'course-authoring.advanced-settings.alert.button.save',
-    defaultMessage: 'Lưu thay đổi',
+    defaultMessage: 'Save changes',
   },
   buttonSavingText: {
     id: 'course-authoring.advanced-settings.alert.button.saving',
-    defaultMessage: 'Đang lưu',
+    defaultMessage: 'Saving',
   },
   buttonCancelText: {
     id: 'course-authoring.advanced-settings.alert.button.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   deprecatedButtonShowText: {
     id: 'course-authoring.advanced-settings.deprecated.button.show',
-    defaultMessage: 'Hiện',
+    defaultMessage: 'Show',
   },
   deprecatedButtonHideText: {
     id: 'course-authoring.advanced-settings.deprecated.button.hide',
-    defaultMessage: 'Ẩn',
+    defaultMessage: 'Hide',
   },
   alertWarningAriaLabelledby: {
     id: 'course-authoring.advanced-settings.alert.warning.aria.labelledby',

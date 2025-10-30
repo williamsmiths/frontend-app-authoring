@@ -3,193 +3,193 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   sidebarTitleDraftNeverPublished: {
     id: 'course-authoring.course-unit.sidebar.title.draft.never-published',
-    defaultMessage: 'Bản nháp (chưa từng xuất bản)',
+    defaultMessage: 'Draft (never published)',
   },
   sidebarTitleVisibleToStaffOnly: {
     id: 'course-authoring.course-unit.sidebar.title.visible.to-staff-only',
-    defaultMessage: 'Chỉ hiển thị với nhân viên',
+    defaultMessage: 'Visible to staff only',
   },
   sidebarTitlePublishedAndLive: {
     id: 'course-authoring.course-unit.sidebar.title.published.live',
-    defaultMessage: 'Đã xuất bản và đang hiển thị',
+    defaultMessage: 'Published and live',
   },
   sidebarTitleDraftUnpublishedChanges: {
     id: 'course-authoring.course-unit.sidebar.title.draft.unpublished',
-    defaultMessage: 'Bản nháp (thay đổi chưa xuất bản)',
+    defaultMessage: 'Draft (unpublished changes)',
   },
   sidebarTitlePublishedNotYetReleased: {
     id: 'course-authoring.course-unit.sidebar.title.published.not-yet-released',
-    defaultMessage: 'Đã xuất bản (chưa phát hành)',
+    defaultMessage: 'Published (not yet released)',
   },
   sidebarHeaderUnitLocationTitle: {
     id: 'course-authoring.course-unit.sidebar.header.unit-location.title',
-    defaultMessage: 'Vị trí đơn vị học',
+    defaultMessage: 'Unit location',
   },
   sidebarBodyNote: {
     id: 'course-authoring.course-unit.sidebar.body.note',
-    defaultMessage: 'Lưu ý: Không ẩn các bài tập có chấm điểm sau khi chúng đã được phát hành.',
+    defaultMessage: 'Note: Do not hide graded assignments after they have been released.',
   },
   publishInfoPreviouslyPublished: {
     id: 'course-authoring.course-unit.publish.info.previously-published',
-    defaultMessage: 'Đã xuất bản trước đó',
+    defaultMessage: 'Previously published',
   },
   publishInfoDraftSaved: {
     id: 'course-authoring.course-unit.publish.info.draft.saved',
-    defaultMessage: 'Bản nháp đã lưu vào {editedOn} bởi {editedBy}',
+    defaultMessage: 'Draft saved on {editedOn} by {editedBy}',
   },
   publishLastPublished: {
     id: 'course-authoring.course-unit.publish.info.last.published',
-    defaultMessage: 'Xuất bản lần cuối {publishedOn} bởi {publishedBy}',
+    defaultMessage: 'Last published {publishedOn} by {publishedBy}',
   },
   releaseInfoUnscheduled: {
     id: 'course-authoring.course-unit.release.info.unscheduled',
-    defaultMessage: 'Chưa lên lịch',
+    defaultMessage: 'Unscheduled',
   },
   releaseInfoWithSection: {
     id: 'course-authoring.course-unit.release.info.with-unit',
-    defaultMessage: 'với {sectionName}',
+    defaultMessage: 'with {sectionName}',
   },
   visibilityIsVisibleToTitle: {
     id: 'course-authoring.course-unit.visibility.is-visible-to.title',
-    defaultMessage: 'ĐANG HIỂN THỊ VỚI',
+    defaultMessage: 'IS VISIBLE TO',
   },
   visibilityWillBeVisibleToTitle: {
     id: 'course-authoring.course-unit.visibility.will-be-visible-to.title',
-    defaultMessage: 'SẼ HIỂN THỊ VỚI',
+    defaultMessage: 'WILL BE VISIBLE TO',
   },
   unitLocationTitle: {
     id: 'course-authoring.course-unit.unit-location.title',
-    defaultMessage: 'MÃ ĐỊNH DANH VỊ TRÍ',
+    defaultMessage: 'LOCATION ID',
   },
   unitLocationDescription: {
     id: 'course-authoring.course-unit.unit-location.description',
-    defaultMessage: 'Để tạo liên kết đến đơn vị học này từ một thành phần HTML trong khóa học, nhập /jump_to_id/{id} làm giá trị URL',
+    defaultMessage: 'To create a link to this unit from an HTML component in this course, enter /jump_to_id/{id} as the URL value',
   },
   visibilityCheckboxTitle: {
     id: 'course-authoring.course-unit.visibility.checkbox.title',
-    defaultMessage: 'Ẩn với người học',
+    defaultMessage: 'Hide from learners',
   },
   visibilityStaffOnlyTitle: {
     id: 'course-authoring.course-unit.visibility.staff-only.title',
-    defaultMessage: 'Chỉ nhân viên',
+    defaultMessage: 'Staff only',
   },
   visibilityStaffAndLearnersTitle: {
     id: 'course-authoring.course-unit.visibility.staff-and-learners.title',
-    defaultMessage: 'Nhân viên và người học',
+    defaultMessage: 'Staff and learners',
   },
   visibilityHasExplicitStaffLockText: {
     id: 'course-authoring.course-unit.visibility.has-explicit-staff-lock.text',
-    defaultMessage: 'với {sectionName}',
+    defaultMessage: 'with {sectionName}',
   },
   actionButtonPublishTitle: {
     id: 'course-authoring.course-unit.action-buttons.publish.title',
-    defaultMessage: 'Xuất bản',
+    defaultMessage: 'Publish',
   },
   actionButtonDiscardChangesTitle: {
     id: 'course-authoring.course-unit.action-button.discard-changes.title',
-    defaultMessage: 'Hủy bỏ thay đổi',
+    defaultMessage: 'Discard changes',
   },
   actionButtonCopyUnitTitle: {
     id: 'course-authoring.course-unit.action-button.copy-unit.title',
-    defaultMessage: 'Sao chép đơn vị học',
+    defaultMessage: 'Copy unit',
   },
   releaseStatusTitle: {
     id: 'course-authoring.course-unit.status.release.title',
-    defaultMessage: 'PHÁT HÀNH',
+    defaultMessage: 'RELEASE',
   },
   releasedStatusTitle: {
     id: 'course-authoring.course-unit.status.released.title',
-    defaultMessage: 'ĐÃ PHÁT HÀNH',
+    defaultMessage: 'RELEASED',
   },
   scheduledStatusTitle: {
     id: 'course-authoring.course-unit.status.scheduled.title',
-    defaultMessage: 'ĐÃ LÊN LỊCH',
+    defaultMessage: 'SCHEDULED',
   },
   modalDiscardUnitChangesTitle: {
     id: 'course-authoring.course-unit.modal.discard-unit-changes.title',
-    defaultMessage: 'Hủy bỏ thay đổi',
+    defaultMessage: 'Discard changes',
   },
   modalDiscardUnitChangesActionButtonText: {
     id: 'course-authoring.course-unit.modal.discard-unit-changes.btn.action.text',
-    defaultMessage: 'Hủy bỏ thay đổi',
+    defaultMessage: 'Discard changes',
   },
   modalDiscardUnitChangesCancelButtonText: {
     id: 'course-authoring.course-unit.modal.discard-unit-changes.btn.cancel.text',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   modalDiscardUnitChangesDescription: {
     id: 'course-authoring.course-unit.modal.discard-unit-changes.description',
-    defaultMessage: 'Bạn có chắc chắn muốn quay lại phiên bản đơn vị học đã xuất bản lần cuối không? Bạn sẽ không thể hoàn tác hành động này.',
+    defaultMessage: 'Are you sure you want to revert to the last published version of the unit? You cannot undo this action.',
   },
   modalMakeVisibilityTitle: {
     id: 'course-authoring.course-unit.modal.make-visibility.title',
-    defaultMessage: 'Hiển thị cho học viên',
+    defaultMessage: 'Make visible to students',
   },
   modalMakeVisibilityActionButtonText: {
     id: 'course-authoring.course-unit.modal.make-visibility.btn.action.text',
-    defaultMessage: 'Hiển thị cho học viên',
+    defaultMessage: 'Make visible to students',
   },
   modalMakeVisibilityCancelButtonText: {
     id: 'course-authoring.course-unit.modal.make-visibility.btn.cancel.text',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   modalMakeVisibilityDescription: {
     id: 'course-authoring.course-unit.modal.make-visibility.description',
-    defaultMessage: 'Nếu đơn vị học đã được xuất bản và phát hành cho học viên trước đó, mọi thay đổi bạn thực hiện khi đơn vị học bị ẩn bây giờ sẽ hiển thị cho học viên. Bạn có muốn tiếp tục không?',
+    defaultMessage: 'If the unit was previously published and released to students, any changes you made to the unit when it was hidden will now be visible to students. Do you want to proceed?',
   },
   sidebarSplitTestAddComponentTitle: {
     id: 'course-authoring.course-unit.split-test.sidebar.add-component.title',
-    defaultMessage: 'Thêm thành phần',
+    defaultMessage: 'Adding components',
     description: 'Title for the section that explains how to add components to a split test',
   },
   sidebarSplitTestSelectComponentType: {
     id: 'course-authoring.course-unit.split-test.sidebar.add-component.select-type',
-    defaultMessage: 'Chọn một loại thành phần trong {bold_tag}Thêm thành phần mới{bold_tag}. Sau đó chọn một mẫu.',
+    defaultMessage: 'Select a component type under {bold_tag}Add New Component{bold_tag}. Then select a template.',
     description: 'Instruction text for selecting a component type and template when adding new components',
   },
   sidebarSplitTestComponentAdded: {
     id: 'course-authoring.course-unit.split-test.sidebar.add-component.component-added',
-    defaultMessage: 'Thành phần mới được thêm vào cuối trang hoặc nhóm. Sau đó bạn có thể chỉnh sửa và di chuyển thành phần.',
+    defaultMessage: 'The new component is added at the bottom of the page or group. You can then edit and move the component.',
     description: 'Instruction text indicating that the component has been added and can be moved or edited',
   },
   sidebarSplitTestEditComponentTitle: {
     id: 'course-authoring.course-unit.split-test.sidebar.edit-component.title',
-    defaultMessage: 'Chỉnh sửa thành phần',
+    defaultMessage: 'Editing components',
     description: 'Title for the section that explains how to edit components in a split test',
   },
   sidebarSplitTestEditComponentInstruction: {
     id: 'course-authoring.course-unit.split-test.sidebar.edit-component.instruction',
-    defaultMessage: 'Nhấp vào biểu tượng {bold_tag}Chỉnh sửa{bold_tag} trong một thành phần để chỉnh sửa nội dung của nó.',
+    defaultMessage: 'Click the {bold_tag}Edit{bold_tag} icon in a component to edit its content.',
     description: 'Instruction text for editing a component by clicking the edit icon',
   },
   sidebarSplitTestReorganizeComponentTitle: {
     id: 'course-authoring.course-unit.split-test.sidebar.reorganize-component.title',
-    defaultMessage: 'Sắp xếp lại thành phần',
+    defaultMessage: 'Reorganizing components',
     description: 'Title for the section that explains how to reorganize components within a split test',
   },
   sidebarSplitTestReorganizeComponentInstruction: {
     id: 'course-authoring.course-unit.split-test.sidebar.reorganize-component.instruction',
-    defaultMessage: 'Kéo các thành phần đến vị trí mới trong thành phần này.',
+    defaultMessage: 'Drag components to new locations within this component.',
     description: 'Instruction text for reorganizing components by dragging them to new locations within a split test',
   },
   sidebarSplitTestReorganizeGroupsInstruction: {
     id: 'course-authoring.course-unit.split-test.sidebar.reorganize-component.drag-to-groups',
-    defaultMessage: 'Đối với các thí nghiệm nội dung, bạn có thể kéo thành phần sang các nhóm khác.',
+    defaultMessage: 'For content experiments, you can drag components to other groups.',
     description: 'Instruction text for dragging components to other groups for content experiments',
   },
   sidebarSplitTestExperimentComponentTitle: {
     id: 'course-authoring.course-unit.split-test.sidebar.experiment-component.title',
-    defaultMessage: 'Làm việc với các thí nghiệm nội dung',
+    defaultMessage: 'Working with content experiments',
     description: 'Title for the section that explains how to work with content experiments',
   },
   sidebarSplitTestExperimentComponentInstruction: {
     id: 'course-authoring.course-unit.split-test.sidebar.experiment-component.confirm-config',
-    defaultMessage: 'Xác nhận rằng bạn đã cấu hình đúng nội dung trong từng nhóm thí nghiệm của mình.',
+    defaultMessage: 'Confirm that you have properly configured content in each of your experiment groups.',
     description: 'Instruction text reminding users to check content configuration in each experiment group',
   },
   sidebarSplitTestLearnMoreLinkLabel: {
     id: 'course-authoring.course-unit.split-test.sidebar.learn-more-link.label',
-    defaultMessage: 'Tìm hiểu thêm về các khung chứa thành phần',
+    defaultMessage: 'Learn more about component containers',
     description: 'Text for a link that directs users to more information about component containers in the split test setup.',
   },
 });

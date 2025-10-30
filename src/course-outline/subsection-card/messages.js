@@ -3,22 +3,22 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   newUnitButton: {
     id: 'course-authoring.course-outline.subsection.button.new-unit',
-    defaultMessage: 'Đơn vị mới',
+    defaultMessage: 'New unit',
     description: 'Message of the button to create a new unit in a subsection.',
   },
   pasteButton: {
     id: 'course-authoring.course-outline.subsection.button.paste-unit',
-    defaultMessage: 'Dán đơn vị',
+    defaultMessage: 'Paste unit',
     description: 'Message of the button to paste a new unit in a subsection.',
   },
   useUnitFromLibraryButton: {
     id: 'course-authoring.course-outline.subsection.button.use-unit-from-library',
-    defaultMessage: 'Sử dụng đơn vị từ thư viện',
+    defaultMessage: 'Use unit from library',
     description: 'Message of the button to add a new unit from a library in a subsection.',
   },
   unitPickerModalTitle: {
     id: 'course-authoring.course-outline.subsection.unit.modal.single-title.text',
-    defaultMessage: 'Chọn đơn vị',
+    defaultMessage: 'Select unit',
     description: 'Library unit picker modal title.',
   },
 });

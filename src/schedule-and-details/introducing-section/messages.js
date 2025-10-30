@@ -3,67 +3,67 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   introducingTitle: {
     id: 'course-authoring.schedule-section.introducing.title',
-    defaultMessage: 'Giới thiệu khóa học của bạn',
+    defaultMessage: 'Introducing your course',
   },
   introducingDescription: {
     id: 'course-authoring.schedule-section.introducing.description',
-    defaultMessage: 'Thông tin cho học viên tiềm năng',
+    defaultMessage: 'Information for prospective students',
   },
   courseShortDescriptionLabel: {
     id: 'course-authoring.schedule-section.introducing.course-short-description.label',
-    defaultMessage: 'Mô tả ngắn về khóa học',
+    defaultMessage: 'Course short description',
   },
   courseShortDescriptionAriaLabel: {
     id: 'course-authoring.schedule-section.introducing.course-short-description.aria-label',
-    defaultMessage: 'Hiển thị mô tả ngắn về khóa học',
+    defaultMessage: 'Show course short description',
   },
   courseShortDescriptionHelpText: {
     id: 'course-authoring.schedule-section.introducing.course-short-description.help-text',
-    defaultMessage: 'Hiển thị trên trang danh mục khóa học khi học viên di chuột qua tên khóa học. Giới hạn khoảng ~150 ký tự',
+    defaultMessage: 'Appears on the course catalog page when students roll over the course name. Limit to ~150 characters',
   },
   courseOverviewLabel: {
     id: 'course-authoring.schedule-section.introducing.course-overview.label',
-    defaultMessage: 'Tổng quan khóa học',
+    defaultMessage: 'Course overview',
   },
   courseOverviewHelpText: {
     id: 'course-authoring.schedule-section.introducing.course-overview.help-text',
-    defaultMessage: 'Giới thiệu, điều kiện tiên quyết, câu hỏi thường gặp được sử dụng trên {hyperlink} (định dạng HTML)',
+    defaultMessage: 'Introductions, prerequisites, FAQs that are used on {hyperlink} (formatted in HTML)',
   },
   courseAboutHyperlink: {
     id: 'course-authoring.schedule-section.introducing.course-about.hyperlink',
-    defaultMessage: 'trang tóm tắt khóa học của bạn',
+    defaultMessage: 'your course summary page',
   },
   courseAboutSidebarLabel: {
     id: 'course-authoring.schedule-section.introducing.course-about-sidebar.label',
-    defaultMessage: 'HTML thanh bên thông tin khóa học',
+    defaultMessage: 'Course about sidebar HTML',
   },
   courseAboutSidebarHelpText: {
     id: 'course-authoring.schedule-section.introducing.course-about-sidebar.help-text',
-    defaultMessage: 'Nội dung thanh bên tùy chỉnh cho {hyperlink} (định dạng HTML)',
+    defaultMessage: 'Custom sidebar content for {hyperlink} (formatted in HTML)',
   },
   courseCardImageLabel: {
     id: 'course-authoring.schedule-section.introducing.course-card-image.label',
-    defaultMessage: 'Hình ảnh thẻ khóa học',
+    defaultMessage: 'Course card image',
   },
   courseCardImageIdentifierText: {
     id: 'course-authoring.schedule-section.introducing.course-card-image.identifier-text',
-    defaultMessage: 'hình ảnh khóa học',
+    defaultMessage: 'course image',
   },
   courseBannerImageLabel: {
     id: 'course-authoring.schedule-section.introducing.course-banner-image.label',
-    defaultMessage: 'Hình ảnh banner khóa học',
+    defaultMessage: 'Course banner image',
   },
   courseBannerImageInsertText: {
     id: 'course-authoring.schedule-section.introducing.course-banner-image.insert-banner',
-    defaultMessage: 'hình ảnh banner',
+    defaultMessage: 'banner image',
   },
   courseVideoThumbnailLabel: {
     id: 'course-authoring.schedule-section.introducing.video-thumbnail-image.label',
-    defaultMessage: 'Hình thu nhỏ video khóa học',
+    defaultMessage: 'Course video thumbnail image',
   },
   courseVideoThumbnailInsertText: {
     id: 'course-authoring.schedule-section.introducing.video-thumbnail-image.insert-card',
-    defaultMessage: 'hình thu nhỏ video',
+    defaultMessage: 'video thumbnail image',
   },
 });
 

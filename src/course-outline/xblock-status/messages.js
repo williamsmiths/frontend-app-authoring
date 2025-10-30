@@ -3,75 +3,75 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   unscheduledLabel: {
     id: 'course-authoring.course-outline.xblock-status.unscheduled.label',
-    defaultMessage: 'Chưa lên lịch',
+    defaultMessage: 'Unscheduled',
   },
   releasedLabel: {
     id: 'course-authoring.course-outline.xblock-status.released.label',
-    defaultMessage: 'Đã phát hành: ',
+    defaultMessage: 'Released: ',
   },
   scheduledLabel: {
     id: 'course-authoring.course-outline.xblock-status.scheduled.label',
-    defaultMessage: 'Đã lên lịch: ',
+    defaultMessage: 'Scheduled: ',
   },
   onboardingExam: {
     id: 'course-authoring.course-outline.xblock-status.onboardingExam.value',
-    defaultMessage: 'Bài kiểm tra nhập môn',
+    defaultMessage: 'Onboarding Exam',
   },
   practiceProctoredExam: {
     id: 'course-authoring.course-outline.xblock-status.practiceProctoredExam.value',
-    defaultMessage: 'Bài kiểm tra thử có giám sát',
+    defaultMessage: 'Practice proctored Exam',
   },
   proctoredExam: {
     id: 'course-authoring.course-outline.xblock-status.proctoredExam.value',
-    defaultMessage: 'Bài kiểm tra có giám sát',
+    defaultMessage: 'Proctored Exam',
   },
   timedExam: {
     id: 'course-authoring.course-outline.xblock-status.timedExam.value',
-    defaultMessage: 'Bài kiểm tra có thời gian',
+    defaultMessage: 'Timed Exam',
   },
   releaseStatusScreenReaderTitle: {
     id: 'course-authoring.course-outline.xblock-status.releaseStatusScreenReader.title',
-    defaultMessage: 'Trạng thái phát hành: ',
+    defaultMessage: 'Release Status: ',
   },
   gradedAsScreenReaderLabel: {
     id: 'course-authoring.course-outline.xblock-status.gradedAsScreenReader.label',
-    defaultMessage: 'Được chấm là: ',
+    defaultMessage: 'Graded as: ',
   },
   ungradedText: {
     id: 'course-authoring.course-outline.xblock-status.ungraded.text',
-    defaultMessage: 'Chưa chấm',
+    defaultMessage: 'Ungraded',
   },
   dueLabel: {
     id: 'course-authoring.course-outline.xblock-status.due.label',
-    defaultMessage: 'Hạn nộp:',
+    defaultMessage: 'Due:',
   },
   customDueDateLabel: {
     id: 'course-authoring.course-outline.xblock-status.custom-due-date.label',
-    defaultMessage: 'Hạn nộp tùy chỉnh: {relativeWeeksDue, plural, one {# tuần} other {# tuần}} kể từ khi đăng ký',
+    defaultMessage: 'Custom due date: {relativeWeeksDue, plural, one {# week} other {# weeks}} from enrollment',
   },
   prerequisiteLabel: {
     id: 'course-authoring.course-outline.xblock-status.prerequisite.label',
-    defaultMessage: 'Tiền đề: {prereqDisplayName}',
+    defaultMessage: 'Prerequisite: {prereqDisplayName}',
   },
   restrictedUnitAccess: {
     id: 'course-authoring.course-outline.xblock-status.restrictedUnitAccess.text',
-    defaultMessage: 'Quyền truy cập đơn vị này bị giới hạn cho: {selectedGroupsLabel}',
+    defaultMessage: 'Access to this unit is restricted to: {selectedGroupsLabel}',
   },
   restrictedUnitAccessToSomeContent: {
     id: 'course-authoring.course-outline.xblock-status.restrictedUnitAccessToSomeContent.text',
-    defaultMessage: 'Quyền truy cập một số nội dung trong đơn vị này bị giới hạn cho các nhóm học viên cụ thể',
+    defaultMessage: 'Access to some content in this unit is restricted to specific groups of learners',
   },
   gradingPolicyMismatchText: {
     id: 'course-authoring.course-outline.xblock-status.gradingPolicyMismatch.text',
-    defaultMessage: 'Tiểu phần này được cấu hình là "{gradingType}", nhưng không tồn tại trong chính sách chấm điểm hiện tại.',
+    defaultMessage: 'This subsection is configured as "{gradingType}", which doesn\'t exist in the current grading policy.',
   },
   hiddenAfterEndDate: {
     id: 'course-authoring.course-outline.xblock-status.hiddenAfterEndDate.text',
-    defaultMessage: 'Tiểu phần sẽ bị ẩn sau ngày kết thúc khóa học',
+    defaultMessage: 'Subsection is hidden after course end date',
   },
   hiddenAfterDueDate: {
     id: 'course-authoring.course-outline.xblock-status.hiddenAfterDueDate.text',
-    defaultMessage: 'Tiểu phần sẽ bị ẩn sau hạn nộp',
+    defaultMessage: 'Subsection is hidden after due date',
   },
 });
 

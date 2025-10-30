@@ -3,39 +3,39 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   deleteModalTitle: {
     id: 'course-authoring.course-team.member.button.remove',
-    defaultMessage: 'Xóa thành viên nhóm khóa học',
+    defaultMessage: 'Delete course team member',
   },
   deleteModalMessage: {
     id: 'course-authoring.course-team.delete-modal.message',
-    defaultMessage: 'Bạn có chắc chắn muốn xóa {email} khỏi nhóm khóa học “{courseName}”?',
+    defaultMessage: 'Are you sure you want to delete {email} from the course team for “{courseName}”?',
   },
   deleteModalDeleteButton: {
     id: 'course-authoring.course-team.delete-modal.button.delete',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   deleteModalCancelButton: {
     id: 'course-authoring.course-team.delete-modal.button.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   errorModalTitle: {
     id: 'course-authoring.course-team.error-modal.title',
-    defaultMessage: 'Lỗi khi thêm người dùng',
+    defaultMessage: 'Error adding user',
   },
   errorModalOkButton: {
     id: 'course-authoring.course-team.error-modal.button.ok',
-    defaultMessage: 'OK',
+    defaultMessage: 'Ok',
   },
   warningModalTitle: {
     id: 'course-authoring.course-team.warning-modal.title',
-    defaultMessage: 'Đã là thành viên nhóm khóa học',
+    defaultMessage: 'Already a course team member',
   },
   warningModalMessage: {
     id: 'course-authoring.course-team.warning-modal.message',
-    defaultMessage: '{email} đã có trong nhóm {courseName}. Vui lòng kiểm tra lại địa chỉ email nếu bạn muốn thêm một thành viên mới.',
+    defaultMessage: '{email} is already on the {courseName} team. Recheck the email address if you want to add a new member.',
   },
   warningModalReturnButton: {
     id: 'course-authoring.course-team.warning-modal.button.return',
-    defaultMessage: 'Quay lại danh sách nhóm',
+    defaultMessage: 'Return to team listing',
   },
 });
 

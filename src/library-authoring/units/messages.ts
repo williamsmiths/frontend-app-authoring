@@ -3,62 +3,62 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   infoButtonText: {
     id: 'course-authoring.library-authoring.unit-header.buttons.info',
-    defaultMessage: 'Thông tin đơn vị',
+    defaultMessage: 'Unit Info',
     description: 'Button text to unit sidebar from unit page',
   },
   addContentButton: {
     id: 'course-authoring.library-authoring.unit-header.buttons.add-content',
-    defaultMessage: 'Thêm nội dung',
+    defaultMessage: 'Add Content',
     description: 'Text of button to add content to unit',
   },
   addExistingContentButton: {
     id: 'course-authoring.library-authoring.unit-header.buttons.add-existing-content',
-    defaultMessage: 'Thêm nội dung hiện có',
+    defaultMessage: 'Add Existing Content',
     description: 'Text of button to add existing content to unit',
   },
   newContentButton: {
     id: 'course-authoring.library-authoring.unit-header.buttons.add-new-content',
-    defaultMessage: 'Thêm nội dung mới',
+    defaultMessage: 'Add New Content',
     description: 'Text of button to add new content to unit',
   },
   breadcrumbsAriaLabel: {
     id: 'course-authoring.library-authoring.breadcrumbs.label.text',
-    defaultMessage: 'Điều hướng phân cấp',
+    defaultMessage: 'Navigation breadcrumbs',
     description: 'Aria label for navigation breadcrumbs',
   },
   draftChipText: {
     id: 'course-authoring.library-authoring.unit-component.draft-chip.text',
-    defaultMessage: 'Bản nháp',
+    defaultMessage: 'Draft',
     description: 'Chip in components in unit page that is shown when component has unpublished changes',
   },
   updateComponentSuccessMsg: {
     id: 'course-authoring.library-authoring.unit-component.update.success',
-    defaultMessage: 'Cập nhật thành phần thành công.',
+    defaultMessage: 'Component updated successfully.',
     description: 'Message when the component is updated successfully',
   },
   updateComponentErrorMsg: {
     id: 'course-authoring.library-authoring.unit-component.update.error',
-    defaultMessage: 'Có lỗi xảy ra khi cập nhật thành phần.',
+    defaultMessage: 'There was an error updating the component.',
     description: 'Message when there is an error when updating the component',
   },
   updateContainerSuccessMsg: {
     id: 'course-authoring.library-authoring.update-container-success-msg',
-    defaultMessage: 'Cập nhật container thành công.',
+    defaultMessage: 'Container updated successfully.',
     description: 'Message displayed when container is updated successfully',
   },
   updateContainerErrorMsg: {
     id: 'course-authoring.library-authoring.update-container-error-msg',
-    defaultMessage: 'Cập nhật container thất bại.',
+    defaultMessage: 'Failed to update container.',
     description: 'Message displayed when container update fails',
   },
   orderUpdatedMsg: {
     id: 'course-authoring.library-authoring.unit-component.order-updated-msg.text',
-    defaultMessage: 'Thứ tự đã được cập nhật',
+    defaultMessage: 'Order updated',
     description: 'Toast message displayed when components are successfully reordered in a unit',
   },
   failedOrderUpdatedMsg: {
     id: 'course-authoring.library-authoring.unit-component.failed-order-updated-msg.text',
-    defaultMessage: 'Cập nhật thứ tự thành phần thất bại',
+    defaultMessage: 'Failed to update components order',
     description: 'Toast message displayed when components are successfully reordered in a unit',
   },
 });

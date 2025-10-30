@@ -3,43 +3,43 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   updateFormDate: {
     id: 'course-authoring.course-updates.update-form.date',
-    defaultMessage: 'Ngày',
+    defaultMessage: 'Date',
   },
   updateFormInValid: {
     id: 'course-authoring.course-updates.update-form.inValid',
-    defaultMessage: 'Yêu cầu hành động: Nhập một ngày hợp lệ.',
+    defaultMessage: 'Action required: Enter a valid date.',
   },
   updateFormCalendarAltText: {
     id: 'course-authoring.course-updates.update-form.calendar-alt-text',
-    defaultMessage: 'Lịch cho trường chọn ngày',
+    defaultMessage: 'Calendar for datepicker input',
   },
   updateFormErrorAltText: {
     id: 'course-authoring.course-updates.update-form.error-alt-text',
-    defaultMessage: 'Biểu tượng lỗi',
+    defaultMessage: 'Error icon',
   },
   addNewUpdateTitle: {
     id: 'course-authoring.course-updates.update-form.new-update-title',
-    defaultMessage: 'Thêm cập nhật mới',
+    defaultMessage: 'Add new update',
   },
   editUpdateTitle: {
     id: 'course-authoring.course-updates.update-form.edit-update-title',
-    defaultMessage: 'Chỉnh sửa cập nhật',
+    defaultMessage: 'Edit update',
   },
   editHandoutsTitle: {
     id: 'course-authoring.course-updates.update-form.edit-handouts-title',
-    defaultMessage: 'Chỉnh sửa tài liệu',
+    defaultMessage: 'Edit handouts',
   },
   saveButton: {
     id: 'course-authoring.course-updates.actions.save',
-    defaultMessage: 'Lưu',
+    defaultMessage: 'Save',
   },
   postButton: {
     id: 'course-authoring.course-updates.actions.post',
-    defaultMessage: 'Đăng',
+    defaultMessage: 'Post',
   },
   cancelButton: {
     id: 'course-authoring.course-updates.actions.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
 });
 

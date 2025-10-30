@@ -7,27 +7,27 @@ const messages = defineMessages({
   },
   headingTitle: {
     id: 'course-authoring.export.heading.title',
-    defaultMessage: 'Xuất khóa học',
+    defaultMessage: 'Course export',
   },
   headingSubtitle: {
     id: 'course-authoring.export.heading.subtitle',
-    defaultMessage: 'Công cụ',
+    defaultMessage: 'Tools',
   },
   description1: {
     id: 'course-authoring.export.description1',
-    defaultMessage: 'Bạn có thể xuất khóa học và chỉnh sửa chúng bên ngoài {studioShortName}. Tệp xuất ra là tệp .tar.gz (tức là tệp .tar được nén bằng GNU Zip) chứa cấu trúc và nội dung khóa học. Bạn cũng có thể nhập lại các khóa học mà bạn đã xuất.',
+    defaultMessage: 'You can export courses and edit them outside of {studioShortName}. The exported file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that contains the course structure and content. You can also re-import courses that you\'ve exported.',
   },
   description2: {
     id: 'course-authoring.export.description2',
-    defaultMessage: 'Cảnh báo: Khi bạn xuất một khóa học, thông tin như khóa API MATLAB, LTI passport, chuỗi token bí mật của annotation và URL lưu trữ annotation sẽ được bao gồm trong dữ liệu xuất ra. Nếu bạn chia sẻ các tệp đã xuất, bạn cũng có thể đang chia sẻ thông tin nhạy cảm hoặc thông tin theo giấy phép.',
+    defaultMessage: 'Caution: When you export a course, information such as MATLAB API keys, LTI passports, annotation secret token strings, and annotation storage URLs are included in the exported data. If you share your exported files, you may also be sharing sensitive or license-specific information.',
   },
   titleUnderButton: {
     id: 'course-authoring.export.title-under-button',
-    defaultMessage: 'Xuất nội dung khóa học của tôi',
+    defaultMessage: 'Export my course content',
   },
   buttonTitle: {
     id: 'course-authoring.export.button.title',
-    defaultMessage: 'Xuất nội dung khóa học',
+    defaultMessage: 'Export course content',
   },
 });
 

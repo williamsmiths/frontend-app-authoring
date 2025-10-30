@@ -3,29 +3,30 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'course-authoring.pages-resources.progress.heading',
-    defaultMessage: 'Cấu hình tiến trình',
+    defaultMessage: 'Configure progress',
   },
   enableProgressLabel: {
     id: 'course-authoring.pages-resources.progress.enable-progress.label',
-    defaultMessage: 'Tiến trình',
+    defaultMessage: 'Progress',
   },
   enableProgressHelp: {
     id: 'course-authoring.pages-resources.progress.enable-progress.help',
-    defaultMessage: `Khi học viên làm các bài tập được chấm điểm, điểm số sẽ hiển thị trong tab Tiến trình. 
-        Tab Tiến trình chứa biểu đồ tất cả các bài tập được chấm điểm trong khóa học, 
-        kèm theo danh sách các bài tập và điểm số bên dưới.`,
+    defaultMessage: `As students work through graded assignments, scores
+        will appear under the progress tab. The progress tab contains a chart of
+        all graded assignments in the course, with a list of all assignments and
+        scores below.`,
   },
   enableProgressLink: {
     id: 'course-authoring.pages-resources.progress.enable-progress.link',
-    defaultMessage: 'Tìm hiểu thêm về tiến trình',
+    defaultMessage: 'Learn more about progress',
   },
   enableGraphLabel: {
     id: 'course-authoring.pages-resources.progress.enable-graph.label',
-    defaultMessage: 'Bật biểu đồ tiến trình',
+    defaultMessage: 'Enable progress graph',
   },
   enableGraphHelp: {
     id: 'course-authoring.pages-resources.progress.enable-graph.help',
-    defaultMessage: 'Nếu được bật, học viên có thể xem biểu đồ tiến trình',
+    defaultMessage: 'If enabled, students can view the progress graph',
   },
 });
 

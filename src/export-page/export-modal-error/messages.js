@@ -3,31 +3,31 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   errorTitle: {
     id: 'course-authoring.export.modal.error.title',
-    defaultMessage: 'Đã xảy ra lỗi khi xuất khóa học.',
+    defaultMessage: 'There has been an error while exporting.',
   },
   errorDescriptionNotUnit: {
     id: 'course-authoring.export.modal.error.description.not.unit',
-    defaultMessage: 'Khóa học của bạn không thể xuất ra XML. Không đủ thông tin để xác định thành phần gây lỗi. Hãy kiểm tra khóa học của bạn để xác định các thành phần gặp vấn đề và thử lại. Thông báo lỗi gốc là: {errorMessage}',
+    defaultMessage: 'Your course could not be exported to XML. There is not enough information to identify the failed component. Inspect your course to identify any problematic components and try again. The raw error message is: {errorMessage}',
   },
   errorDescriptionUnit: {
     id: 'course-authoring.export.modal.error.description.unit',
-    defaultMessage: 'Đã xảy ra lỗi khi xuất ra XML ít nhất một thành phần. Khuyến nghị bạn truy cập trang chỉnh sửa và sửa lỗi trước khi thử xuất lại. Vui lòng kiểm tra tất cả các thành phần trên trang để đảm bảo chúng hợp lệ và không hiển thị bất kỳ thông báo lỗi nào. Thông báo lỗi gốc là: {errorMessage}',
+    defaultMessage: 'There has been a failure to export to XML at least one component. It is recommended that you go to the edit page and repair the error before attempting another export. Please check that all components on the page are valid and do not display any error messages. The raw error message is: {errorMessage}',
   },
   errorCancelButtonUnit: {
     id: 'course-authoring.export.modal.error.button.cancel.unit',
-    defaultMessage: 'Quay lại xuất khóa học',
+    defaultMessage: 'Return to export',
   },
   errorCancelButtonNotUnit: {
     id: 'course-authoring.export.modal.error.button.cancel.not.unit',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   errorActionButtonNotUnit: {
     id: 'course-authoring.export.modal.error.button.action.not.unit',
-    defaultMessage: 'Đi tới trang chính của khóa học',
+    defaultMessage: 'Take me to the main course page',
   },
   errorActionButtonUnit: {
     id: 'course-authoring.export.modal.error.button.action.unit',
-    defaultMessage: 'Sửa thành phần bị lỗi',
+    defaultMessage: 'Correct failed component',
   },
 });
 

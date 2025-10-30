@@ -3,27 +3,27 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   itemInProgressFooterText: {
     id: 'course-authoring.studio-home.processing.course-item.footer.in-progress',
-    defaultMessage: 'Khóa học mới sẽ được thêm vào danh sách khóa học của bạn trong 5–10 phút. Quay lại trang này hoặc {refresh} để cập nhật danh sách khóa học. Khóa học mới sẽ cần một số cấu hình thủ công.',
+    defaultMessage: 'The new course will be added to your course list in 5-10 minutes. Return to this page or {refresh} to update the course list. The new course will need some manual configuration.',
   },
   itemInProgressFooterHyperlink: {
     id: 'course-authoring.studio-home.processing.course-item.footer.in-progress.hyperlink',
-    defaultMessage: 'làm mới nó',
+    defaultMessage: 'refresh it',
   },
   itemInProgressActionText: {
     id: 'course-authoring.studio-home.processing.course-item.action.in-progress',
-    defaultMessage: 'Đang cấu hình lại',
+    defaultMessage: 'Configuring as re-run',
   },
   itemIsFailedActionText: {
     id: 'course-authoring.studio-home.processing.course-item.action.failed',
-    defaultMessage: 'Lỗi cấu hình',
+    defaultMessage: 'Configuration error',
   },
   itemFailedFooterText: {
     id: 'course-authoring.studio-home.processing.course-item.footer.failed',
-    defaultMessage: 'Đã xảy ra lỗi hệ thống trong quá trình xử lý khóa học của bạn. Vui lòng truy cập khóa học gốc để thử chạy lại, hoặc liên hệ với Quản lý dự án của bạn để được trợ giúp.',
+    defaultMessage: 'A system error occurred while your course was being processed. Please go to the original course to try the re-run again, or contact your PM for assistance.',
   },
   itemFailedFooterButton: {
     id: 'course-authoring.studio-home.processing.course-item.footer.failed.button',
-    defaultMessage: 'Đóng',
+    defaultMessage: 'Dismiss',
   },
 });
 

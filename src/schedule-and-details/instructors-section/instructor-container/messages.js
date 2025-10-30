@@ -3,67 +3,67 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   instructorNameLabel: {
     id: 'course-authoring.schedule-section.instructor.name.label',
-    defaultMessage: 'Tên',
+    defaultMessage: 'Name',
   },
   instructorNameHelpText: {
     id: 'course-authoring.schedule-section.instructor.name.help-text',
-    defaultMessage: 'Vui lòng thêm tên giảng viên',
+    defaultMessage: 'Please add the instructor\'s name',
   },
   instructorNameInputPlaceholder: {
     id: 'course-authoring.schedule-section.instructor.name.input.placeholder',
-    defaultMessage: 'Tên giảng viên',
+    defaultMessage: 'Instructor name',
   },
   instructorTitleLabel: {
     id: 'course-authoring.schedule-section.instructor.title.label',
-    defaultMessage: 'Chức danh',
+    defaultMessage: 'Title',
   },
   instructorTitleHelpText: {
     id: 'course-authoring.schedule-section.instructor.title.help-text',
-    defaultMessage: 'Vui lòng thêm chức danh của giảng viên',
+    defaultMessage: 'Please add the instructor\'s title',
   },
   instructorTitleInputPlaceholder: {
     id: 'course-authoring.schedule-section.instructor.title.input.placeholder',
-    defaultMessage: 'Chức danh giảng viên',
+    defaultMessage: 'Instructor title',
   },
   instructorOrganizationLabel: {
     id: 'course-authoring.schedule-section.instructor.organization.label',
-    defaultMessage: 'Tổ chức',
+    defaultMessage: 'Organization',
   },
   instructorOrganizationHelpText: {
     id: 'course-authoring.schedule-section.instructor.organization.help-text',
-    defaultMessage: 'Vui lòng thêm viện/trường mà giảng viên đang công tác',
+    defaultMessage: 'Please add the institute where the instructor is associated',
   },
   instructorOrganizationInputPlaceholder: {
     id: 'course-authoring.schedule-section.instructor.organization.input.placeholder',
-    defaultMessage: 'Tổ chức giảng viên',
+    defaultMessage: 'Instructor organization',
   },
   instructorBioLabel: {
     id: 'course-authoring.schedule-section.instructor.bio.label',
-    defaultMessage: 'Tiểu sử',
+    defaultMessage: 'Biography',
   },
   instructorBioHelpText: {
     id: 'course-authoring.schedule-section.instructor.bio.help-text',
-    defaultMessage: 'Vui lòng thêm tiểu sử của giảng viên',
+    defaultMessage: 'Please add the instructor\'s biography',
   },
   instructorBioInputPlaceholder: {
     id: 'course-authoring.schedule-section.instructor.bio.input.placeholder',
-    defaultMessage: 'Tiểu sử giảng viên',
+    defaultMessage: 'Instructor biography',
   },
   instructorPhotoLabel: {
     id: 'course-authoring.schedule-section.instructor.photo.label',
-    defaultMessage: 'Ảnh',
+    defaultMessage: 'Photo',
   },
   instructorPhotoHelpText: {
     id: 'course-authoring.schedule-section.instructor.photo.help-text',
-    defaultMessage: 'Vui lòng thêm ảnh của giảng viên (Lưu ý: chỉ hỗ trợ định dạng JPEG hoặc PNG)',
+    defaultMessage: 'Please add a photo of the instructor (Note: only JPEG or PNG format supported)',
   },
   instructorPhotoInputPlaceholder: {
     id: 'course-authoring.schedule-section.instructor.photo.input.placeholder',
-    defaultMessage: 'URL ảnh giảng viên',
+    defaultMessage: 'Instructor photo URL',
   },
   instructorDelete: {
     id: 'course-authoring.schedule-section.instructor.delete',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
 });
 

@@ -3,91 +3,91 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   assignmentTypeNameTitle: {
     id: 'course-authoring.grading-settings.assignment.type-name.title',
-    defaultMessage: 'Tên loại bài tập',
+    defaultMessage: 'Assignment type name',
   },
   assignmentTypeNameDescription: {
     id: 'course-authoring.grading-settings.assignment.type-name.description',
-    defaultMessage: 'Danh mục chung cho loại bài tập này, ví dụ: Bài tập về nhà hoặc Kiểm tra giữa kỳ. Tên này hiển thị cho học viên.',
+    defaultMessage: 'The general category for this type of assignment, for example, Homework or Midterm Exam. This name is visible to learners.',
   },
   assignmentTypeNameErrorMessage1: {
     id: 'course-authoring.grading-settings.assignment.type-name.error.message-1',
-    defaultMessage: 'Loại bài tập phải có tên.',
+    defaultMessage: 'The assignment type must have a name.',
   },
   assignmentTypeNameErrorMessage2: {
     id: 'course-authoring.grading-settings.assignment.type-name.error.message-2',
-    defaultMessage: 'Để tính điểm được, bạn phải đổi tất cả các phân mục {initialAssignmentName} sang {value}.',
+    defaultMessage: 'For grading to work, you must change all {initialAssignmentName} subsections to {value}.',
   },
   assignmentTypeNameErrorMessage3: {
     id: 'course-authoring.grading-settings.assignment.type-name.error.message-3',
-    defaultMessage: 'Đã có loại bài tập khác với tên này.',
+    defaultMessage: "There's already another assignment type with this name.",
   },
   abbreviationTitle: {
     id: 'course-authoring.grading-settings.assignment.abbreviation.title',
-    defaultMessage: 'Viết tắt',
+    defaultMessage: 'Abbreviation',
   },
   abbreviationDescription: {
     id: 'course-authoring.grading-settings.assignment.abbreviation.description',
-    defaultMessage: 'Tên ngắn cho loại bài tập này (ví dụ, BT hoặc Giữa kỳ) hiển thị cạnh các bài tập trên trang Tiến độ của học viên.',
+    defaultMessage: "This short name for the assignment type (for example, HW or Midterm) appears next to assignments on a learner's Progress page.",
   },
   weightOfTotalGradeTitle: {
     id: 'course-authoring.grading-settings.assignment.weight-of-total-grade.title',
-    defaultMessage: 'Tỷ trọng trên tổng điểm',
+    defaultMessage: 'Weight of total grade',
   },
   weightOfTotalGradeDescription: {
     id: 'course-authoring.grading-settings.assignment.weight-of-total-grade.description',
-    defaultMessage: 'Tỷ trọng của tất cả các bài tập loại này theo phần trăm tổng điểm, ví dụ: 40. Không nhập ký hiệu %.',
+    defaultMessage: 'The weight of all assignments of this type as a percentage of the total grade, for example, 40. Do not include the percent symbol.',
   },
   weightOfTotalGradeErrorMessage: {
     id: 'course-authoring.grading-settings.assignment.weight-of-total-grade.error.message',
-    defaultMessage: 'Vui lòng nhập số nguyên từ 0 đến 100.',
+    defaultMessage: 'Please enter an integer between 0 and 100.',
   },
   totalNumberTitle: {
     id: 'course-authoring.grading-settings.assignment.total-number.title',
-    defaultMessage: 'Tổng số',
+    defaultMessage: 'Total number',
   },
   totalNumberDescription: {
     id: 'course-authoring.grading-settings.assignment.total-number.description',
-    defaultMessage: 'Số lượng phân mục trong khóa học có chứa bài tập loại này.',
+    defaultMessage: 'The number of subsections in the course that contain problems of this assignment type.',
   },
   totalNumberErrorMessage: {
     id: 'course-authoring.grading-settings.assignment.total-number.error.message',
-    defaultMessage: 'Vui lòng nhập số nguyên lớn hơn 0.',
+    defaultMessage: 'Please enter an integer greater than 0.',
   },
   numberOfDroppableTitle: {
     id: 'course-authoring.grading-settings.assignment.number-of-droppable.title',
-    defaultMessage: 'Số lượng được bỏ',
+    defaultMessage: 'Number of droppable',
   },
   numberOfDroppableDescription: {
     id: 'course-authoring.grading-settings.assignment.number-of-droppable.description',
-    defaultMessage: 'Số lượng bài tập loại này sẽ bị bỏ. Bài tập có điểm thấp nhất sẽ bị bỏ trước.',
+    defaultMessage: 'The number of assignments of this type that will be dropped. The lowest scoring assignments are dropped first.',
   },
   numberOfDroppableErrorMessage: {
     id: 'course-authoring.grading-settings.assignment.number-of-droppable.error.message',
-    defaultMessage: 'Vui lòng nhập số nguyên không âm.',
+    defaultMessage: 'Please enter non-negative integer.',
   },
   numberOfDroppableSecondErrorMessage: {
     id: 'course-authoring.grading-settings.assignment.number-of-droppable.second.error.message',
-    defaultMessage: 'Không thể bỏ nhiều bài tập {type} hơn số lượng đã được phân công.',
+    defaultMessage: 'Cannot drop more {type} assignments than are assigned.',
   },
   assignmentAlertWarningTitle: {
     id: 'course-authoring.grading-settings.assignment.alert.warning.title',
-    defaultMessage: 'Cảnh báo: Số lượng bài tập {type} được định nghĩa ở đây không khớp với số lượng bài tập {type} hiện tại trong khóa học:',
+    defaultMessage: 'Warning: The number of {type} assignments defined here does not match the current number of {type} assignments in the course:',
   },
   assignmentAlertWarningDescription: {
     id: 'course-authoring.grading-settings.assignment.alert.warning.description',
-    defaultMessage: 'Không có bài tập loại này trong khóa học.',
+    defaultMessage: 'There are no assignments of this type in the course.',
   },
   assignmentAlertWarningUsageTitle: {
     id: 'course-authoring.grading-settings.assignment.alert.warning.usage.title',
-    defaultMessage: 'Cảnh báo: Số lượng bài tập {type} được định nghĩa ở đây không khớp với số lượng bài tập {type} hiện tại trong khóa học:',
+    defaultMessage: 'Warning: The number of {type} assignments defined here does not match the current number of {type} assignments in the course:',
   },
   assignmentAlertWarningSuccess: {
     id: 'course-authoring.grading-settings.assignment.alert.success.title',
-    defaultMessage: 'Số lượng bài tập {type} trong khóa học khớp với số lượng đã định nghĩa ở đây.',
+    defaultMessage: 'The number of {type} assignments in the course matches the number defined here.',
   },
   assignmentDeleteButton: {
     id: 'course-authoring.grading-settings.assignment.delete.button',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
 });
 

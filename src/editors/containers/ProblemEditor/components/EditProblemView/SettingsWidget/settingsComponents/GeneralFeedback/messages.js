@@ -4,24 +4,23 @@ const messages = defineMessages({
 
   generalFeebackSettingTitle: {
     id: 'authoring.problemeditor.settings.generalFeebackSettingTitle',
-    defaultMessage: 'Phản hồi chung',
+    defaultMessage: 'General Feedback',
     description: 'label for general feedback setting',
   },
   generalFeedbackInputLabel: {
     id: 'authoring.problemeditor.settings.generalFeedbackInputLabel',
-    defaultMessage: 'Nhập phản hồi chung',
+    defaultMessage: 'Enter General Feedback',
     description: 'label for general feedback input describing rules',
   },
   generalFeedbackDescription: {
     id: 'authoring.problemeditor.settings.generalFeedbackInputDescription',
-    defaultMessage: 'Nhập phản hồi sẽ hiển thị khi học viên nộp câu trả lời sai. Nếu bạn thêm phản hồi riêng cho từng đáp án, phản hồi chung này sẽ bị ghi đè.',
+    defaultMessage: 'Enter the feedback to appear when a student submits a wrong answer. This will be overridden if you add answer-specific feedback.',
     description: 'description for general feedback input, clariying useage',
   },
   noGeneralFeedbackSummary: {
     id: 'authoring.problemeditor.settings.generalFeedback.noFeedbackSummary',
-    defaultMessage: 'Không có',
+    defaultMessage: 'None',
     description: 'message which informs use there is no general feedback set.',
   },
 });
-
 export default messages;

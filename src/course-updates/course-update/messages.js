@@ -3,15 +3,15 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   editButton: {
     id: 'course-authoring.course-updates.button.edit',
-    defaultMessage: 'Chỉnh sửa',
+    defaultMessage: 'Edit',
   },
   deleteButton: {
     id: 'course-authoring.course-updates.button.delete',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   errorMessage: {
     id: 'course-authoring.course-updates.date-invalid',
-    defaultMessage: 'Yêu cầu hành động: Nhập một ngày hợp lệ.',
+    defaultMessage: 'Action required: Enter a valid date.',
   },
 });
 

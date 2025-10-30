@@ -3,62 +3,62 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   title: {
     id: 'authoring.course-unit.preview-changes.modal-title',
-    defaultMessage: 'Xem trước thay đổi: {blockTitle}',
+    defaultMessage: 'Preview changes: {blockTitle}',
     description: 'Preview changes modal title text',
   },
   defaultUnitTitle: {
     id: 'authoring.course-unit.preview-changes.modal-default-unit-title',
-    defaultMessage: 'Xem trước thay đổi: Đơn vị học',
+    defaultMessage: 'Preview changes: Unit',
     description: 'Preview changes modal default title text for units',
   },
   defaultComponentTitle: {
     id: 'authoring.course-unit.preview-changes.modal-default-component-title',
-    defaultMessage: 'Xem trước thay đổi: Thành phần',
+    defaultMessage: 'Preview changes: Component',
     description: 'Preview changes modal default title text for components',
   },
   acceptChangesBtn: {
     id: 'authoring.course-unit.preview-changes.accept-changes-btn',
-    defaultMessage: 'Chấp nhận thay đổi',
+    defaultMessage: 'Accept changes',
     description: 'Preview changes modal accept button text.',
   },
   acceptChangesFailure: {
     id: 'authoring.course-unit.preview-changes.accept-changes-failure',
-    defaultMessage: 'Không thể cập nhật thành phần',
+    defaultMessage: 'Failed to update component',
     description: 'Toast message to display when accepting changes call fails',
   },
   ignoreChangesBtn: {
     id: 'authoring.course-unit.preview-changes.accept-ignore-btn',
-    defaultMessage: 'Bỏ qua thay đổi',
+    defaultMessage: 'Ignore changes',
     description: 'Preview changes modal ignore button text.',
   },
   ignoreChangesFailure: {
     id: 'authoring.course-unit.preview-changes.ignore-changes-failure',
-    defaultMessage: 'Không thể bỏ qua thay đổi',
+    defaultMessage: 'Failed to ignore changes',
     description: 'Toast message to display when ignore changes call fails',
   },
   cancelBtn: {
     id: 'authoring.course-unit.preview-changes.cancel-btn',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
     description: 'Preview changes modal cancel button text.',
   },
   confirmationTitle: {
     id: 'authoring.course-unit.preview-changes.confirmation-dialog-title',
-    defaultMessage: 'Bỏ qua những thay đổi này?',
+    defaultMessage: 'Ignore these changes?',
     description: 'Preview changes confirmation dialog title when user clicks on ignore changes.',
   },
   confirmationDescription: {
     id: 'authoring.course-unit.preview-changes.confirmation-dialog-description',
-    defaultMessage: 'Bạn có muốn bỏ qua vĩnh viễn phiên bản đã cập nhật này không? Nếu có, bạn sẽ không thể cập nhật cho đến khi có phiên bản mới hơn được xuất bản (trong thư viện).',
+    defaultMessage: 'Would you like to permanently ignore this updated version? If so, you won\'t be able to update this until a newer version is published (in the library).',
     description: 'Preview changes confirmation dialog description text when user clicks on ignore changes.',
   },
   confirmationConfirmBtn: {
     id: 'authoring.course-unit.preview-changes.confirmation-dialog-confirm-btn',
-    defaultMessage: 'Bỏ qua',
+    defaultMessage: 'Ignore',
     description: 'Preview changes confirmation dialog confirm button text when user clicks on ignore changes.',
   },
   olderVersionPreviewAlert: {
     id: 'course-authoring.review-tab.preview.old-version-alert',
-    defaultMessage: 'Bản xem trước phiên bản cũ là phiên bản thư viện trước đó',
+    defaultMessage: 'The old version preview is the previous library version',
     description: 'Alert message stating that older version in preview is of library block',
   },
 });

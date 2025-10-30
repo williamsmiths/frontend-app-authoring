@@ -3,62 +3,62 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   searchAllCourses: {
     id: 'course-authoring.course-search.searchAllCourses',
-    defaultMessage: 'Tất cả khóa học',
+    defaultMessage: 'All courses',
     description: 'Option to get search results from all courses.',
   },
   searchThisCourse: {
     id: 'course-authoring.course-search.searchThisCourse',
-    defaultMessage: 'Khóa học này',
+    defaultMessage: 'This course',
     description: 'Option to limit search results to the current course only.',
   },
   title: {
     id: 'course-authoring.course-search.title',
-    defaultMessage: 'Tìm kiếm',
+    defaultMessage: 'Search',
     description: 'Title for the course search dialog',
   },
   showMore: {
     id: 'course-authoring.course-search.showMore',
-    defaultMessage: 'Hiển thị thêm',
+    defaultMessage: 'Show more',
     description: 'Show more tags / filter options',
   },
   showMoreResults: {
     id: 'course-authoring.course-search.showMoreResults',
-    defaultMessage: 'Hiển thị thêm kết quả',
+    defaultMessage: 'Show more results',
     description: 'Show more results - a button to add to the list of results by loading more from the server',
   },
   loadingMoreResults: {
     id: 'course-authoring.course-search.loadingMoreResults',
-    defaultMessage: 'Đang tải thêm kết quả',
+    defaultMessage: 'Loading more results',
     description: 'Loading more results - the button displays this message while more results are loading',
   },
   emptySearchTitle: {
     id: 'course-authoring.course-search.emptySearchTitle',
-    defaultMessage: 'Bắt đầu tìm kiếm để tìm nội dung',
+    defaultMessage: 'Start searching to find content',
     description: 'Title shown when the user has not yet entered a keyword',
   },
   emptySearchSubtitle: {
     id: 'course-authoring.course-search.emptySearchSubtitle',
-    defaultMessage: 'Tìm kiếm các phần, tiểu phần, đơn vị và thành phần',
+    defaultMessage: 'Find sections, subsections, units and components',
     description: 'Subtitle shown when the user has not yet entered a keyword',
   },
   noResultsTitle: {
     id: 'course-authoring.course-search.noResultsTitle',
-    defaultMessage: 'Không tìm thấy kết quả nào phù hợp với tìm kiếm của bạn',
+    defaultMessage: 'We didn\'t find anything matching your search',
     description: 'Title shown when the search returned no results',
   },
   noResultsSubtitle: {
     id: 'course-authoring.course-search.noResultsSubtitle',
-    defaultMessage: 'Vui lòng thử từ khóa hoặc bộ lọc khác',
+    defaultMessage: 'Please try a different search term or filter',
     description: 'Subtitle shown when the search returned no results',
   },
   openInNewWindow: {
     id: 'course-authoring.course-search.openInNewWindow',
-    defaultMessage: 'Mở trong cửa sổ mới',
+    defaultMessage: 'Open in new window',
     description: 'Alt text for the button that opens the search result in a new window',
   },
   searchError: {
     id: 'course-authoring.course-search.searchError',
-    defaultMessage: 'Đã xảy ra lỗi. Không thể tải kết quả tìm kiếm.',
+    defaultMessage: 'An error occurred. Unable to load search results.',
     description: 'Error message shown when search is not working.',
   },
 });

@@ -3,11 +3,11 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   handoutsTitle: {
     id: 'course-authoring.course-updates.handouts.title',
-    defaultMessage: 'Tài liệu khóa học',
+    defaultMessage: 'Course handouts',
   },
   editButton: {
     id: 'course-authoring.course-updates.actions.edit',
-    defaultMessage: 'Chỉnh sửa',
+    defaultMessage: 'Edit',
   },
 });
 

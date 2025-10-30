@@ -3,35 +3,35 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   uploadImageHelpText: {
     id: 'course-authoring.schedule-section.introducing.upload-image.help-text',
-    defaultMessage: 'Vui lòng cung cấp đường dẫn và tên hợp lệ cho {identifierFieldText} của bạn (Lưu ý: chỉ hỗ trợ định dạng JPEG hoặc PNG)',
+    defaultMessage: 'Please provide a valid path and name to your {identifierFieldText} (Note: only JPEG or PNG format supported)',
   },
   uploadImageFilesAndUploads: {
     id: 'course-authoring.schedule-section.introducing.upload-image.file-and-uploads',
-    defaultMessage: 'tệp và tải lên',
+    defaultMessage: 'files and uploads',
   },
   uploadImageDropzoneText: {
     id: 'course-authoring.schedule-section.introducing.upload-image.dropzone-text',
-    defaultMessage: 'Kéo và thả {identifierFieldText} của bạn vào đây hoặc nhấp để tải lên.',
+    defaultMessage: 'Drag and drop your {identifierFieldText} here or click to upload.',
   },
   uploadImageDropzoneAlt: {
     id: 'course-authoring.schedule-section.introducing.upload-image.dropzone-alt',
-    defaultMessage: 'Hình ảnh đã tải lên cho khóa học',
+    defaultMessage: 'Uploaded image for course',
   },
   uploadImageEmpty: {
     id: 'course-authoring.schedule-section.introducing.upload-image.empty',
-    defaultMessage: 'Khóa học của bạn hiện chưa có hình ảnh. Vui lòng tải lên một hình ảnh (định dạng JPEG hoặc PNG, kích thước đề xuất tối thiểu là 375px rộng x 200px cao)',
+    defaultMessage: 'Your course currently does not have an image. Please upload one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by 200px tall)',
   },
   uploadImageIconAlt: {
     id: 'course-authoring.schedule-section.introducing.upload-image.icon-alt',
-    defaultMessage: 'Biểu tượng tải tệp lên',
+    defaultMessage: 'File upload icon',
   },
   uploadImageBodyFilled: {
     id: 'course-authoring.schedule-section.introducing.upload-image.manage',
-    defaultMessage: 'Bạn có thể quản lý hình ảnh này cùng với tất cả {hyperlink} khác của bạn',
+    defaultMessage: 'You can manage this image along with all of your other {hyperlink}',
   },
   uploadImageInputPlaceholder: {
     id: 'course-authoring.schedule-section.introducing.upload-image.input.placeholder',
-    defaultMessage: 'URL {identifierFieldText} của bạn',
+    defaultMessage: 'Your {identifierFieldText} URL',
   },
 });
 

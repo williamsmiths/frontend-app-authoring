@@ -3,23 +3,23 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.schedule.heading.title',
-    defaultMessage: 'Lịch trình & chi tiết',
+    defaultMessage: 'Schedule & details',
   },
   headingSubtitle: {
     id: 'course-authoring.schedule.heading.subtitle',
-    defaultMessage: 'Cài đặt',
+    defaultMessage: 'Settings',
   },
   buttonSaveText: {
     id: 'course-authoring.schedule.alert.button.save',
-    defaultMessage: 'Lưu thay đổi',
+    defaultMessage: 'Save changes',
   },
   buttonSavingText: {
     id: 'course-authoring.schedule.alert.button.saving',
-    defaultMessage: 'Đang lưu',
+    defaultMessage: 'Saving',
   },
   buttonCancelText: {
     id: 'course-authoring.schedule.alert.button.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   alertWarningAriaLabelledby: {
     id: 'course-authoring.schedule.alert.warning.aria.labelledby',
@@ -31,19 +31,19 @@ const messages = defineMessages({
   },
   alertWarning: {
     id: 'course-authoring.schedule.alert.warning',
-    defaultMessage: 'Bạn đã thực hiện một số thay đổi',
+    defaultMessage: 'You\'ve made some changes',
   },
   alertWarningOnSaveWithError: {
     id: 'course-authoring.schedule.alert.warning.save.error',
-    defaultMessage: 'Bạn đã thực hiện một số thay đổi, nhưng có một số lỗi',
+    defaultMessage: 'You\'ve made some changes, but there are some errors',
   },
   alertWarningDescriptions: {
     id: 'course-authoring.schedule.alert.warning.descriptions',
-    defaultMessage: 'Các thay đổi của bạn sẽ không có hiệu lực cho đến khi bạn lưu tiến trình.',
+    defaultMessage: 'Your changes will not take effect until you save your progress.',
   },
   alertWarningDescriptionsOnSaveWithError: {
     id: 'course-authoring.schedule.alert.warning.save.descriptions.error',
-    defaultMessage: 'Vui lòng xử lý các lỗi trên trang này trước, sau đó lưu tiến trình của bạn.',
+    defaultMessage: 'Please address the errors on this page first, and then save your progress.',
   },
   alertSuccessAriaLabelledby: {
     id: 'course-authoring.schedule.alert.success.aria.labelledby',
@@ -55,7 +55,7 @@ const messages = defineMessages({
   },
   alertSuccess: {
     id: 'course-authoring.schedule.alert.success',
-    defaultMessage: 'Các thay đổi của bạn đã được lưu.',
+    defaultMessage: 'Your changes have been saved.',
   },
   alertLoadFailAriaLabelledby: {
     id: 'course-authoring.schedule.alert.load.fail.aria.labelledby',
@@ -67,7 +67,7 @@ const messages = defineMessages({
   },
   alertLoadFail: {
     id: 'course-authoring.schedule.alert.load.fail',
-    defaultMessage: 'Chúng tôi đã gặp lỗi khi tải cài đặt của bạn.',
+    defaultMessage: 'We encountered an error when loading your settings.',
   },
   alertFailAriaLabelledby: {
     id: 'course-authoring.schedule.alert.fail.aria.labelledby',
@@ -79,39 +79,39 @@ const messages = defineMessages({
   },
   alertFail: {
     id: 'course-authoring.schedule.alert.fail',
-    defaultMessage: 'Chúng tôi đã gặp lỗi khi lưu các thay đổi của bạn.',
+    defaultMessage: 'We encountered an error when saving your changes.',
   },
   errorMessage1: {
     id: 'course-authoring.schedule.schedule-section.error-message-1',
-    defaultMessage: 'Hành vi hiển thị chứng chỉ phải là "Ngày sau khi khóa học kết thúc" nếu ngày chứng chỉ khả dụng được đặt.',
+    defaultMessage: 'The certificates display behavior must be \'A date after the course end date\' if certificate available date is set.',
   },
   errorMessage2: {
     id: 'course-authoring.schedule.schedule-section.error-message-2',
-    defaultMessage: 'Ngày kết thúc đăng ký không được sau ngày kết thúc khóa học.',
+    defaultMessage: 'The enrollment end date cannot be after the course end date.',
   },
   errorMessage3: {
     id: 'course-authoring.schedule.schedule-section.error-message-3',
-    defaultMessage: 'Ngày bắt đầu đăng ký không được sau ngày kết thúc đăng ký.',
+    defaultMessage: 'The enrollment start date cannot be after the enrollment end date.',
   },
   errorMessage4: {
     id: 'course-authoring.schedule.schedule-section.error-message-4',
-    defaultMessage: 'Ngày bắt đầu khóa học phải sau ngày bắt đầu đăng ký.',
+    defaultMessage: 'The course start date must be later than the enrollment start date.',
   },
   errorMessage5: {
     id: 'course-authoring.schedule.schedule-section.error-message-5',
-    defaultMessage: 'Ngày kết thúc khóa học phải sau ngày bắt đầu khóa học.',
+    defaultMessage: 'The course end date must be later than the course start date.',
   },
   errorMessage6: {
     id: 'course-authoring.schedule.schedule-section.error-message-6',
-    defaultMessage: 'Ngày chứng chỉ khả dụng phải sau ngày kết thúc khóa học.',
+    defaultMessage: 'The certificate available date must be later than the course end date.',
   },
   errorMessage7: {
     id: 'course-authoring.schedule.schedule-section.error-message-7',
-    defaultMessage: 'Khóa học phải có ngày bắt đầu được chỉ định.',
+    defaultMessage: 'The course must have an assigned start date.',
   },
   errorMessage8: {
     id: 'course-authoring.schedule.schedule-section.error-message-8',
-    defaultMessage: 'Vui lòng nhập một số nguyên trong khoảng %(min)s đến %(max)s.',
+    defaultMessage: 'Please enter an integer between %(min)s and %(max)s.',
   },
 });
 

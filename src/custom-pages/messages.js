@@ -3,107 +3,107 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'course-authoring.custom-pages.heading',
-    defaultMessage: 'Trang tùy chỉnh',
+    defaultMessage: 'Custom Pages',
   },
   errorAlertMessage: {
     id: 'course-authoring.custom-pages.errorAlert.message',
-    defaultMessage: 'Không thể {actionName} trang. Vui lòng thử lại.',
+    defaultMessage: 'Unable to {actionName} page. Please try again.',
   },
   note: {
     id: 'course-authoring.custom-pages.note',
-    defaultMessage: `Lưu ý: Các trang được hiển thị công khai. Nếu người dùng biết URL
-      của một trang, họ có thể xem trang ngay cả khi chưa đăng ký hoặc
-      đăng nhập vào khóa học của bạn.`,
+    defaultMessage: `Note: Pages are publicly visible. If users know the URL
+      of a page, they can view the page even if they are not registered for
+      or logged in to your course.`,
   },
   addPageHeaderLabel: {
     id: 'course-authoring.custom-pages.header.addPage.label',
-    defaultMessage: 'Trang mới',
+    defaultMessage: 'New page',
   },
   viewLiveLabel: {
     id: 'course-authoring.custom-pages.header.viewLive.label',
-    defaultMessage: 'Xem trực tiếp',
+    defaultMessage: 'View live',
   },
   pageExplanationHeader: {
     id: 'course-authoring.custom-pages.pageExplanation.header',
-    defaultMessage: 'Trang là gì?',
+    defaultMessage: 'What are pages?',
   },
   pageExplanationBody: {
     id: 'course-authoring.custom-pages.pageExplanation.body',
-    defaultMessage: `Các trang được hiển thị theo chiều ngang ở đầu khóa học của bạn. Các trang mặc định (Trang chủ, Khóa học, Thảo luận, Wiki và Tiến độ)
-      sẽ được theo sau bởi giáo trình và các trang tùy chỉnh mà bạn tạo.`,
+    defaultMessage: `Pages are listed horizontally at the top of your course. Default pages (Home, Course, Discussion, Wiki, and Progress)
+      are followed by textbooks and custom pages that you create.`,
   },
   customPagesExplanationHeader: {
     id: 'course-authoring.custom-pages.customPagesExplanation.header',
-    defaultMessage: 'Trang tùy chỉnh',
+    defaultMessage: 'Custom pages',
   },
   customPagesExplanationBody: {
     id: 'course-authoring.custom-pages.customPagesExplanation.body',
-    defaultMessage: `Bạn có thể tạo và chỉnh sửa các trang tùy chỉnh để cung cấp thêm nội dung khóa học cho học viên. Ví dụ: bạn có thể tạo
-      các trang cho chính sách chấm điểm, slide khóa học và lịch khóa học.`,
+    defaultMessage: `You can create and edit custom pages to probide students with additional course content. For example, you can create
+      pages for the grading policy, course slide, and a course calendar.`,
   },
   studentViewExplanationHeader: {
     id: 'course-authoring.custom-pages.studentViewExplanation.header',
-    defaultMessage: 'Trang hiển thị thế nào với học viên trong khóa học của tôi?',
+    defaultMessage: 'How do pages look to students in my course?',
   },
   studentViewExplanationBody: {
     id: 'course-authoring.custom-pages.studentViewExplanation.body',
-    defaultMessage: 'Học viên sẽ thấy các trang mặc định và tùy chỉnh ở đầu khóa học của bạn và sử dụng các liên kết để điều hướng.',
+    defaultMessage: 'Students see the default and custom pages at the top of your course and use the links to navigate.',
   },
   studentViewExampleButton: {
     id: 'course-authoring.custom-pages.studentViewExampleButton.label',
-    defaultMessage: 'Xem ví dụ',
+    defaultMessage: 'See an example',
   },
   studentViewModalTitle: {
     id: 'course-authoring.custom-pages.studentViewModal.title',
-    defaultMessage: 'Các trang trong khóa học của bạn',
+    defaultMessage: 'Pages in Your Course',
   },
   studentViewModalBody: {
     id: 'course-authoring.custom-pages.studentViewModal.Body',
-    defaultMessage: "Các trang xuất hiện trong thanh điều hướng trên cùng của khóa học. Các trang mặc định (Trang chủ, Khóa học, Thảo luận, Wiki và Tiến độ) sẽ được theo sau bởi giáo trình và các trang tùy chỉnh.",
+    defaultMessage: "Pages appear in your course's top navigation bar. The default pages (Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and custom pages.",
   },
   newPageTitle: {
     id: 'course-authoring.custom-pages.page.newPage.title',
-    defaultMessage: 'Trống',
+    defaultMessage: 'Empty',
   },
   editTooltipContent: {
     id: 'course-authoring.custom-pages.editTooltip.content',
-    defaultMessage: 'Chỉnh sửa',
+    defaultMessage: 'Edit',
   },
   deleteTooltipContent: {
     id: 'course-authoring.custom-pages.deleteTooltip.content',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   visibilityTooltipContent: {
     id: 'course-authoring.custom-pages.visibilityTooltip.content',
-    defaultMessage: 'Ẩn/hiện trang đối với học viên',
+    defaultMessage: 'Hide/show page from learners',
   },
   addPageBodyLabel: {
     id: 'course-authoring.custom-pages.body.addPage.label',
-    defaultMessage: 'Thêm trang mới',
+    defaultMessage: 'Add a new page',
   },
   addingPageBodyLabel: {
     id: 'course-authoring.custom-pages.body.addingPage.label',
-    defaultMessage: 'Đang thêm trang mới',
+    defaultMessage: 'Adding a new page',
   },
   deleteConfirmationTitle: {
     id: 'course-authoring.custom-pages..deleteConfirmation.title',
-    defaultMessage: 'Xác nhận xóa trang',
+    defaultMessage: 'Delete Page Confirmation',
   },
   deleteConfirmationMessage: {
     id: 'course-authoring.custom-pages..deleteConfirmation.message',
-    defaultMessage: 'Bạn có chắc chắn muốn xóa trang này không? Hành động này không thể hoàn tác.',
+    defaultMessage: 'Are you sure you want to delete this page? This action cannot be undone.',
   },
   deletePageLabel: {
     id: 'course-authoring.custom-pages.deleteConfirmation.deletePage.label',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   deletingPageBodyLabel: {
     id: 'course-authoring.custom-pages.deleteConfirmation.deletingPage.label',
-    defaultMessage: 'Đang xóa',
+    defaultMessage: 'Deleting',
   },
   cancelButtonLabel: {
     id: 'course-authoring.custom-pages.deleteConfirmation.cancelButton.label',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
 });
 

@@ -3,309 +3,309 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   title: {
     id: 'course-authoring.course-outline.configure-modal.title',
-    defaultMessage: 'Cài đặt {title}',
+    defaultMessage: '{title} settings',
   },
   componentTitle: {
     id: 'course-authoring.course-outline.configure-modal.component.title',
-    defaultMessage: 'Chỉnh sửa quyền truy cập cho: {title}',
+    defaultMessage: 'Editing access for: {title}',
     description: 'The visibility modal title for unit',
   },
   basicTabTitle: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.title',
-    defaultMessage: 'Cơ bản',
+    defaultMessage: 'Basic',
   },
   notGradedTypeOption: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.notGradedTypeOption',
-    defaultMessage: 'Không tính điểm',
+    defaultMessage: 'Not Graded',
   },
   releaseDateAndTime: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.release-date-and-time',
-    defaultMessage: 'Ngày và giờ phát hành',
+    defaultMessage: 'Release date and time',
   },
   releaseDate: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.release-date',
-    defaultMessage: 'Ngày phát hành:',
+    defaultMessage: 'Release date:',
   },
   releaseTimeUTC: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.release-time-UTC',
-    defaultMessage: 'Giờ phát hành (UTC):',
+    defaultMessage: 'Release time in UTC:',
   },
   visibilityTabTitle: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.title',
-    defaultMessage: 'Hiển thị',
+    defaultMessage: 'Visibility',
   },
   visibilitySectionTitle: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.section-visibility',
-    defaultMessage: 'Hiển thị {visibilityTitle}',
+    defaultMessage: '{visibilityTitle} visibility',
   },
   unitVisibility: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.unit-visibility',
-    defaultMessage: 'Hiển thị đơn vị',
+    defaultMessage: 'Unit visibility',
   },
   unitAccess: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.unit-access',
-    defaultMessage: 'Quyền truy cập đơn vị',
+    defaultMessage: 'Unit access',
   },
   libraryContentAccess: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.library-content-access',
-    defaultMessage: 'Quyền truy cập nội dung thư viện',
+    defaultMessage: 'Library content access',
   },
   splitTestAccess: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.split-test-access',
-    defaultMessage: 'Quyền truy cập kiểm thử chia nhóm',
+    defaultMessage: 'Split Test access',
   },
   discussionEnabledSectionTitle: {
     id: 'course-authoring.course-outline.configure-modal.discussion-enabled.section-title',
-    defaultMessage: 'Thảo luận',
+    defaultMessage: 'Discussion',
   },
   discussionEnabledCheckbox: {
     id: 'course-authoring.course-outline.configure-modal.discussion-enabled.checkbox',
-    defaultMessage: 'Bật thảo luận',
+    defaultMessage: 'Enable discussion',
   },
   discussionEnabledDescription: {
     id: 'course-authoring.course-outline.configure-modal.discussion-enabled.description',
-    defaultMessage: 'Các chủ đề cho đơn vị chưa xuất bản sẽ không được tạo',
+    defaultMessage: 'Topics for unpublished units will not be created',
   },
   hideFromLearners: {
     id: 'course-authoring.course-outline.configure-modal.visibility.hide-from-learners',
-    defaultMessage: 'Ẩn với học viên',
+    defaultMessage: 'Hide from learners',
   },
   restrictAccessTo: {
     id: 'course-authoring.course-outline.configure-modal.visibility.restrict-access-to',
-    defaultMessage: 'Giới hạn truy cập cho',
+    defaultMessage: 'Restrict access to',
   },
   sectionVisibilityWarning: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.section-visibility-warning',
-    defaultMessage: 'Nếu bạn hiển thị phần này cho học viên, họ sẽ thấy nội dung sau khi ngày phát hành đã qua và bạn đã xuất bản phần. Chỉ những đơn vị được ẩn thủ công mới tiếp tục bị ẩn sau khi bạn bỏ chọn tùy chọn này.',
+    defaultMessage: 'If you make this section visible to learners, learners will be able to see its content after the release date has passed and you have published the section. Only units that are explicitly hidden from learners will remain hidden after you clear this option for the section.',
   },
   unitVisibilityWarning: {
     id: 'course-authoring.course-outline.configure-modal.unit-tab.unit-visibility-warning',
-    defaultMessage: 'Nếu đơn vị này đã được xuất bản và phát hành cho học viên trước đó, mọi thay đổi khi bị ẩn sẽ bây giờ hiển thị cho học viên.',
+    defaultMessage: 'If the unit was previously published and released to learners, any changes you made to the unit when it was hidden will now be visible to learners.',
   },
   subsectionVisibilityWarning: {
     id: 'course-authoring.course-outline.configure-modal.unit-tab.subsection-visibility-warning',
-    defaultMessage: 'Nếu bạn chọn tùy chọn khác ngoài "Ẩn toàn bộ tiểu mục", các đơn vị đã xuất bản trong tiểu mục này sẽ hiển thị cho học viên trừ khi được ẩn thủ công.',
+    defaultMessage: 'If you select an option other than "Hide entire subsection", published units in this subsection will become available to learners unless they are explicitly hidden.',
   },
   unitSelectGroup: {
     id: 'course-authoring.course-outline.configure-modal.unit-tab.unit-select-group',
-    defaultMessage: 'Chọn một hoặc nhiều nhóm:',
+    defaultMessage: 'Select one or more groups:',
   },
   unitSelectGroupType: {
     id: 'course-authoring.course-outline.configure-modal.unit-tab.unit-select-group-type',
-    defaultMessage: 'Chọn loại nhóm',
+    defaultMessage: 'Select a group type',
   },
   unitSelectDeletedGroupErrorMessage: {
     id: 'course-authoring.course-outline.configure-modal.unit-tab.unit-select-group-deleted-error-message',
-    defaultMessage: 'Nhóm này không còn tồn tại. Chọn nhóm khác hoặc xóa giới hạn truy cập.',
+    defaultMessage: 'This group no longer exists. Choose another group or remove the access restriction.',
     description: 'The alert text of no longer available group',
   },
   unitAllLearnersAndStaff: {
     id: 'course-authoring.course-outline.configure-modal.unit-tab.unit-all-learners-staff',
-    defaultMessage: 'Tất cả học viên và giảng viên',
+    defaultMessage: 'All Learners and Staff',
   },
   cancelButton: {
     id: 'course-authoring.course-outline.configure-modal.button.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   saveButton: {
     id: 'course-authoring.course-outline.configure-modal.button.label',
-    defaultMessage: 'Lưu',
+    defaultMessage: 'Save',
   },
   grading: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.grading',
-    defaultMessage: 'Chấm điểm',
+    defaultMessage: 'Grading',
   },
   gradeAs: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.grade-as',
-    defaultMessage: 'Chấm điểm như:',
+    defaultMessage: 'Grade as:',
   },
   dueDate: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.due-date',
-    defaultMessage: 'Ngày hết hạn:',
+    defaultMessage: 'Due date:',
   },
   dueTimeUTC: {
     id: 'course-authoring.course-outline.configure-modal.basic-tab.due-time-UTC',
-    defaultMessage: 'Giờ hết hạn (UTC):',
+    defaultMessage: 'Due time in UTC:',
   },
   subsectionVisibility: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.subsection-visibility',
-    defaultMessage: 'Hiển thị tiểu mục',
+    defaultMessage: 'Subsection visibility',
   },
   showEntireSubsection: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.show-entire-subsection',
-    defaultMessage: 'Hiển thị toàn bộ tiểu mục',
+    defaultMessage: 'Show entire subsection',
   },
   showEntireSubsectionDescription: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.show-entire-subsection-description',
-    defaultMessage: 'Học viên sẽ thấy tiểu mục đã xuất bản và có thể truy cập nội dung.',
+    defaultMessage: 'Learners see the published subsection and can access its content',
   },
   hideContentAfterDue: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.hide-content-after-due',
-    defaultMessage: 'Ẩn nội dung sau ngày hết hạn',
+    defaultMessage: 'Hide content after due date',
   },
   hideContentAfterDueDescription: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.hide-content-after-due-description',
-    defaultMessage: 'Sau khi ngày hết hạn của tiểu mục qua đi, học viên sẽ không thể truy cập nội dung. Tiểu mục này sẽ không được tính điểm.',
+    defaultMessage: 'After the subsection\'s due date has passed, learners can no longer access its content. The subsection is not included in grade calculations.',
   },
   hideContentAfterEnd: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.hide-content-after-end',
-    defaultMessage: 'Ẩn nội dung sau ngày kết thúc',
+    defaultMessage: 'Hide content after end date',
   },
   hideContentAfterEndDescription: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.hide-content-after-end-description',
-    defaultMessage: 'Sau khi khóa học kết thúc, học viên sẽ không thể truy cập nội dung. Tiểu mục này sẽ không được tính điểm.',
+    defaultMessage: 'After the course\'s end date has passed, learners can no longer access its content. The subsection is not included in grade calculations.',
   },
   hideEntireSubsection: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.hide-entire-subsection',
-    defaultMessage: 'Ẩn toàn bộ tiểu mục',
+    defaultMessage: 'Hide entire subsection',
   },
   hideEntireSubsectionDescription: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.hide-entire-subsection-description',
-    defaultMessage: 'Học viên sẽ không thấy tiểu mục này trong đề cương khóa học. Tiểu mục này sẽ không được tính điểm.',
+    defaultMessage: 'Learners do not see the subsection in the course outline. The subsection is not included in grade calculations.',
   },
   assessmentResultsVisibility: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.assessment-results-visibility',
-    defaultMessage: 'Hiển thị kết quả đánh giá',
+    defaultMessage: 'Assessment Results Visibility',
   },
   alwaysShowAssessmentResults: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.always-show-assessment-results',
-    defaultMessage: 'Luôn hiển thị kết quả đánh giá',
+    defaultMessage: 'Always show assessment results',
   },
   alwaysShowAssessmentResultsDescription: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.always-show-assessment-results-description',
-    defaultMessage: 'Ngay khi học viên nộp câu trả lời, họ sẽ thấy đúng/sai và điểm số nhận được.',
+    defaultMessage: 'When learners submit an answer to an assessment, they immediately see whether the answer is correct or incorrect, and the score received.',
   },
   neverShowAssessmentResults: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.never-show-assessment-results',
-    defaultMessage: 'Không bao giờ hiển thị kết quả đánh giá',
+    defaultMessage: 'Never show assessment results',
   },
   neverShowAssessmentResultsDescription: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.never-show-assessment-results-description',
-    defaultMessage: 'Học viên sẽ không bao giờ thấy đúng/sai hay điểm số của mình.',
+    defaultMessage: 'Learners never see whether their answers to assessments are correct or incorrect, nor the score received.',
   },
   showAssessmentResultsPastDue: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.show-assessment-results-past-due',
-    defaultMessage: 'Hiển thị kết quả đánh giá sau khi quá hạn',
+    defaultMessage: 'Show assessment results when subsection is past due',
   },
   showAssessmentResultsPastDueDescription: {
     id: 'course-authoring.course-outline.configure-modal.visibility-tab.show-assessment-results-past-due-description',
-    defaultMessage: 'Học viên chỉ thấy kết quả sau khi ngày hết hạn của tiểu mục qua đi. Nếu không có ngày hết hạn, học viên luôn thấy kết quả ngay khi nộp.',
+    defaultMessage: 'Learners do not see whether their answer to assessments were correct or incorrect, nor the score received, until after the due date for the subsection has passed. If the subsection does not have a due date, learners always see their scores when they submit answers to assessments.',
   },
   setSpecialExam: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.set-special-exam',
-    defaultMessage: 'Đặt làm bài kiểm tra đặc biệt',
+    defaultMessage: 'Set as a special exam',
   },
   none: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.none',
-    defaultMessage: 'Không có',
+    defaultMessage: 'None',
   },
   timed: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.timed',
-    defaultMessage: 'Giới hạn thời gian',
+    defaultMessage: 'Timed',
   },
   timedDescription: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.timed-description',
-    defaultMessage: 'Bài kiểm tra giới hạn thời gian buộc học viên phải nộp trước khi hết giờ. Có thể cấp thêm thời gian cho từng học viên trong Bảng điều khiển Giảng viên.',
+    defaultMessage: 'Use a timed exam to limit the time learners can spend on problems in this subsection. Learners must submit answers before the time expires. You can allow additional time for individual learners through the instructor Dashboard.',
   },
   proctoredExam: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.proctoredExam',
-    defaultMessage: 'Giám sát',
+    defaultMessage: 'Proctored',
   },
   proctoredExamDescription: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.proctored-exam-description',
-    defaultMessage: 'Bài thi có giám sát sẽ giới hạn thời gian và ghi hình học viên. Video được kiểm duyệt để đảm bảo tuân thủ quy định. Lưu ý: cài đặt này sẽ tự động chuyển sang "Ẩn nội dung sau ngày hết hạn".',
+    defaultMessage: 'Proctored exams are timed and they record video of each learner taking the exam. The videos are then reviewed to ensure that learners follow all examination rules. Please note that setting this exam as proctored will change the visibility settings to "Hide content after due date."',
   },
   onboardingExam: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.onboardingExam',
-    defaultMessage: 'Khởi tạo',
+    defaultMessage: 'Onboarding',
   },
   onboardingExamDescription: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.onboarding-exam-description',
-    defaultMessage: 'Dùng để giới thiệu học viên với thi giám sát, xác minh danh tính và tạo hồ sơ khởi tạo. Hồ sơ cần được duyệt (2 ngày làm việc trở lên) trước khi thi có giám sát.',
+    defaultMessage: 'Use Onboarding to introduce learners to proctoring, verify their identity, and create an onboarding profile. Learners must complete the onboarding profile step prior to taking a proctored exam. Profile reviews take 2+ business days.',
   },
   practiceExam: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.practiceExam',
-    defaultMessage: 'Thi thử có giám sát',
+    defaultMessage: 'Practice proctored',
   },
   practiceExamDescription: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.practice-exam-description',
-    defaultMessage: 'Dùng để làm quen công cụ giám sát. Kết quả bài thi thử không ảnh hưởng đến điểm số.',
+    defaultMessage: 'Use a practice proctored exam to introduce learners to the proctoring tools and processes. Results of a practice exam do not affect a learner\'s grade.',
   },
   advancedTabTitle: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.title',
-    defaultMessage: 'Nâng cao',
+    defaultMessage: 'Advanced',
   },
   timeAllotted: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.time-allotted',
-    defaultMessage: 'Thời gian cho phép (HH:MM):',
+    defaultMessage: 'Time allotted (HH:MM):',
   },
   timeLimitDescription: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.time-limit-description',
-    defaultMessage: 'Chọn thời gian giới hạn cho bài thi. Nếu >24 giờ, nhập thủ công. Có thể cấp thêm thời gian cho từng học viên trong Bảng điều khiển Giảng viên.',
+    defaultMessage: 'Select a time allotment for the exam. If it is over 24 hours, type in the amount of time. You can grant individual learners extra time to complete the exam through the Instructor Dashboard.',
   },
   prereqTitle: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.prereqTitle',
-    defaultMessage: 'Dùng làm điều kiện tiên quyết',
+    defaultMessage: 'Use as a Prerequisite',
   },
   prereqCheckboxLabel: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.prereqCheckboxLabel',
-    defaultMessage: 'Đặt tiểu mục này làm điều kiện tiên quyết cho nội dung khác',
+    defaultMessage: 'Make this subsection available as a prerequisite to other content',
   },
   limitAccessTitle: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.limitAccessTitle',
-    defaultMessage: 'Giới hạn truy cập',
+    defaultMessage: 'Limit access',
   },
   limitAccessDescription: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.limitAccessDescription',
-    defaultMessage: 'Chọn một tiểu mục tiên quyết và nhập % điểm tối thiểu cùng % hoàn thành tối thiểu (0–100) để giới hạn truy cập.',
+    defaultMessage: 'Select a prerequisite subsection and enter a minimum score percentage and minimum completion percentage to limit access to this subsection. Allowed values are 0-100',
   },
   noPrerequisiteOption: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.noPrerequisiteOption',
-    defaultMessage: 'Không có điều kiện tiên quyết',
+    defaultMessage: 'No prerequisite',
   },
   prerequisiteSelectLabel: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.prerequisiteSelectLabel',
-    defaultMessage: 'Điều kiện tiên quyết:',
+    defaultMessage: 'Prerequisite:',
   },
   minScoreLabel: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.minScoreLabel',
-    defaultMessage: 'Điểm tối thiểu:',
+    defaultMessage: 'Minimum score:',
   },
   minCompletionLabel: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.minCompletionLabel',
-    defaultMessage: 'Mức hoàn thành tối thiểu:',
+    defaultMessage: 'Minimum completion:',
   },
   minScoreError: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.minScoreError',
-    defaultMessage: 'Điểm tối thiểu phải là số nguyên từ 0 đến 100.',
+    defaultMessage: 'The minimum score percentage must be a whole number between 0 and 100.',
   },
   minCompletionError: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.minCompletionError',
-    defaultMessage: 'Mức hoàn thành tối thiểu phải là số nguyên từ 0 đến 100.',
+    defaultMessage: 'The minimum completion percentage must be a whole number between 0 and 100.',
   },
   proctoredExamLockedAndisNotProctoredExamAlert: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.proctoredExamLockedAndisNotProctoredExamAlert',
-    defaultMessage: 'Tiểu mục này đã được phát hành như một bài thi giám sát, nhưng đã chuyển về dạng cơ bản hoặc giới hạn thời gian. Không thể cấu hình lại thành thi giám sát. Liên hệ hỗ trợ edX để được giúp đỡ.',
+    defaultMessage: 'This subsection was released to learners as a proctored exam, but was reverted back to a basic or timed exam. You may not configure it as a proctored exam now. Contact edX Support for assistance.',
   },
   proctoredExamLockedAndisProctoredExamAlert: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.proctoredExamLockedAndisProctoredExamAlert',
-    defaultMessage: 'Bài thi giám sát này đã phát hành cho học viên. Không thể đổi sang loại khác. Bạn có thể chuyển về dạng cơ bản hoặc giới hạn thời gian, nhưng KHÔNG thể đặt lại thành giám sát trong tương lai.',
+    defaultMessage: 'This proctored exam has been released to learners. You may not convert it to another type of special exam. You may revert this subsection back to being a basic exam by selecting \'None\', or a timed exam, but you will NOT be able to configure it as a proctored exam in the future.',
   },
   reviewRulesLabel: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.reviewRulesLabel',
-    defaultMessage: 'Xem lại quy định',
+    defaultMessage: 'Review rules',
   },
   reviewRulesDescription: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.reviewRulesDescription',
-    defaultMessage: 'Chỉ định quy định/ngoại lệ để đội ngũ giám sát áp dụng khi xem video. Ví dụ: cho phép dùng máy tính. Quy định sẽ hiển thị cho học viên trước khi bắt đầu bài thi.',
+    defaultMessage: 'Specify any rules or rule exceptions that the proctoring review team should enforce when reviewing the videos. For example, you could specify that calculators are allowed. These specified rules are visible to learners before the learners start the exam.',
   },
   reviewRulesDescriptionWithLink: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.reviewRulesDescriptionWithLink',
-    defaultMessage: 'Chỉ định quy định/ngoại lệ để đội ngũ giám sát áp dụng khi xem video. Ví dụ: cho phép dùng máy tính. Quy định sẽ hiển thị cho học viên cùng với {hyperlink}.',
+    defaultMessage: 'Specify any rules or rule exceptions that the proctoring review team should enforce when reviewing the videos. For example, you could specify that calculators are allowed. These specified rules are visible to learners before the learners start the exam, along with the {hyperlink}.',
   },
   reviewRulesDescriptionLinkText: {
     id: 'course-authoring.course-outline.configure-modal.advanced-tab.reviewRulesDescriptionLinkText',
-    defaultMessage: 'các quy định chung của bài thi giám sát',
+    defaultMessage: 'general proctored exam rules',
   },
 });
 

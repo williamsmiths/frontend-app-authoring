@@ -4,12 +4,12 @@ const messages = defineMessages({
 
   couldNotLoadTextContext: {
     id: 'authoring.texteditor.load.error',
-    defaultMessage: 'Lỗi: Không thể tải nội dung văn bản',
-    description: 'Error Message Displayed When HTML content fails to Load',
+    defaultMessage: 'Error: Could Not Load Text Content',
+    description: 'Error Message Dispayed When HTML content fails to Load',
   },
   spinnerScreenReaderText: {
     id: 'authoring.texteditor.spinnerScreenReaderText',
-    defaultMessage: 'Đang tải',
+    defaultMessage: 'loading',
     description: 'Loading message for spinner screenreader text.',
   },
 });

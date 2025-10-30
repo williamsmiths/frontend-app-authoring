@@ -3,140 +3,140 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headerSubtitle: {
     id: 'course-authoring.content-tags-drawer.header.subtitle',
-    defaultMessage: 'Quản lý thẻ',
+    defaultMessage: 'Manage tags',
   },
   addTagsButtonText: {
     id: 'course-authoring.content-tags-drawer.collapsible.add-tags.button',
-    defaultMessage: 'Thêm thẻ',
+    defaultMessage: 'Add tags',
   },
   loadingMessage: {
     id: 'course-authoring.content-tags-drawer.spinner.loading',
-    defaultMessage: 'Đang tải',
+    defaultMessage: 'Loading',
   },
   loadingTagsDropdownMessage: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.spinner.loading',
-    defaultMessage: 'Đang tải thẻ',
+    defaultMessage: 'Loading tags',
   },
   loadMoreTagsButtonText: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.load-more-tags.button',
-    defaultMessage: 'Tải thêm',
+    defaultMessage: 'Load more',
   },
   noTagsFoundMessage: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.no-tags-found',
-    defaultMessage: 'Không tìm thấy thẻ nào với từ khóa "{searchTerm}"',
+    defaultMessage: 'No tags found with the search term "{searchTerm}"',
   },
   noTagsInTaxonomyMessage: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.no-tags-in-taxonomy',
-    defaultMessage: 'Chưa có thẻ nào trong phân loại này',
+    defaultMessage: 'No tags in this taxonomy yet',
     description: 'Message when the user uses the tags dropdown selector of an empty taxonomy',
   },
   taxonomyTagChecked: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.tag-checked',
-    defaultMessage: 'Đã chọn',
+    defaultMessage: 'Checked',
   },
   taxonomyTagUnchecked: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.tag-unchecked',
-    defaultMessage: 'Bỏ chọn',
+    defaultMessage: 'Unchecked',
   },
   taxonomyTagImplicit: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.tag-implicit',
-    defaultMessage: 'Ngầm định',
+    defaultMessage: 'Implicit',
   },
   taxonomyTagActionInstructionsAriaLabel: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.tag-action-instructions.aria.label',
-    defaultMessage: '{tagState} Thẻ: {tag}. Dùng phím mũi tên để di chuyển giữa các thẻ trong phân loại này. Nhấn phím cách để chọn thẻ.',
+    defaultMessage: '{tagState} Tag: {tag}. Use the arrow keys to move among the tags in this taxonomy. Press space to select a tag.',
   },
   taxonomyTagActionsAriaLabel: {
     id: 'course-authoring.content-tags-drawer.tags-dropdown-selector.tag-actions.aria.label',
-    defaultMessage: '{tagState} Thẻ: {tag}',
+    defaultMessage: '{tagState} Tag: {tag}',
   },
   taxonomyTagsAriaLabel: {
     id: 'course-authoring.content-tags-drawer.content-tags-collapsible.selectable-box.selection.aria.label',
-    defaultMessage: 'lựa chọn thẻ phân loại',
+    defaultMessage: 'taxonomy tags selection',
   },
   manageTagsButton: {
     id: 'course-authoring.content-tags-drawer.button.manage',
-    defaultMessage: 'Quản lý thẻ',
+    defaultMessage: 'Manage tags',
     description: 'Label in the button that opens the drawer to edit content tags',
   },
   tagsSidebarTitle: {
     id: 'course-authoring.course-unit.sidebar.tags.title',
-    defaultMessage: 'Thẻ của đơn vị',
+    defaultMessage: 'Unit tags',
     description: 'Title of the tags sidebar',
   },
   collapsibleAddTagsPlaceholderText: {
     id: 'course-authoring.content-tags-drawer.content-tags-collapsible.custom-menu.placeholder-text',
-    defaultMessage: 'Thêm thẻ',
+    defaultMessage: 'Add a tag',
   },
   collapsibleNoTagsAddedText: {
     id: 'course-authoring.content-tags-drawer.content-tags-collapsible.custom-menu.no-tags-added-text',
-    defaultMessage: 'Chưa có thẻ nào được thêm.',
+    defaultMessage: 'No tags added yet.',
   },
   collapsibleAddStagedTagsButtonText: {
     id: 'course-authoring.content-tags-drawer.content-tags-collapsible.custom-menu.save-staged-tags',
-    defaultMessage: 'Thêm thẻ',
+    defaultMessage: 'Add tags',
   },
   collapsibleCancelStagedTagsButtonText: {
     id: 'course-authoring.content-tags-drawer.content-tags-collapsible.custom-menu.cancel-staged-tags',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   collapsibleInlineAddStagedTagsButtonText: {
     id: 'course-authoring.content-tags-drawer.content-tags-collapsible.custom-menu.inline-save-staged-tags',
-    defaultMessage: 'Thêm',
+    defaultMessage: 'Add',
   },
   tagsDrawerCancelButtonText: {
     id: 'course-authoring.content-tags-drawer.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
     description: 'Button to cancel edit tags.',
   },
   tagsDrawerSaveButtonText: {
     id: 'course-authoring.content-tags-drawer.save',
-    defaultMessage: 'Lưu',
+    defaultMessage: 'Save',
     description: 'Button to save edited tags.',
   },
   tagsDrawerCloseButtonText: {
     id: 'course-authoring.content-tags-drawer.close',
-    defaultMessage: 'Đóng',
+    defaultMessage: 'Close',
     description: 'Button to close manage tags drawer.',
   },
   tagsDrawerEditTagsButtonText: {
     id: 'course-authoring.content-tags-drawer.edit-tags',
-    defaultMessage: 'Chỉnh sửa thẻ',
+    defaultMessage: 'Edit tags',
     description: 'Button to edit tags in manage tags drawer.',
   },
   tagsSaveToastTextTypeAdded: {
     id: 'course-authoring.content-tags-drawer.toast.added',
-    defaultMessage: 'Đã thêm {tagsAdded} thẻ.',
+    defaultMessage: '{tagsAdded} tags added.',
     description: 'Text of toast after save when the user added tags.',
   },
   tagsSaveToastTextTypeRemoved: {
     id: 'course-authoring.content-tags-drawer.toast.removed',
-    defaultMessage: 'Đã xóa {tagsRemoved} thẻ.',
+    defaultMessage: '{tagsRemoved} tags removed.',
     description: 'Text of toast after save when the user removed tags.',
   },
   tagsDeleteAltText: {
     id: 'course-authoring.content-tags-drawer.tag.delete',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
     description: 'Alt label for Delete tag button.',
   },
   otherTagsHeader: {
     id: 'course-authoring.content-tags-drawer.other-tags.header',
-    defaultMessage: 'Các thẻ khác',
+    defaultMessage: 'Other tags',
     description: 'Header of "Other tags" subsection in tags drawer',
   },
   otherTagsDescription: {
     id: 'course-authoring.content-tags-drawer.other-tags.description',
-    defaultMessage: 'Những thẻ này đã được áp dụng, nhưng bạn không thể thêm mới vì bạn không có quyền truy cập vào phân loại của chúng.',
+    defaultMessage: 'These tags are already applied, but you can\'t add new ones as you don\'t have access to their taxonomies.',
     description: 'Description of "Other tags" subsection in tags drawer',
   },
   emptyDrawerContent: {
     id: 'course-authoring.content-tags-drawer.empty',
-    defaultMessage: 'Để sử dụng thẻ, vui lòng {link} hoặc liên hệ với quản trị viên.',
+    defaultMessage: 'To use tags, please {link} or contact your administrator.',
     description: 'Message when there are no taxonomies.',
   },
   emptyDrawerContentLink: {
     id: 'course-authoring.content-tags-drawer.empty-link',
-    defaultMessage: 'bật phân loại',
+    defaultMessage: 'enable a taxonomy',
     description: 'Message of the link used in empty drawer message.',
   },
 });

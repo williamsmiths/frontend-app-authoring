@@ -4,57 +4,57 @@ const messages = defineMessages({
 
   cancelConfirmTitle: {
     id: 'authoring.editorContainer.cancelConfirm.title',
-    defaultMessage: 'Thoát khỏi trình chỉnh sửa?',
+    defaultMessage: 'Exit the editor?',
     description: 'Label for modal confirming cancellation',
   },
   cancelConfirmDescription: {
     id: 'authoring.editorContainer.cancelConfirm.description',
-    defaultMessage: 'Bạn có chắc chắn muốn thoát khỏi trình chỉnh sửa? Mọi thay đổi chưa lưu sẽ bị mất.',
+    defaultMessage: 'Are you sure you want to exit the editor? Any unsaved changes will be lost.',
     description: 'Description text for modal confirming cancellation',
   },
   exitButtonAlt: {
     id: 'authoring.editorContainer.exitButton.alt',
-    defaultMessage: 'Thoát khỏi trình chỉnh sửa',
+    defaultMessage: 'Exit the editor',
     description: 'Alt text for the Exit button',
   },
   keepEditingButtonLabel: {
     id: 'authoring.editorContainer.keepEditing.label',
-    defaultMessage: 'Tiếp tục chỉnh sửa',
+    defaultMessage: 'Keep Editing',
     description: 'Label for keep editing button on the editor cancel confirmation',
   },
   discardChangesButtonlabel: {
     id: 'authoring.editorContainer.discardChanges.label',
-    defaultMessage: 'Hủy thay đổi và thoát',
+    defaultMessage: 'Discard Changes and Exit',
     description: 'Label for discard changes button on the editor cancel confirmation',
   },
   modalTitle: {
     id: 'authoring.editorContainer.accessibleTitle',
-    defaultMessage: 'Hộp thoại Trình chỉnh sửa',
+    defaultMessage: 'Editor Dialog',
     description: 'Text that labels the the editor modal dialog for non-visual users',
   },
   contentSaveFailed: {
     id: 'authoring.editorfooter.save.error',
-    defaultMessage: 'Lỗi: Lưu nội dung thất bại. Vui lòng kiểm tra các thay đổi gần đây và thử lại sau.',
+    defaultMessage: 'Error: Content save failed. Please check recent changes and try again later.',
     description: 'Error message displayed when content fails to save.',
   },
   cancelButtonAriaLabel: {
     id: 'authoring.editorfooter.cancelButton.ariaLabel',
-    defaultMessage: 'Hủy thay đổi và quay lại ngữ cảnh học tập',
+    defaultMessage: 'Discard changes and return to learning context',
     description: 'Screen reader label for cancel button',
   },
   cancelButtonLabel: {
     id: 'authoring.editorfooter.cancelButton.label',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
     description: 'Label for cancel button',
   },
   saveButtonAriaLabel: {
     id: 'authoring.editorfooter.savebutton.ariaLabel',
-    defaultMessage: 'Lưu thay đổi và quay lại ngữ cảnh học tập',
+    defaultMessage: 'Save changes and return to learning context',
     description: 'Screen reader label for save button',
   },
   saveButtonLabel: {
     id: 'authoring.editorfooter.savebutton.label',
-    defaultMessage: 'Lưu',
+    defaultMessage: 'Save',
     description: 'Label for Save button',
   },
 });

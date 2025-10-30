@@ -3,15 +3,15 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   title: {
     id: 'course-authoring.course-outline.empty-placeholder.title',
-    defaultMessage: 'Bạn chưa thêm nội dung nào vào khóa học này.',
+    defaultMessage: 'You haven\'t added any content to this course yet.',
   },
   button: {
     id: 'course-authoring.course-outline.empty-placeholder.button.new-section',
-    defaultMessage: 'Phần mới',
+    defaultMessage: 'New section',
   },
   tooltip: {
     id: 'course-authoring.course-outline.empty-placeholder.button.tooltip',
-    defaultMessage: 'Nhấn để thêm phần mới',
+    defaultMessage: 'Click to add a new section',
   },
 });
 

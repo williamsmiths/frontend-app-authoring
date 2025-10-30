@@ -3,19 +3,19 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.course-outline.headingTitle',
-    defaultMessage: 'Đề cương khóa học',
+    defaultMessage: 'Course outline',
   },
   headingSubtitle: {
     id: 'course-authoring.course-outline.subTitle',
-    defaultMessage: 'Nội dung',
+    defaultMessage: 'Content',
   },
   alertSuccessTitle: {
     id: 'course-authoring.course-outline.reindex.alert.success.title',
-    defaultMessage: 'Chỉ mục khóa học',
+    defaultMessage: 'Course index',
   },
   alertSuccessDescription: {
     id: 'course-authoring.course-outline.reindex.alert.success.description',
-    defaultMessage: 'Khóa học đã được lập chỉ mục lại thành công.',
+    defaultMessage: 'Course has been successfully reindexed.',
   },
   alertSuccessAriaLabelledby: {
     id: 'course-authoring.course-outline.reindex.alert.success.aria.labelledby',
@@ -27,21 +27,21 @@ const messages = defineMessages({
   },
   newSectionButton: {
     id: 'course-authoring.course-outline.section-list.button.new-section',
-    defaultMessage: 'Phần mới',
+    defaultMessage: 'New section',
   },
   exportTagsCreatingToastMessage: {
     id: 'course-authoring.course-outline.export-tags.toast.creating.message',
-    defaultMessage: 'Vui lòng chờ. Đang tạo tệp xuất cho các thẻ khóa học...',
+    defaultMessage: 'Please wait. Creating export file for course tags...',
     description: 'In progress message in toast when exporting tags of a course',
   },
   exportTagsSuccessToastMessage: {
     id: 'course-authoring.course-outline.export-tags.toast.success.message',
-    defaultMessage: 'Các thẻ khóa học đã được xuất thành công',
+    defaultMessage: 'Course tags exported successfully',
     description: 'Success message in toast when exporting tags of a course',
   },
   exportTagsErrorToastMessage: {
     id: 'course-authoring.course-outline.export-tags.toast.error.message',
-    defaultMessage: 'Đã xảy ra lỗi khi tạo tệp',
+    defaultMessage: 'An error has occurred creating the file',
     description: 'Error message in toast when exporting tags of a course',
   },
 });

@@ -3,59 +3,59 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.certificates.heading.title',
-    defaultMessage: 'Chứng chỉ',
+    defaultMessage: 'Certificates',
   },
   headingTitleTabText: {
     id: 'course-authoring.certificates.heading.title.tab.text',
-    defaultMessage: 'Chứng chỉ khóa học',
+    defaultMessage: 'Course certificates',
   },
   headingSubtitle: {
     id: 'course-authoring.certificates.heading.subtitle',
-    defaultMessage: 'Cài đặt',
+    defaultMessage: 'Settings',
   },
   headingActionsPreview: {
     id: 'course-authoring.certificates.heading.action.button.preview',
-    defaultMessage: 'Xem trước chứng chỉ',
+    defaultMessage: 'Preview certificate',
   },
   headingActionsDeactivate: {
     id: 'course-authoring.certificates.heading.action.button.deactivate',
-    defaultMessage: 'Ngừng kích hoạt',
+    defaultMessage: 'Deactivate',
   },
   headingActionsActivate: {
     id: 'course-authoring.certificates.heading.action.button.activate',
-    defaultMessage: 'Kích hoạt',
+    defaultMessage: 'Activate',
   },
   noCertificatesText: {
     id: 'course-authoring.certificates.nocertificate.text',
-    defaultMessage: 'Bạn chưa thêm chứng chỉ nào cho khóa học này.',
+    defaultMessage: 'You haven\'t added any certificates to this course yet.',
   },
   setupCertificateBtn: {
     id: 'course-authoring.certificates.setup.certificate.button',
-    defaultMessage: 'Thêm chứng chỉ đầu tiên của bạn',
+    defaultMessage: 'Add your first certificate',
   },
   withoutModesText: {
     id: 'course-authoring.certificates.without.modes.text',
-    defaultMessage: 'Khóa học này không sử dụng chế độ cấp chứng chỉ.',
+    defaultMessage: 'This course does not use a mode that offers certificates.',
   },
   cardCreate: {
     id: 'course-authoring.certificates.create',
-    defaultMessage: 'Tạo',
+    defaultMessage: 'Create',
   },
   cardCancel: {
     id: 'course-authoring.certificates.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   deleteTooltip: {
     id: 'course-authoring.certificates.signatories.delete.tooltip',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   editTooltip: {
     id: 'course-authoring.certificates.signatories.edit.tooltip',
-    defaultMessage: 'Chỉnh sửa',
+    defaultMessage: 'Edit',
   },
   saveTooltip: {
     id: 'course-authoring.certificates.signatories.save.tooltip',
-    defaultMessage: 'Lưu',
+    defaultMessage: 'Save',
   },
 });
 

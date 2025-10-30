@@ -3,15 +3,15 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   systemTaxonomyPopoverTitle: {
     id: 'course-authoring.taxonomy-list.popover.system-defined.title',
-    defaultMessage: 'Phân loại hệ thống',
+    defaultMessage: 'System taxonomy',
   },
   systemTaxonomyPopoverBody: {
     id: 'course-authoring.taxonomy-list.popover.system-defined.body',
-    defaultMessage: 'Đây là một phân loại ở cấp hệ thống và được bật theo mặc định.',
+    defaultMessage: 'This is a system-level taxonomy and is enabled by default.',
   },
   systemDefinedBadge: {
     id: 'course-authoring.taxonomy-list.badge.system-defined.label',
-    defaultMessage: 'Cấp hệ thống',
+    defaultMessage: 'System-level',
   },
 });
 

@@ -3,71 +3,71 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.studio-home.heading.title',
-    defaultMessage: 'Trang chủ {studioShortName}',
+    defaultMessage: '{studioShortName} home',
   },
   addNewCourseBtnText: {
     id: 'course-authoring.studio-home.add-new-course.btn.text',
-    defaultMessage: 'Khóa học mới',
+    defaultMessage: 'New course',
   },
   addNewLibraryBtnText: {
     id: 'course-authoring.studio-home.add-new-library.btn.text',
-    defaultMessage: 'Thư viện mới',
+    defaultMessage: 'New library',
   },
   homePageLoadFailedMessage: {
     id: 'course-authoring.studio-home.page-load.failed.message',
-    defaultMessage: 'Không thể tải trang chủ Studio. Vui lòng thử lại sau.',
+    defaultMessage: 'Failed to load Studio home. Please try again later.',
   },
   emailStaffBtnText: {
     id: 'course-authoring.studio-home.email-staff.btn.text',
-    defaultMessage: 'Gửi email cho nhân viên để tạo khóa học',
+    defaultMessage: 'Email staff to create course',
   },
   defaultSection_1_Title: {
     id: 'course-authoring.studio-home.default-section-1.title',
-    defaultMessage: 'Bạn có phải là nhân viên trên khóa học {studioShortName} hiện có không?',
+    defaultMessage: 'Are you staff on an existing {studioShortName} course?',
   },
   defaultSection_1_Description: {
     id: 'course-authoring.studio-home.default-section-1.description',
-    defaultMessage: 'Người tạo khóa học phải cấp quyền truy cập cho bạn. Vui lòng liên hệ với người tạo khóa học hoặc quản trị viên của khóa học mà bạn đang hỗ trợ soạn thảo.',
+    defaultMessage: 'The course creator must give you access to the course. Contact the course creator or administrator for the course you are helping to author.',
   },
   defaultSection_2_Title: {
     id: 'course-authoring.studio-home.default-section-2.title',
-    defaultMessage: 'Tạo khóa học đầu tiên của bạn',
+    defaultMessage: 'Create your first course',
   },
   defaultSection_2_Description: {
     id: 'course-authoring.studio-home.default-section-2.description',
-    defaultMessage: 'Khóa học mới của bạn chỉ cách một cú nhấp chuột!',
+    defaultMessage: 'Your new course is just a click away!',
   },
   btnAddNewCourseText: {
     id: 'course-authoring.studio-home.btn.add-new-course.text',
-    defaultMessage: 'Tạo khóa học đầu tiên của bạn',
+    defaultMessage: 'Create your first course',
   },
   btnReRunText: {
     id: 'course-authoring.studio-home.btn.re-run.text',
-    defaultMessage: 'Chạy lại khóa học',
+    defaultMessage: 'Re-run course',
   },
   viewLiveBtnText: {
     id: 'course-authoring.studio-home.btn.view-live.text',
-    defaultMessage: 'Xem trực tiếp',
+    defaultMessage: 'View live',
   },
   organizationTitle: {
     id: 'course-authoring.studio-home.organization.title',
-    defaultMessage: 'Cài đặt tổ chức và thư viện',
+    defaultMessage: 'Organization and library settings',
   },
   organizationLabel: {
     id: 'course-authoring.studio-home.organization.label',
-    defaultMessage: 'Hiển thị tất cả các khóa học trong tổ chức:',
+    defaultMessage: 'Show all courses in organization:',
   },
   organizationSubmitBtnText: {
     id: 'course-authoring.studio-home.organization.btn.submit.text',
-    defaultMessage: 'Gửi',
+    defaultMessage: 'Submit',
   },
   organizationInputPlaceholder: {
     id: 'course-authoring.studio-home.organization.input.placeholder',
-    defaultMessage: 'Ví dụ: MITx',
+    defaultMessage: 'For example, MITx',
   },
   organizationInputNoOptions: {
     id: 'course-authoring.studio-home.organization.input.no-options',
-    defaultMessage: 'Không có tùy chọn',
+    defaultMessage: 'No options',
   },
 });
 

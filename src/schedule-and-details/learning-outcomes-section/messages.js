@@ -3,27 +3,27 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   outcomesTitle: {
     id: 'course-authoring.schedule.learning-outcomes-section.title',
-    defaultMessage: 'Mục tiêu học tập',
+    defaultMessage: 'Learning outcomes',
   },
   outcomesDescription: {
     id: 'course-authoring.schedule.learning-outcomes-section.description',
-    defaultMessage: 'Thêm các mục tiêu học tập cho khóa học này',
+    defaultMessage: 'Add the learning outcomes for this course',
   },
   outcomesDelete: {
     id: 'course-authoring.schedule.learning-outcomes-section.delete',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   outcomesAdd: {
     id: 'course-authoring.schedule.learning-outcomes-section.add',
-    defaultMessage: 'Thêm mục tiêu học tập',
+    defaultMessage: 'Add learning outcome',
   },
   outcomesInputPlaceholder: {
     id: 'course-authoring.schedule.learning-outcomes-section.input.placeholder',
-    defaultMessage: 'Thêm mục tiêu học tập ở đây',
+    defaultMessage: 'Add a learning outcome here',
   },
   outcomesLabelIncrement: {
     id: 'course-authoring.schedule.learning-outcomes-section.label-increment',
-    defaultMessage: 'Mục tiêu học tập',
+    defaultMessage: 'Learning outcome',
   },
 });
 

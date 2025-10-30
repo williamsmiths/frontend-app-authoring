@@ -3,15 +3,15 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   instructorsTitle: {
     id: 'course-authoring.schedule-section.instructors.title',
-    defaultMessage: 'Giảng viên',
+    defaultMessage: 'Instructors',
   },
   instructorsDescription: {
     id: 'course-authoring.schedule-section.instructors.description',
-    defaultMessage: 'Thêm thông tin chi tiết về các giảng viên của khóa học này',
+    defaultMessage: 'Add details about the instructors for this course',
   },
   instructorAdd: {
     id: 'course-authoring.schedule-section.instructors.add-instructor',
-    defaultMessage: 'Thêm giảng viên',
+    defaultMessage: 'Add Instructor',
   },
 });
 

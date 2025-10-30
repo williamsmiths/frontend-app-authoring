@@ -4,7 +4,7 @@ const messages = defineMessages({
 
   titleLabel: {
     id: 'authoring.videoeditor.videoSource.title.label',
-    defaultMessage: 'Nguồn video',
+    defaultMessage: 'Video source',
     description: 'Title for the video source widget',
   },
   videoIdLabel: {
@@ -14,7 +14,7 @@ const messages = defineMessages({
   },
   videoIdFeedback: {
     id: 'authoring.videoeditor.videoSource.videoId.feedback',
-    defaultMessage: 'Nếu bạn được edX cung cấp một Video ID, hãy nhập ID đó tại đây.',
+    defaultMessage: 'If you were assigned a video ID by edX, enter the ID here.',
     description: 'Feedback for video ID field',
   },
   videoUrlLabel: {
@@ -24,27 +24,27 @@ const messages = defineMessages({
   },
   videoUrlFeedback: {
     id: 'authoring.videoeditor.videoSource.videoUrl.feedback',
-    defaultMessage: `URL của video. Có thể là liên kết YouTube hoặc liên kết
-    đến tệp .mp4, .ogg, hoặc .webm được lưu trữ ở nơi khác trên internet.`,
+    defaultMessage: `The URL for your video. This can be a YouTube URL, or a link
+    to an .mp4, .ogg, or .webm video file hosted elsewhere on the internet.`,
     description: 'Feedback for video URL field',
   },
   videoIdChangeAlert: {
     id: 'authoring.videoeditor.videoIdChangeAlert.message',
-    defaultMessage: 'Trường ID video đã thay đổi, vui lòng kiểm tra các giá trị URL video và URL dự phòng, sau đó cập nhật nếu cần.',
+    defaultMessage: 'The Video ID field has changed, please check the Video URL and fallback URL values and update them if necessary.',
     description: 'Body message for the alert that appears when the video id has been changed.',
   },
   fallbackVideoTitle: {
     id: 'authoring.videoeditor.videoSource.fallbackVideo.title',
-    defaultMessage: 'Video dự phòng',
+    defaultMessage: 'Fallback videos',
     description: 'Title for the fallback videos section',
   },
   fallbackVideoMessage: {
     id: 'authoring.videoeditor.videoSource.fallbackVideo.message',
-    defaultMessage: `Để đảm bảo tất cả người học có thể xem video, edX
-    khuyến nghị cung cấp thêm các video ở định dạng .mp4 và
-    .webm. Video tương thích đầu tiên với thiết bị của người học
-    sẽ được phát.`,
-    description: 'Text explaining reason for fallback videos',
+    defaultMessage: `To be sure all learners can access the video, edX
+    recommends providing additional videos in both .mp4 and
+    .webm formats.  The first listed video compatible with the
+    learner's device will play.`,
+    description: 'Test explaining reason for fallback videos',
   },
   fallbackVideoLabel: {
     id: 'authoring.videoeditor.videoSource.fallbackVideo.label',
@@ -53,36 +53,37 @@ const messages = defineMessages({
   },
   deleteFallbackVideo: {
     id: 'authoring.videoeditor.videoSource.deleteFallbackVideo',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
     description: 'Message Presented To user for action to delete fallback video',
   },
   allowDownloadCheckboxLabel: {
     id: 'authoring.videoeditor.videoSource.allowDownloadCheckboxLabel',
-    defaultMessage: 'Cho phép tải video xuống',
+    defaultMessage: 'Allow video downloads',
     description: 'Label for allow video downloads checkbox',
   },
   allowDownloadTooltipMessage: {
     id: 'authoring.videoeditor.videoSource.allowDownloadTooltipMessage',
-    defaultMessage: `Cho phép người học tải video này xuống ở các định dạng khác nhau
-    nếu họ không thể sử dụng trình phát video edX hoặc không có quyền truy cập YouTube.`,
+    defaultMessage: `Allow learners to download versions of this video in
+    different formats if they cannot use the edX video player or do not have
+    access to YouTube.`,
     description: 'Message for allow video downloads checkbox',
   },
   allowVideoSharingCheckboxLabel: {
     id: 'authoring.videoeditor.videoSource.allowVideoSharingCheckboxLabel',
-    defaultMessage: 'Cho phép chia sẻ video này lên mạng xã hội.',
+    defaultMessage: 'Allow this video to be shared on social media.',
     description: 'Label for allow shareable video checkbox',
   },
   allowVideoSharingTooltipMessage: {
     id: 'authoring.videoeditor.videoSource.allowVideoSharingTooltipMessage',
-    defaultMessage: `Cho phép người học chia sẻ công khai video này trên mạng xã hội.
-    Video sẽ hiển thị cho bất kỳ ai, không cần đăng ký khóa học
-    hoặc có tài khoản edX. Các liên kết đến trang giới thiệu khóa học và trang đăng ký 
-    sẽ xuất hiện cùng video.`,
+    defaultMessage: `Allow learners to share this video publicly on social media.
+    The video will be viewable by anyone, they will not need to enroll in the course
+    or even have an edX account. Links to the course about page and to enroll in the 
+    course will appear alongside the video.`,
     description: 'Message for allow shareable video checkbox',
   },
   addButtonLabel: {
     id: 'authoring.videoeditor.videoSource.fallbackVideo.addButtonLabel',
-    defaultMessage: 'Thêm Video URL',
+    defaultMessage: 'Add a video URL',
     description: 'Label for add a video URL button',
   },
 });

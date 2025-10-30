@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'course-authoring.pages-resources.wiki.heading',
-    defaultMessage: 'Cấu hình Wiki',
+    defaultMessage: 'Configure wiki',
   },
   enableWikiLabel: {
     id: 'course-authoring.pages-resources.wiki.enable-wiki.label',
@@ -11,22 +11,23 @@ const messages = defineMessages({
   },
   enableWikiHelp: {
     id: 'course-authoring.pages-resources.wiki.enable-wiki.help',
-    defaultMessage: `Wiki của khóa học có thể được thiết lập dựa trên nhu cầu của khóa học.
-    Các cách sử dụng phổ biến có thể bao gồm chia sẻ câu trả lời cho các câu hỏi thường gặp (FAQs), 
-    chia sẻ thông tin khóa học có thể chỉnh sửa, hoặc cung cấp quyền truy cập vào tài nguyên do người học tạo ra.`,
+    defaultMessage: `The course wiki can be set up based on the needs of your
+    course. Common uses might include sharing answers to course FAQs, sharing
+    editable course information, or providing access to learner-created
+    resources.`,
   },
   enableWikiLink: {
     id: 'course-authoring.pages-resources.wiki.enable-wiki.link',
-    defaultMessage: 'Tìm hiểu thêm về Wiki',
+    defaultMessage: 'Learn more about the wiki',
   },
   enablePublicWikiLabel: {
     id: 'course-authoring.pages-resources.wiki.enable-public-wiki.label',
-    defaultMessage: 'Bật quyền truy cập Wiki công khai',
+    defaultMessage: 'Enable public wiki access',
   },
   enablePublicWikiHelp: {
     id: 'course-authoring.pages-resources.wiki.enable-public-wiki.help',
-    defaultMessage: `Nếu được bật, bất kỳ người dùng đã đăng ký nào cũng có thể xem Wiki của khóa học 
-    ngay cả khi họ chưa ghi danh vào khóa học.`,
+    defaultMessage: `If enabled, any registered user can view the course wiki
+    even if they are not enrolled in the course`,
   },
 });
 

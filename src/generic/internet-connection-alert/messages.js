@@ -3,11 +3,11 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   offlineWarningTitle: {
     id: 'course-authoring.generic.alert.warning.offline.title',
-    defaultMessage: 'Studio gặp sự cố khi lưu công việc của bạn',
+    defaultMessage: 'Studio\'s having trouble saving your work',
   },
   offlineWarningDescription: {
     id: 'course-authoring.generic.alert.warning.offline.description',
-    defaultMessage: 'Điều này có thể xảy ra do lỗi máy chủ hoặc kết nối Internet của bạn. Hãy thử làm mới trang hoặc đảm bảo bạn đang trực tuyến.',
+    defaultMessage: 'This may be happening because of an error with our server or your internet connection. Try refreshing the page or making sure you are online.',
   },
   offlineWarningTitleAriaLabelledBy: {
     id: 'course-authoring.generic.alert.warning.offline.title.aria.labelled-by',

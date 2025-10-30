@@ -3,63 +3,63 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   certificateBehaviorLabel: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.label',
-    defaultMessage: 'Hành vi hiển thị chứng chỉ',
+    defaultMessage: 'Certificate display behavior',
   },
   certificateBehaviorHelpText: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.help-text',
-    defaultMessage: 'Chứng chỉ được trao vào cuối khóa học',
+    defaultMessage: 'Certificates are awarded at the end of a course run',
   },
   certificateAvailableDateLabel: {
     id: 'course-authoring.schedule.schedule-section.certificate-available-date.label',
-    defaultMessage: 'Ngày chứng chỉ có sẵn',
+    defaultMessage: 'Certificate available date',
   },
   certificateDisplayBehaviorToggleTitle: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.title',
-    defaultMessage: 'Tìm hiểu thêm về cài đặt này',
+    defaultMessage: 'Read more about this setting',
   },
   certificateDisplayBehaviorToggleParagraph: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.paragraph',
-    defaultMessage: 'Trong tất cả các cấu hình của cài đặt này, chứng chỉ được tạo cho học viên ngay khi họ đạt ngưỡng điểm đậu trong khóa học (có thể xảy ra trước bài tập cuối cùng tùy theo thiết kế khóa học).',
+    defaultMessage: 'In all configurations of this setting, certificates are generated for learners as soon as they achieve the passing threshold in the course (which can occur before a final assignment based on course design).',
   },
   certificateDisplayBehaviorToggleHeading1: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.heading-1',
-    defaultMessage: 'Ngay khi đạt điểm đậu',
+    defaultMessage: 'Immediately upon passing',
   },
   certificateDisplayBehaviorToggleParagraph1: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.paragraph-1',
-    defaultMessage: 'Học viên có thể truy cập chứng chỉ ngay khi họ đạt điểm trên ngưỡng đậu của khóa học. Lưu ý: học viên có thể đạt điểm đậu trước khi hoàn thành tất cả bài tập trong một số cấu hình khóa học.',
+    defaultMessage: 'Learners can access their certificate as soon as they achieve a passing grade above the course grade threshold. Note: learners can achieve a passing grade before encountering all assignments in some course configurations.',
   },
   certificateDisplayBehaviorToggleHeading2: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.heading-2',
-    defaultMessage: 'Vào ngày kết thúc khóa học',
+    defaultMessage: 'On course end date',
   },
   certificateDisplayBehaviorToggleParagraph2: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.paragraph-2',
-    defaultMessage: 'Học viên đạt điểm đậu có thể truy cập chứng chỉ sau khi ngày kết thúc khóa học đã trôi qua.',
+    defaultMessage: 'Learners with passing grades can access their certificate once the end date of the course has elapsed.',
   },
   certificateDisplayBehaviorToggleHeading3: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.heading-3',
-    defaultMessage: 'Một ngày sau ngày kết thúc khóa học',
+    defaultMessage: 'A date after the course end date',
   },
   certificateDisplayBehaviorToggleParagraph3: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.toggle.paragraph-3',
-    defaultMessage: 'Học viên đạt điểm đậu có thể truy cập chứng chỉ sau ngày bạn thiết lập đã trôi qua.',
+    defaultMessage: 'Learners with passing grades can access their certificate after the date that you set has elapsed.',
   },
   certificateBehaviorDropdownOption1: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.dropdown.option-1',
-    defaultMessage: 'Ngay khi đạt điểm đậu',
+    defaultMessage: 'Immediately upon passing',
   },
   certificateBehaviorDropdownOption2: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.dropdown.option-2',
-    defaultMessage: 'Ngày kết thúc khóa học',
+    defaultMessage: 'End date of course',
   },
   certificateBehaviorDropdownOption3: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.dropdown.option-3',
-    defaultMessage: 'Một ngày sau ngày kết thúc khóa học',
+    defaultMessage: 'A date after the course end date',
   },
   certificateBehaviorDropdownEmpty: {
     id: 'course-authoring.schedule.schedule-section.certificate-behavior.dropdown.empty',
-    defaultMessage: 'Chọn hành vi hiển thị chứng chỉ',
+    defaultMessage: 'Select certificate display behavior',
   },
 });
 

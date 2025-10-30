@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   editTextButtonAlt: {
     id: 'course-authoring.inplace-text-editor.button.alt',
-    defaultMessage: 'Chỉnh sửa',
+    defaultMessage: 'Edit',
     description: 'Alt text for edit text icon button',
   },
 });

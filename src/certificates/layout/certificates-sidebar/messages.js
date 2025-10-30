@@ -3,51 +3,63 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   workingWithCertificatesTitle: {
     id: 'course-authoring.certificates.sidebar.working-with-certificates.title',
-    defaultMessage: 'Làm việc với chứng chỉ',
+    defaultMessage: 'Working with certificates',
+    description: 'Title for the section on how to work with certificates',
   },
   workingWithCertificatesFirstParagraph: {
     id: 'course-authoring.certificates.sidebar.working-with-certificates.first-paragraph',
-    defaultMessage: 'Chỉ định một tiêu đề khóa học để sử dụng trên chứng chỉ nếu tiêu đề chính thức của khóa học quá dài và hiển thị không tốt.',
+    defaultMessage: 'Specify a course title to use on the certificate if the course\'s official title is too long to be displayed well.',
+    description: 'Instructions for specifying a course title for the certificate',
   },
   workingWithCertificatesSecondParagraph: {
     id: 'course-authoring.certificates.sidebar.working-with-certificates.second-paragraph',
-    defaultMessage: 'Đối với chứng chỉ xác minh, hãy chỉ định từ một đến bốn người ký và tải lên hình ảnh chữ ký tương ứng. Để chỉnh sửa hoặc xóa chứng chỉ trước khi được kích hoạt, hãy di chuột vào góc trên bên phải của biểu mẫu và chọn {strongText} hoặc biểu tượng xóa.',
+    defaultMessage: 'For verified certificates, specify between one and four signatories and upload the associated images. To edit or delete a certificate before it is activated, hover over the top right corner of the form and select {strongText} or the delete icon.',
+    description: 'Details on how to specify signatories for verified certificates and edit or delete certificates',
   },
   workingWithCertificatesSecondParagraph_strong: {
     id: 'course-authoring.certificates.sidebar.working-with-certificates.second-paragraph.strong',
-    defaultMessage: 'Chỉnh sửa',
+    defaultMessage: 'Edit',
+    description: 'The strong emphasis text for the edit option',
   },
   workingWithCertificatesThirdParagraph: {
     id: 'course-authoring.certificates.sidebar.working-with-certificates.third-paragraph',
-    defaultMessage: 'Để xem chứng chỉ mẫu, hãy chọn chế độ khóa học và nhấn {strongText}.',
+    defaultMessage: 'To view a sample certificate, choose a course mode and select {strongText}.',
+    description: 'Instructions on how to view a sample certificate',
   },
   workingWithCertificatesThirdParagraph_strong: {
     id: 'course-authoring.certificates.sidebar.working-with-certificates.third-paragraph.strong',
-    defaultMessage: 'Xem trước chứng chỉ',
+    defaultMessage: 'Preview certificate',
+    description: 'The strong emphasis text for the button to preview a sample certificate',
   },
   issuingCertificatesTitle: {
     id: 'course-authoring.certificates.sidebar.issuing-certificates.title',
-    defaultMessage: 'Cấp chứng chỉ cho học viên',
+    defaultMessage: 'Issuing certificates to learners',
+    description: 'Title for the section on issuing certificates to learners',
   },
   issuingCertificatesFirstParagraph: {
     id: 'course-authoring.certificates.sidebar.issuing-certificates.first-paragraph',
-    defaultMessage: 'Để bắt đầu cấp chứng chỉ khóa học, một thành viên nhóm khóa học có vai trò Nhân viên hoặc Quản trị sẽ chọn {strongText}. Chỉ những thành viên có vai trò này mới có thể chỉnh sửa hoặc xóa chứng chỉ đã kích hoạt.',
+    defaultMessage: 'To begin issuing course certificates, a course team member with either the Staff or Admin role selects {strongText}. Only course team members with these roles can edit or delete an activated certificate.',
+    description: 'Instructions for issuing course certificates and the roles required to edit or delete certificates',
   },
   issuingCertificatesFirstParagraph_strong: {
     id: 'course-authoring.certificates.sidebar.issuing-certificates.first-paragraph.strong',
-    defaultMessage: 'Kích hoạt',
+    defaultMessage: 'Activate',
+    description: 'The strong emphasis text for the activation option',
   },
   issuingCertificatesSecondParagraph: {
     id: 'course-authoring.certificates.sidebar.issuing-certificates.second-paragraph',
-    defaultMessage: '{strongText} xóa chứng chỉ sau khi khóa học đã bắt đầu; những học viên đã được cấp chứng chỉ sẽ không thể truy cập lại chúng.',
+    defaultMessage: '{strongText} delete certificates after a course has started; learners who have already earned certificates will no longer be able to access them.',
+    description: 'A warning against deleting certificates once a course has started, noting the impact on learners',
   },
   issuingCertificatesSecondParagraph_strong: {
     id: 'course-authoring.certificates.sidebar.issuing-certificates.second-paragraph.strong',
-    defaultMessage: 'Không được',
+    defaultMessage: 'Do not',
+    description: 'The strong emphasis text part of the warning against deleting certificates',
   },
   learnMoreBtn: {
     id: 'course-authoring.certificates.sidebar.learnmore.button',
-    defaultMessage: 'Tìm hiểu thêm về chứng chỉ',
+    defaultMessage: 'Learn more about certificates',
+    description: 'Text for a button that links to additional information about setting up certificates in studio',
   },
 });
 

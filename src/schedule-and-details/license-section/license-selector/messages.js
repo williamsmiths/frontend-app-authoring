@@ -3,27 +3,27 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   licenseType: {
     id: 'course-authoring.schedule-section.license.type',
-    defaultMessage: 'Loại giấy phép',
+    defaultMessage: 'License type',
   },
   licenseChoice1: {
     id: 'course-authoring.schedule-section.license.choice-1',
-    defaultMessage: 'Giữ toàn quyền',
+    defaultMessage: 'All rights reserved',
   },
   licenseChoice2: {
     id: 'course-authoring.schedule-section.license.choice-2',
-    defaultMessage: 'Creative Commons',
+    defaultMessage: 'Creative commons',
   },
   licenseTooltip1: {
     id: 'course-authoring.schedule-section.license.tooltip-1',
-    defaultMessage: 'Bạn giữ toàn bộ quyền đối với tác phẩm của mình',
+    defaultMessage: 'You reserve all rights for your work',
   },
   licenseTooltip2: {
     id: 'course-authoring.schedule-section.license.tooltip-2',
-    defaultMessage: 'Bạn từ bỏ một số quyền đối với tác phẩm, để người khác cũng có thể sử dụng',
+    defaultMessage: 'You waive some rights for your work, such that others can use it too',
   },
   creativeCommonsURLParagraph: {
     id: 'course-authoring.schedule-section.license.creative-commons.url',
-    defaultMessage: 'Tìm hiểu thêm về Creative Commons',
+    defaultMessage: 'Learn more about creative commons',
   },
 });
 

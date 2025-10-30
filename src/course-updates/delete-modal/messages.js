@@ -3,19 +3,19 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   deleteModalTitle: {
     id: 'course-authoring.course-updates.delete-modal.title',
-    defaultMessage: 'Bạn có chắc chắn muốn xóa bản cập nhật này không?',
+    defaultMessage: 'Are you sure you want to delete this update?',
   },
   deleteModalDescription: {
     id: 'course-authoring.course-updates.delete-modal.description',
-    defaultMessage: 'Hành động này không thể hoàn tác.',
+    defaultMessage: 'This action cannot be undone.',
   },
   cancelButton: {
     id: 'course-authoring.course-updates.actions.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   deleteButton: {
     id: 'course-authoring.course-updates.button.delete',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
 });
 

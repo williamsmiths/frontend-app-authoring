@@ -7,51 +7,51 @@ const messages = defineMessages({
   },
   noDataCard: {
     id: 'course-authoring.course-optimizer.noDataCard',
-    defaultMessage: 'Không có dữ liệu quét',
+    defaultMessage: 'No Scan data available',
   },
   noBrokenLinksCard: {
     id: 'course-authoring.course-optimizer.emptyResultsCard',
-    defaultMessage: 'Không tìm thấy liên kết hỏng',
+    defaultMessage: 'No broken links found',
   },
   scanHeader: {
     id: 'course-authoring.course-optimizer.scanHeader',
-    defaultMessage: 'Quét liên kết hỏng',
+    defaultMessage: 'Broken Links Scan',
   },
   lockedCheckboxLabel: {
     id: 'course-authoring.course-optimizer.lockedCheckboxLabel',
-    defaultMessage: 'Hiển thị các tệp khóa của khóa học',
+    defaultMessage: 'Show Locked Course Files',
   },
   brokenLinksNumber: {
     id: 'course-authoring.course-optimizer.brokenLinksNumber',
-    defaultMessage: '{count} liên kết hỏng',
+    defaultMessage: '{count} broken links',
   },
   lockedLinksNumber: {
     id: 'course-authoring.course-optimizer.lockedLinksNumber',
-    defaultMessage: '{count} liên kết bị khóa',
+    defaultMessage: '{count} locked links',
   },
   externalForbiddenLinksNumber: {
     id: 'course-authoring.course-optimizer.externalForbiddenLinksNumber',
-    defaultMessage: '{count} cần kiểm tra thủ công',
+    defaultMessage: '{count} manual check',
   },
   lockedInfoTooltip: {
     id: 'course-authoring.course-optimizer.lockedInfoTooltip',
-    defaultMessage: 'Những tệp này bị "khóa", nên chúng tôi không thể xác minh liên kết có thể truy cập tệp hay không.',
+    defaultMessage: 'These course files are "locked", so we cannot verify if the link can access the file.',
   },
   brokenLinkStatus: {
     id: 'course-authoring.course-optimizer.brokenLinkStatus',
-    defaultMessage: 'Trạng thái: Hỏng',
+    defaultMessage: 'Status: Broken',
   },
   lockedLinkStatus: {
     id: 'course-authoring.course-optimizer.lockedLinkStatus',
-    defaultMessage: 'Trạng thái: Khóa',
+    defaultMessage: 'Status: Locked',
   },
   recommendedManualCheckText: {
     id: 'course-authoring.course-optimizer.recommendedManualCheckText',
-    defaultMessage: 'Kiểm tra thủ công được khuyến nghị',
+    defaultMessage: 'Recommended Manual Check',
   },
   recommendedManualCheckTooltip: {
     id: 'course-authoring.course-optimizer.recommendedManualCheckTooltip',
-    defaultMessage: 'Đối với các trang web trả về 403, các trang web thường hiển thị 403 vì họ không muốn bot truy cập nội dung của họ',
+    defaultMessage: 'For websites returning 403, websites often show 403 because they don\'t want bots accessing their content',
   },
 });
 

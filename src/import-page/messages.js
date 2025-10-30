@@ -7,23 +7,23 @@ const messages = defineMessages({
   },
   headingTitle: {
     id: 'course-authoring.import.heading.title',
-    defaultMessage: 'Nhập khóa học',
+    defaultMessage: 'Course import',
   },
   headingSubtitle: {
     id: 'course-authoring.import.heading.subtitle',
-    defaultMessage: 'Công cụ',
+    defaultMessage: 'Tools',
   },
   description1: {
     id: 'course-authoring.import.description1',
-    defaultMessage: 'Hãy chắc chắn rằng bạn muốn nhập một khóa học trước khi tiếp tục. Nội dung của khóa học được nhập sẽ thay thế nội dung của khóa học hiện có. Bạn không thể hoàn tác việc nhập khóa học. Trước khi tiếp tục, chúng tôi khuyến nghị bạn xuất khóa học hiện tại để có một bản sao lưu.',
+    defaultMessage: 'Be sure you want to import a course before continuing. The contents of the imported course will replace the contents of the existing course. You cannot undo a course import. Before you proceed, we recommend that you export the current course, so that you have a backup copy of it.',
   },
   description2: {
     id: 'course-authoring.import.description2',
-    defaultMessage: 'Khóa học mà bạn nhập phải ở định dạng .tar.gz (tức là một tệp .tar được nén bằng GNU Zip). Tệp .tar.gz này phải chứa tệp course.xml. Nó cũng có thể chứa các tệp khác.',
+    defaultMessage: 'The course that you import must be in a .tar.gz file (that is, a .tar file compressed with GNU Zip). This .tar.gz file must contain a course.xml file. It may also contain other files.',
   },
   description3: {
     id: 'course-authoring.import.description3',
-    defaultMessage: 'Quá trình nhập có năm giai đoạn. Trong hai giai đoạn đầu, bạn phải ở lại trang này. Bạn có thể rời trang sau khi giai đoạn giải nén hoàn tất. Tuy nhiên, chúng tôi khuyến nghị bạn không thực hiện các thay đổi quan trọng đối với khóa học cho đến khi quá trình nhập hoàn tất.',
+    defaultMessage: 'The import process has five stages. During the first two stages, you must stay on this page. You can leave this page after the unpacking stage has completed. We recommend, however, that you don\'t make important changes to your course until the import operation has completed.',
   },
 });
 

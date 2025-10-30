@@ -3,31 +3,31 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   actionsButtonLabel: {
     id: 'course-authoring.taxonomy-menu.action.button.label',
-    defaultMessage: 'Hành động',
+    defaultMessage: 'Actions',
   },
   actionsButtonAlt: {
     id: 'course-authoring.taxonomy-menu.action.button.alt',
-    defaultMessage: 'Hành động của {name}',
+    defaultMessage: '{name} actions',
   },
   importMenu: {
     id: 'course-authoring.taxonomy-menu.import.label',
-    defaultMessage: 'Nhập lại',
+    defaultMessage: 'Re-import',
   },
   manageOrgsMenu: {
     id: 'course-authoring.taxonomy-menu.assign-orgs.label',
-    defaultMessage: 'Quản lý Tổ chức',
+    defaultMessage: 'Manage Organizations',
   },
   exportMenu: {
     id: 'course-authoring.taxonomy-menu.export.label',
-    defaultMessage: 'Xuất',
+    defaultMessage: 'Export',
   },
   deleteMenu: {
     id: 'course-authoring.taxonomy-menu.delete.label',
-    defaultMessage: 'Xóa',
+    defaultMessage: 'Delete',
   },
   taxonomyDeleteToast: {
     id: 'course-authoring.taxonomy-list.toast.delete',
-    defaultMessage: '"{name}" đã bị xóa',
+    defaultMessage: '"{name}" deleted',
   },
 });
 

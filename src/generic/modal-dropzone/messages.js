@@ -3,32 +3,32 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   uploadImageDropzoneText: {
     id: 'course-authoring.certificates.modal-dropzone.text',
-    defaultMessage: 'Kéo và thả hình ảnh của bạn vào đây hoặc nhấp để tải lên',
+    defaultMessage: 'Drag and drop your image here or click to upload',
     description: 'Description to drag and drop block',
   },
   uploadImageDropzoneAlt: {
     id: 'course-authoring.certificates.modal-dropzone.dropzone-alt',
-    defaultMessage: 'Hình ảnh đã tải lên cho chứng chỉ khóa học',
+    defaultMessage: 'Uploaded image for course certificate',
     description: 'Description for the uploaded image',
   },
   uploadImageValidationText: {
     id: 'course-authoring.certificates.modal-dropzone.validation.text',
-    defaultMessage: 'Chỉ các tệp {types} mới có thể tải lên. Vui lòng chọn tệp kết thúc bằng {extensions} để tải lên.',
+    defaultMessage: 'Only {types} files can be uploaded. Please select a file ending in {extensions} to upload.',
     description: 'Error message for when an invalid file type is selected',
   },
   cancelModal: {
     id: 'course-authoring.certificates.modal-dropzone.cancel.modal',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
     description: 'Text for the cancel button in the modal',
   },
   uploadModal: {
     id: 'course-authoring.certificates.modal-dropzone.upload.modal',
-    defaultMessage: 'Tải lên',
+    defaultMessage: 'Upload',
     description: 'Text for the upload button in the modal',
   },
   uploadImageDropzoneInvalidSizeMore: {
     id: 'course-authoring.certificates.modal-dropzone.validation.invalid-size-more',
-    defaultMessage: 'Kích thước hình ảnh phải nhỏ hơn {maxSize}MB.',
+    defaultMessage: 'Image size must be less than {maxSize}MB.',
     description: 'Error message for when the uploaded image size exceeds the limit',
   },
 });

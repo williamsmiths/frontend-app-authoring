@@ -3,33 +3,32 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   pacingTitle: {
     id: 'course-authoring.schedule.pacing.title',
-    defaultMessage: 'Tốc độ khóa học',
+    defaultMessage: 'Course pacing',
   },
   pacingDescription: {
     id: 'course-authoring.schedule.pacing.description',
-    defaultMessage: 'Đặt tốc độ tiến độ cho khóa học này',
+    defaultMessage: 'Set the pacing for this course',
   },
   pacingRestriction: {
     id: 'course-authoring.schedule.pacing.restriction',
-    defaultMessage: 'Tốc độ khóa học không thể thay đổi sau khi khóa học đã bắt đầu',
+    defaultMessage: 'Course pacing cannot be changed once a course has started',
   },
   pacingTypeInstructorLabel: {
     id: 'course-authoring.schedule.pacing.radio.instructor.label',
-    defaultMessage: 'Theo tiến độ giảng viên',
+    defaultMessage: 'Instructor-paced',
   },
   pacingTypeInstructorDescription: {
     id: 'course-authoring.schedule.pacing.radio.instructor.description',
     defaultMessage:
-      'Khóa học theo tiến độ giảng viên tiến triển theo nhịp độ mà tác giả khóa học đặt ra. Bạn có thể cấu hình ngày phát hành nội dung khóa học và hạn nộp cho các bài tập.',
+      'Instructor-paced courses progress at the pace that the course author sets. You can configure release dates for course content and due dates for assignments.',
   },
   pacingTypeSelfLabel: {
     id: 'course-authoring.schedule.pacing.radio.self-paced.label',
-    defaultMessage: 'Tự học theo tiến độ',
+    defaultMessage: 'Self-paced',
   },
   pacingTypeSelfDescription: {
     id: 'course-authoring.schedule.pacing.radio.self-paced.description',
-    defaultMessage:
-      'Khóa học tự học theo tiến độ cung cấp các hạn nộp gợi ý cho bài tập hoặc bài kiểm tra dựa trên ngày đăng ký của học viên và thời lượng khóa học dự kiến. Các khóa học này cho phép học viên linh hoạt thay đổi ngày nộp bài tập khi cần thiết.',
+    defaultMessage: 'Self-paced courses offer suggested due dates for assignments or exams based on the learner’s enrollment date and the expected course duration. These courses offer learners flexibility to modify the assignment dates as needed.',
   },
 });
 

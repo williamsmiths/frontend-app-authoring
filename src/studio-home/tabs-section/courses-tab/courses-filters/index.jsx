@@ -123,7 +123,7 @@ const CoursesFilters = ({
         >
           <input
             type="text"
-            placeholder="Tìm kiếm"
+            placeholder="Search"
             value={cleanFilters ? '' : inputSearchValue}
             onChange={(e) => onChangeSearch(e.target.value)}
             className="form-control"

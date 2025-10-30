@@ -3,57 +3,57 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   createCollectionModalTitle: {
     id: 'course-authoring.library-authoring.modals.create-collection.title',
-    defaultMessage: 'Bộ sưu tập mới',
+    defaultMessage: 'New Collection',
     description: 'Title of the Create Collection modal',
   },
   createCollectionModalCancel: {
     id: 'course-authoring.library-authoring.modals.create-collection.cancel',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
     description: 'Label of the Cancel button of the Create Collection modal',
   },
   createCollectionModalCreate: {
     id: 'course-authoring.library-authoring.modals.create-collection.create',
-    defaultMessage: 'Tạo',
+    defaultMessage: 'Create',
     description: 'Label of the Create button of the Create Collection modal',
   },
   createCollectionModalNameLabel: {
     id: 'course-authoring.library-authoring.modals.create-collection.form.name',
-    defaultMessage: 'Đặt tên cho bộ sưu tập',
+    defaultMessage: 'Name your collection',
     description: 'Label of the Name field of the Create Collection modal form',
   },
   createCollectionModalNamePlaceholder: {
     id: 'course-authoring.library-authoring.modals.create-collection.form.name.placeholder',
-    defaultMessage: 'Nhập tiêu đề mô tả',
+    defaultMessage: 'Give a descriptive title',
     description: 'Placeholder of the Name field of the Create Collection modal form',
   },
   createCollectionModalNameInvalid: {
     id: 'course-authoring.library-authoring.modals.create-collection.form.name.invalid',
-    defaultMessage: 'Tên bộ sưu tập là bắt buộc',
+    defaultMessage: 'Collection name is required',
     description: 'Message when the Name field of the Create Collection modal form is invalid',
   },
   createCollectionModalDescriptionLabel: {
     id: 'course-authoring.library-authoring.modals.create-collection.form.description',
-    defaultMessage: 'Thêm mô tả (tùy chọn)',
+    defaultMessage: 'Add a description (optional)',
     description: 'Label of the Description field of the Create Collection modal form',
   },
   createCollectionModalDescriptionPlaceholder: {
     id: 'course-authoring.library-authoring.modals.create-collection.form.description.placeholder',
-    defaultMessage: 'Thêm mô tả',
+    defaultMessage: 'Add description',
     description: 'Placeholder of the Description field of the Create Collection modal form',
   },
   createCollectionModalDescriptionDetails: {
     id: 'course-authoring.library-authoring.modals.create-collection.form.description.details',
-    defaultMessage: 'Mô tả giúp bạn và nhóm của bạn tổ chức và tìm kiếm nội dung dễ dàng hơn',
+    defaultMessage: 'Descriptions can help you and your team better organize and find what you are looking for',
     description: 'Details of the Description field of the Create Collection modal form',
   },
   createCollectionSuccess: {
     id: 'course-authoring.library-authoring.modals.create-collection.success',
-    defaultMessage: 'Tạo bộ sưu tập thành công',
+    defaultMessage: 'Collection created successfully',
     description: 'Success message when creating a library collection',
   },
   createCollectionError: {
     id: 'course-authoring.library-authoring.modals.create-collection.error',
-    defaultMessage: 'Có lỗi xảy ra khi tạo bộ sưu tập',
+    defaultMessage: 'There is an error when creating the library collection',
     description: 'Error message when creating a library collection',
   },
 });

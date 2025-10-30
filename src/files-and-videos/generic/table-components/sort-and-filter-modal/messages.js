@@ -3,51 +3,51 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   modalTitle: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.title',
-    defaultMessage: 'Sắp xếp và Lọc',
+    defaultMessage: 'Sort and Filter',
   },
   sortByHeader: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortBySection.header',
-    defaultMessage: 'Sắp xếp theo',
+    defaultMessage: 'Sort by',
   },
   filterByHeader: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.filterBySection.header',
-    defaultMessage: 'Lọc theo',
+    defaultMessage: 'Filter by',
   },
   clearAllButtonLabel: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.clearAllButton.label',
-    defaultMessage: 'Xóa tất cả',
+    defaultMessage: 'Clear all',
   },
   cancelButtonLabel: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.cancelButton.label',
-    defaultMessage: 'Hủy',
+    defaultMessage: 'Cancel',
   },
   sortByNameAscending: {
     id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByNameAscendingButton.label',
-    defaultMessage: 'Tên (A-Z)',
+    defaultMessage: 'Name (A-Z)',
   },
   sortByNewest: {
     id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByNewestButton.label',
-    defaultMessage: 'Mới nhất',
+    defaultMessage: 'Newest',
   },
   sortBySizeDescending: {
     id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortBySizeDescendingButton.label',
-    defaultMessage: 'Kích thước tệp (Cao → Thấp)',
+    defaultMessage: 'File size (High to low)',
   },
   sortByNameDescending: {
     id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByNameDescendingButton.label',
-    defaultMessage: 'Tên (Z-A)',
+    defaultMessage: 'Name (Z-A)',
   },
   sortByOldest: {
     id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByOldestButton.label',
-    defaultMessage: 'Cũ nhất',
+    defaultMessage: 'Oldest',
   },
   sortBySizeAscending: {
     id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortBySizeAscendingButton.label',
-    defaultMessage: 'Kích thước tệp (Thấp → Cao)',
+    defaultMessage: 'File size (Low to high)',
   },
   applySortButton: {
     id: 'course-authoring..files-and-videos.sort-and-filter.modal.applyySortButton.label',
-    defaultMessage: 'Áp dụng',
+    defaultMessage: 'Apply',
   },
 });
 

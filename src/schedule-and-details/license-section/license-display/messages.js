@@ -3,11 +3,11 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   licenseDisplayLabel: {
     id: 'course-authoring.schedule-section.license.license-display.label',
-    defaultMessage: 'Hiển thị giấy phép',
+    defaultMessage: 'License display',
   },
   licenseDisplayParagraph: {
     id: 'course-authoring.schedule-section.license.license-display.paragraph',
-    defaultMessage: 'Thông điệp sau sẽ được hiển thị ở cuối các trang nội dung khóa học trong khóa học của bạn:',
+    defaultMessage: 'The following message will be displayed at the bottom of the courseware pages within your course:',
   },
 });
 

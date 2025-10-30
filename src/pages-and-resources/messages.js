@@ -3,27 +3,27 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'course-authoring.pages-resources.heading',
-    defaultMessage: 'Trang & Tài nguyên',
+    defaultMessage: 'Pages & Resources',
   },
   settings: {
     id: 'course-authoring.pages-resources.resources.settings.button',
-    defaultMessage: 'Cài đặt',
+    defaultMessage: 'settings',
   },
   viewLiveButton: {
     id: 'course-authoring.pages-resources.viewLive.button',
-    defaultMessage: 'Xem trực tiếp',
+    defaultMessage: 'View live',
   },
   errorShowingConfiguration: {
     id: 'course-authoring.pages-resources.courseAppPlugin.errorMessage',
-    defaultMessage: 'Đã xảy ra lỗi khi tải giao diện cấu hình cho ứng dụng đó.',
+    defaultMessage: 'An error occurred when loading the configuration UI for that app.',
   },
   enabled: {
     id: 'course-authoring.badge.enabled',
-    defaultMessage: 'Đã bật',
+    defaultMessage: 'Enabled',
   },
   contentPermissions: {
     id: 'course-authoring.pages-resources.content-permissions.heading',
-    defaultMessage: 'Quyền nội dung',
+    defaultMessage: 'Content permissions',
   },
 });
 

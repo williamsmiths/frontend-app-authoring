@@ -33,7 +33,7 @@ const BasicSection = ({
     {
       id: 'course-authoring.schedule.basic.email.body',
       defaultMessage:
-        'Khóa học {courseDisplayName}, do {platformName} cung cấp, hiện đang mở đăng ký. Vui lòng truy cập khóa học này tại {lmsLinkForAboutPage} để đăng ký.',
+        'The course {courseDisplayName}, provided by {platformName}, is open for enrollment. Please navigate to this course at {lmsLinkForAboutPage} to enroll.',
     },
     {
       courseDisplayName,
@@ -45,9 +45,9 @@ const BasicSection = ({
   const promotionTitle = (
     <FormattedMessage
       id="course-authoring.schedule.basic.promotion.title"
-      defaultMessage="Trang tóm tắt khóa học {smallText}"
+      defaultMessage="Course summary page {smallText}"
       values={{
-        smallText: <small>(dành cho đăng ký và truy cập của học viên)</small>,
+        smallText: <small>(for student enrollment and access)</small>,
       }}
     />
   );
@@ -72,7 +72,7 @@ const BasicSection = ({
 
   const renderBasicInfo = (info) => (
     <li key={info.prefix}>
-      <h4 className="mb-0 text-gray-700">{info.label}</h4>
+      <h4 className="mb-0 text-black">{info.label}</h4>
       <span className="small text-black">{info.value}</span>
     </li>
   );
@@ -116,7 +116,7 @@ const BasicSection = ({
           body={emailBody}
           data-testid={INVITE_STUDENTS_LINK_ID}
         >
-          <Button variant="outline" className="custom-outline-btn" iconBefore={EmailIcon} size="sm">
+          <Button variant="outline-primary" iconBefore={EmailIcon} size="sm">
             {intl.formatMessage(messages.basicPromotionButton)}
           </Button>
         </MailtoLink>
@@ -125,7 +125,7 @@ const BasicSection = ({
   );
 
   return (
-    <section className="section-container basic-section custom-group-progress shadow-sm bg-white rounded p-4 mb-4">
+    <section className="section-container basic-section">
       <SectionSubHeader
         title={intl.formatMessage(messages.basicTitle)}
         description={intl.formatMessage(messages.basicDescription)}
