@@ -1,0 +1,25 @@
+@import "~@openedx/paragon/scss/core/core";
+
+.search-field-loading {
+  margin-left: -25%;
+  margin-top: .5rem;
+}
+
+/* Wrapper */
+.custom-input-search {
+  min-width: 200px;    
+  max-height: fit-content;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid $gray-200;
+  padding: 4px 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-input-search .form-control {
+  border: none !important; 
+  box-shadow: none !important;
+  font-size: 14px;
+  padding-left: 8px;
+}
+
