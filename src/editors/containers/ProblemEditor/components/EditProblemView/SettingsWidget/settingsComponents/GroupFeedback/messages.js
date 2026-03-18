@@ -4,7 +4,7 @@ const messages = defineMessages({
 
   noGroupFeedbackSummary: {
     id: 'authoring.problemeditor.settings.GroupFeedbackSummary.nonMessage',
-    defaultMessage: 'None',
+    defaultMessage: 'Không có',
     description: 'message to confirm that a user wants to use the advanced editor',
   },
   groupFeedbackSummary: {
@@ -14,17 +14,17 @@ const messages = defineMessages({
   },
   addGroupFeedbackButtonText: {
     id: 'authoring.problemeditor.settings.addGroupFeedbackButtonText',
-    defaultMessage: 'Add group feedback',
+    defaultMessage: 'Thêm phản hồi nhóm',
     description: 'addGroupFeedbackButtonText',
   },
   groupFeedbackInputLabel: {
     id: 'authoring.problemeditor.settings.GroupFeedbackInputLabel',
-    defaultMessage: 'Group feedback will appear when a student selects a specific set of answers.',
+    defaultMessage: 'Phản hồi nhóm sẽ hiển thị khi học viên chọn một tập hợp câu trả lời cụ thể.',
     description: 'label for group feedback input',
   },
   groupFeedbackSettingTitle: {
     id: 'authoring.problemeditor.settings.GroupFeedbackSettingTitle',
-    defaultMessage: 'Group Feedback',
+    defaultMessage: 'Phản hồi nhóm',
     description: 'label for group feedback setting',
   },
 });

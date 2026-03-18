@@ -21,7 +21,7 @@ const descriptions = {
   },
   sectionLink: {
     id: 'course-authoring.textbooks.sidebar.section-link',
-    defaultMessage: 'Learn more',
+    defaultMessage: 'Tìm Hiểu Thêm',
     description: 'Text for the link to learn more in the textbooks sidebar',
   },
 };

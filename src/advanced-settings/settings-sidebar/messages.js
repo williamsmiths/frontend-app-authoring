@@ -3,43 +3,43 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   about: {
     id: 'course-authoring.advanced-settings.sidebar.about.title',
-    defaultMessage: 'What do advanced settings do?',
+    defaultMessage: 'Cài Đặt Nâng Cao Làm Gì?',
   },
   aboutDescription1: {
     id: 'course-authoring.advanced-settings.sidebar.about.description-1',
-    defaultMessage: 'Advanced settings control specific course functionality. On this page, you can edit manual policies, which are JSON-based key and value pairs that control specific course settings.',
+    defaultMessage: 'Cài đặt nâng cao kiểm soát các chức năng cụ thể của khóa học. Trên trang này, bạn có thể chỉnh sửa các chính sách thủ công, là các cặp khóa-giá trị dựa trên JSON kiểm soát các cài đặt khóa học cụ thể.',
   },
   aboutDescription2: {
     id: 'course-authoring.advanced-settings.sidebar.about.description-2',
-    defaultMessage: 'Any policies you modify here override all other information you’ve defined elsewhere in Studio. Do not edit policies unless you are familiar with both their purpose and syntax.',
+    defaultMessage: 'Mọi chính sách bạn sửa đổi ở đây sẽ ghi đè tất cả thông tin khác bạn đã định nghĩa trong Studio. Không chỉnh sửa chính sách trừ khi bạn quen thuộc với cả mục đích và cú pháp của chúng.',
   },
   other: {
     id: 'course-authoring.advanced-settings.sidebar.other.title',
-    defaultMessage: 'Other course settings',
+    defaultMessage: 'Cài Đặt Khóa Học Khác',
   },
   otherCourseSettingsLinkToScheduleAndDetails: {
     id: 'course-authoring.advanced-settings.sidebar.links.schedule-and-details',
-    defaultMessage: 'Details & schedule',
+    defaultMessage: 'Chi Tiết & Lịch Trình',
     description: 'Link to Studio Details & schedule page',
   },
   otherCourseSettingsLinkToGrading: {
     id: 'course-authoring.advanced-settings.sidebar.links.grading',
-    defaultMessage: 'Grading',
+    defaultMessage: 'Chấm Điểm',
     description: 'Link to Studio Grading page',
   },
   otherCourseSettingsLinkToCourseTeam: {
     id: 'course-authoring.advanced-settings.sidebar.links.course-team',
-    defaultMessage: 'Course team',
+    defaultMessage: 'Nhóm Khóa Học',
     description: 'Link to Studio Course team page',
   },
   otherCourseSettingsLinkToGroupConfigurations: {
     id: 'course-authoring.advanced-settings.sidebar.links.group-configurations',
-    defaultMessage: 'Group configurations',
+    defaultMessage: 'Cấu Hình Nhóm',
     description: 'Link to Studio Group configurations page',
   },
   otherCourseSettingsLinkToProctoredExamSettings: {
     id: 'course-authoring.advanced-settings.sidebar.links.proctored-exam-settings',
-    defaultMessage: 'Proctored exam settings',
+    defaultMessage: 'Cài Đặt Thi Có Giám Sát',
     description: 'Link to Proctored exam settings page',
   },
 });

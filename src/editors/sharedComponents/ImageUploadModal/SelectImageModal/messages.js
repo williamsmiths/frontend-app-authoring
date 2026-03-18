@@ -4,39 +4,39 @@ const messages = defineMessages({
 
   nextButtonLabel: {
     id: 'authoring.texteditor.selectimagemodal.next.label',
-    defaultMessage: 'Next',
+    defaultMessage: 'Tiếp theo',
     description: 'Label for Next button',
   },
   uploadButtonLabel: {
     id: 'authoring.texteditor.selectimagemodal.upload.label',
-    defaultMessage: 'Upload a new image (10 MB max)',
+    defaultMessage: 'Tải lên hình ảnh mới (tối đa 10 MB)',
     description: 'Label for upload button',
   },
   titleLabel: {
     id: 'authoring.texteditor.selectimagemodal.title.label',
-    defaultMessage: 'Add an image',
+    defaultMessage: 'Thêm hình ảnh',
     description: 'Title for the select image modal',
   },
 
   // Sort Dropdown
   sortByDateNewest: {
     id: 'authoring.texteditor.selectimagemodal.sort.datenewest.label',
-    defaultMessage: 'By date added (newest)',
+    defaultMessage: 'Theo ngày thêm (mới nhất)',
     description: 'Dropdown label for sorting by date (newest)',
   },
   sortByDateOldest: {
     id: 'authoring.texteditor.selectimagemodal.sort.dateoldest.label',
-    defaultMessage: 'By date added (oldest)',
+    defaultMessage: 'Theo ngày thêm (cũ nhất)',
     description: 'Dropdown label for sorting by date (oldest)',
   },
   sortByNameAscending: {
     id: 'authoring.texteditor.selectimagemodal.sort.nameascending.label',
-    defaultMessage: 'By name (ascending)',
+    defaultMessage: 'Theo tên (tăng dần)',
     description: 'Dropdown label for sorting by name (ascending)',
   },
   sortByNameDescending: {
     id: 'authoring.texteditor.selectimagemodal.sort.namedescending.label',
-    defaultMessage: 'By name (descending)',
+    defaultMessage: 'Theo tên (giảm dần)',
     description: 'Dropdown label for sorting by name (descending)',
   },
 
@@ -44,31 +44,31 @@ const messages = defineMessages({
   emptyGalleryLabel: {
     id: 'authoring.texteditor.selectimagemodal.emptyGalleryLabel',
     defaultMessage:
-      'No images found in your gallery. Please upload an image using the button below.',
+      'Không tìm thấy hình ảnh nào trong thư viện của bạn. Vui lòng tải lên hình ảnh bằng nút bên dưới.',
     description: 'Label for when image gallery is empty.',
   },
 
   // Errors
   uploadImageError: {
     id: 'authoring.texteditor.selectimagemodal.error.uploadImageError',
-    defaultMessage: 'Failed to upload image. Please try again.',
+    defaultMessage: 'Tải lên hình ảnh thất bại. Vui lòng thử lại.',
     description: 'Message presented to user when image fails to upload',
   },
   fetchImagesError: {
     id: 'authoring.texteditor.selectimagemodal.error.fetchImagesError',
-    defaultMessage: 'Failed to obtain images. Please try again.',
+    defaultMessage: 'Không thể lấy hình ảnh. Vui lòng thử lại.',
     description: 'Message presented to user when images are not found',
   },
   fileSizeError: {
     id: 'authoring.texteditor.selectimagemodal.error.fileSizeError',
     defaultMessage:
-      'Images must be 10 MB or less. Please resize image and try again.',
+      'Hình ảnh phải có dung lượng tối đa 10 MB. Vui lòng thay đổi kích thước và thử lại.',
     description:
       ' Message presented to user when file size of image is larger than 10 MB',
   },
   selectImageError: {
     id: 'authoring.texteditor.selectimagemodal.error.selectImageError',
-    defaultMessage: 'Select an image to continue.',
+    defaultMessage: 'Chọn một hình ảnh để tiếp tục.',
     description:
       'Message presented to user when clicking Next without selecting an image',
   },

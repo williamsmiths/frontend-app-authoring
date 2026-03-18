@@ -16,7 +16,7 @@ const descriptions = {
   },
   buttonEdit: {
     id: 'course-authoring.textbooks.button.edit',
-    defaultMessage: 'Edit',
+    defaultMessage: 'Chỉnh Sửa',
     description: 'Text for the edit button',
   },
   buttonEditAlt: {
@@ -26,7 +26,7 @@ const descriptions = {
   },
   buttonDelete: {
     id: 'course-authoring.textbooks.button.delete',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Xóa',
     description: 'Text for the delete button',
   },
   buttonDeleteAlt: {

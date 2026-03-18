@@ -3,11 +3,11 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   licenseTitle: {
     id: 'course-authoring.schedule-section.license.title',
-    defaultMessage: 'Course content license',
+    defaultMessage: 'Giấy phép nội dung khóa học',
   },
   licenseDescription: {
     id: 'course-authoring.schedule-section.license.description',
-    defaultMessage: 'Select the default license for course content',
+    defaultMessage: 'Chọn giấy phép mặc định cho nội dung khóa học',
   },
 });
 

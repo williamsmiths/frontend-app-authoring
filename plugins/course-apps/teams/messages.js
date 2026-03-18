@@ -3,176 +3,173 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'authoring.pagesAndResources.teams.heading',
-    defaultMessage: 'Configure teams',
+    defaultMessage: 'Cấu hình nhóm',
   },
   enableTeamsLabel: {
     id: 'authoring.pagesAndResources.teams.enableTeams.label',
-    defaultMessage: 'Teams',
+    defaultMessage: 'Nhóm',
   },
   enableTeamsHelp: {
     id: 'authoring.pagesAndResources.teams.enableTeams.help',
-    defaultMessage: 'Allow learners to work together on specific projects or activities.',
+    defaultMessage: 'Cho phép người học làm việc cùng nhau trong các dự án hoặc hoạt động cụ thể.',
   },
   enableTeamsLink: {
     id: 'authoring.pagesAndResources.teams.enableTeams.link',
-    defaultMessage: 'Learn more about teams',
+    defaultMessage: 'Tìm hiểu thêm về nhóm',
   },
   teamSize: {
     id: 'authoring.pagesAndResources.teams.teamSize.heading',
-    defaultMessage: 'Team size',
+    defaultMessage: 'Kích thước nhóm',
   },
   maxTeamSize: {
     id: 'authoring.pagesAndResources.teams.teamSize.maxTeamSize',
-    defaultMessage: 'Max team size',
+    defaultMessage: 'Số lượng tối đa trong nhóm',
   },
   maxTeamSizeHelp: {
     id: 'authoring.pagesAndResources.teams.teamSize.maxTeamSizeHelp',
-    defaultMessage: 'The maximum number of learners that can join a team',
+    defaultMessage: 'Số lượng người học tối đa có thể tham gia một nhóm',
   },
   maxTeamSizeEmpty: {
     id: 'authoring.pagesAndResources.teams.teamSize.maxTeamSizeEmpty',
-    defaultMessage: 'Enter max team size',
+    defaultMessage: 'Nhập số lượng tối đa của nhóm',
   },
   maxTeamSizeInvalid: {
     id: 'authoring.pagesAndResources.teams.teamSize.maxTeamSizeInvalid',
-    defaultMessage: 'Max team size must be a positive number larger than zero.',
+    defaultMessage: 'Số lượng tối đa của nhóm phải là số dương lớn hơn 0.',
   },
   maxTeamSizeTooHigh: {
     id: 'authoring.pagesAndResources.teams.teamSize.maxTeamSizeTooHigh',
-    defaultMessage: 'Max team size cannot be greater than {max}',
+    defaultMessage: 'Số lượng tối đa của nhóm không được lớn hơn {max}',
   },
   groups: {
     id: 'authoring.pagesAndResources.teams.groups.heading',
-    defaultMessage: 'Groups',
+    defaultMessage: 'Nhóm',
   },
   groupsHelp: {
     id: 'authoring.pagesAndResources.teams.groups.help',
-    defaultMessage: 'Groups are spaces where learners can create or join teams.',
+    defaultMessage: 'Nhóm là không gian nơi người học có thể tạo hoặc tham gia các đội.',
   },
   configureGroup: {
     id: 'authoring.pagesAndResources.teams.configureGroup.heading',
-    defaultMessage: 'Configure group',
+    defaultMessage: 'Cấu hình nhóm',
   },
   groupFormNameLabel: {
     id: 'authoring.pagesAndResources.teams.group.name.label',
-    defaultMessage: 'Name',
+    defaultMessage: 'Tên nhóm',
   },
   groupFormNameHelp: {
     id: 'authoring.pagesAndResources.teams.group.name.help',
-    defaultMessage: 'Choose a unique name for this group',
+    defaultMessage: 'Chọn một tên duy nhất cho nhóm này',
   },
   groupFormNameEmpty: {
     id: 'authoring.pagesAndResources.teams.group.name.error.empty',
-    defaultMessage: 'Enter a unique name for this group',
+    defaultMessage: 'Nhập tên duy nhất cho nhóm này',
   },
   groupFormNameExists: {
     id: 'authoring.pagesAndResources.teams.group.name.error.exists',
-    defaultMessage: 'It looks like this name is already in use',
+    defaultMessage: 'Tên này đã được sử dụng',
   },
   groupFormDescriptionLabel: {
     id: 'authoring.pagesAndResources.teams.group.description.label',
-    defaultMessage: 'Description',
+    defaultMessage: 'Mô tả',
   },
   groupFormDescriptionHelp: {
     id: 'authoring.pagesAndResources.teams.group.description.help',
-    defaultMessage: 'Enter details about this group',
+    defaultMessage: 'Nhập thông tin chi tiết về nhóm này',
   },
   groupFormDescriptionError: {
     id: 'authoring.pagesAndResources.teams.group.description.error',
-    defaultMessage: 'Enter a description for this group',
+    defaultMessage: 'Nhập mô tả cho nhóm này',
   },
   groupFormTypeLabel: {
     id: 'authoring.pagesAndResources.teams.group.type.label',
-    defaultMessage: 'Type',
+    defaultMessage: 'Loại',
   },
   groupFormTypeHelp: {
     id: 'authoring.pagesAndResources.teams.group.type.help',
-    defaultMessage: 'Control who can see, create and join teams',
+    defaultMessage: 'Kiểm soát ai có thể xem, tạo và tham gia nhóm',
   },
   groupTypeOpen: {
     id: 'authoring.pagesAndResources.teams.group.types.open',
-    defaultMessage: 'Open',
+    defaultMessage: 'Mở',
   },
   groupTypeOpenManaged: {
     id: 'authoring.pagesAndResources.teams.group.types.open_managed',
-    defaultMessage: 'Open managed',
+    defaultMessage: 'Mở (quản lý)',
   },
   groupTypeOpenManagedDescription: {
     id: 'authoring.pagesAndResources.teams.group.types.open_managed.description',
-    defaultMessage: 'Only course staff can create teams. Learners can see, join and leave teams.',
+    defaultMessage: 'Chỉ nhân viên khóa học có thể tạo nhóm. Người học có thể xem, tham gia và rời nhóm.',
   },
   groupTypeOpenDescription: {
     id: 'authoring.pagesAndResources.teams.group.types.open.description',
-    defaultMessage: 'Learners can create, join, leave, and see other teams',
+    defaultMessage: 'Người học có thể tạo, tham gia, rời và xem các nhóm khác',
   },
   groupTypePublicManaged: {
     id: 'authoring.pagesAndResources.teams.group.types.public_managed',
-    defaultMessage: 'Public managed',
+    defaultMessage: 'Công khai (quản lý)',
   },
   groupTypePublicManagedDescription: {
     id: 'authoring.pagesAndResources.teams.group.types.public_managed.description',
-    defaultMessage: 'Only course staff can control teams and memberships. Learners can see other teams.',
+    defaultMessage: 'Chỉ nhân viên khóa học có thể quản lý nhóm và thành viên. Người học có thể xem các nhóm khác.',
   },
   groupTypePrivateManaged: {
     id: 'authoring.pagesAndResources.teams.group.types.private_managed',
-    defaultMessage: 'Private managed',
+    defaultMessage: 'Riêng tư (quản lý)',
   },
   groupTypePrivateManagedDescription: {
     id: 'authoring.pagesAndResources.teams.group.types.private_managed.description',
-    defaultMessage: 'Only course staff can control teams, memberships, and see other teams',
+    defaultMessage: 'Chỉ nhân viên khóa học có thể quản lý nhóm, thành viên và xem các nhóm khác.',
   },
   groupFormMaxSizeLabel: {
     id: 'authoring.pagesAndResources.teams.group.maxSize.label',
-    defaultMessage: 'Max team size (optional)',
+    defaultMessage: 'Số lượng tối đa của nhóm (tùy chọn)',
   },
   groupFormMaxSizeHelp: {
     id: 'authoring.pagesAndResources.teams.group.maxSize.help',
-    defaultMessage: 'Override the global max team size',
+    defaultMessage: 'Ghi đè số lượng tối đa toàn cục của nhóm',
   },
   addGroup: {
     id: 'authoring.pagesAndResources.teams.addGroup.button',
-    defaultMessage: 'Add group',
+    defaultMessage: 'Thêm nhóm',
   },
   deleteAlt: {
     id: 'authoring.pagesAndResources.teams.group.delete',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Xóa',
   },
   expandAlt: {
     id: 'authoring.pagesAndResources.teams.group.expand',
-    defaultMessage: 'Expand group editor',
+    defaultMessage: 'Mở trình chỉnh sửa nhóm',
   },
   collapseAlt: {
     id: 'authoring.pagesAndResources.teams.group.collapse',
-    defaultMessage: 'Close group editor',
+    defaultMessage: 'Đóng trình chỉnh sửa nhóm',
   },
   delete: {
     id: 'authoring.pagesAndResources.teams.deleteGroup.initiateDelete',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Xóa',
   },
   cancel: {
     id: 'authoring.pagesAndResources.teams.deleteGroup.cancel-delete.button',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   groupDeleteHeading: {
     id: 'authoring.pagesAndResources.teams.deleteGroup.heading',
-    defaultMessage: 'Delete this group?',
+    defaultMessage: 'Xóa nhóm này?',
   },
   groupDeleteBody: {
     id: 'authoring.pagesAndResources.teams.deleteGroup.body',
-    defaultMessage: `edX recommends that you do not delete groups once your course is running.
-    Your group will no longer be visible in the LMS and learners will not be able to leave teams associated with it.
-    Please delete learners from teams before deleting the associated group.`,
-    description: 'Message displayed to admins when deleting a group. Make sure to include line breaks so that the final text is rendered properly.',
+    defaultMessage: `edX khuyến nghị bạn không nên xóa nhóm khi khóa học đang diễn ra.
+Nhóm của bạn sẽ không còn hiển thị trong LMS và người học sẽ không thể rời khỏi các đội liên quan đến nhóm này.
+Vui lòng xóa người học khỏi các đội trước khi xóa nhóm tương ứng.`,
   },
   noGroupsErrorTitle: {
     id: 'authoring.pagesAndResources.teams.enableGroups.error.noGroupsFound.title',
-    defaultMessage: 'No groups found',
-    description: 'Title of error message displayed when a user tries to enable teams but no group is defined.',
+    defaultMessage: 'Không tìm thấy nhóm',
   },
   noGroupsErrorMessage: {
     id: 'authoring.pagesAndResources.teams.enableGroups.error.noGroupsFound.message',
-    defaultMessage: 'Add one or more groups to enable teams.',
-    description: 'Body of error message displayed when a user tries to enable teams but no group is defined.',
+    defaultMessage: 'Thêm một hoặc nhiều nhóm để bật tính năng nhóm.',
   },
 });
 

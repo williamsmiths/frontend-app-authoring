@@ -1,12 +1,12 @@
 const descriptions = {
   headingTitle: {
     id: 'course-authoring.textbooks.header.title',
-    defaultMessage: 'Textbooks',
+    defaultMessage: 'Sách Giáo Khoa',
     description: 'Title for the textbooks section',
   },
   breadcrumbContent: {
     id: 'course-authoring.textbooks.header.breadcrumb.content',
-    defaultMessage: 'Content',
+    defaultMessage: 'Nội Dung',
     description: 'Breadcrumb for content',
   },
   breadcrumbPagesAndResources: {

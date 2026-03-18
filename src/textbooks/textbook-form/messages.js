@@ -81,7 +81,7 @@ const descriptions = {
   },
   deleteButtonTooltip: {
     id: 'course-authoring.textbooks.form.delete-button.tooltip',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Xóa',
     description: 'Tooltip text for the delete button in the form',
   },
   deleteButtonAlt: {
@@ -91,12 +91,12 @@ const descriptions = {
   },
   cancelButton: {
     id: 'course-authoring.textbooks.form.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
     description: 'Text for the cancel button in the form',
   },
   saveButton: {
     id: 'course-authoring.textbooks.form.button.save',
-    defaultMessage: 'Save',
+    defaultMessage: 'Lưu',
     description: 'Text for the save button in the form',
   },
   uploadModalTitle: {

@@ -3,67 +3,67 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   section_1_title: {
     id: 'course-authoring.course-outline.sidebar.section-1.title',
-    defaultMessage: 'Creating your course organization',
+    defaultMessage: 'Tạo Cấu Trúc Khóa Học',
   },
   section_1_descriptions_1: {
     id: 'course-authoring.course-outline.sidebar.section-1.descriptions-1',
-    defaultMessage: 'You add sections, subsections, and units directly in the outline.',
+    defaultMessage: 'Bạn thêm các phần, phần phụ và đơn vị trực tiếp trong đề cương.',
   },
   section_1_descriptions_2: {
     id: 'course-authoring.course-outline.sidebar.section-1.descriptions-2',
-    defaultMessage: 'Create a section, then add subsections and units. Open a unit to add course components.',
+    defaultMessage: 'Tạo một phần, sau đó thêm các phần phụ và đơn vị. Mở một đơn vị để thêm các thành phần khóa học.',
   },
   section_2_title: {
     id: 'course-authoring.course-outline.sidebar.section-2.title',
-    defaultMessage: 'Reorganizing your course',
+    defaultMessage: 'Sắp Xếp Lại Khóa Học',
   },
   section_2_descriptions_1: {
     id: 'course-authoring.course-outline.sidebar.section-2.descriptions-1',
-    defaultMessage: 'Drag sections, subsections, and units to new locations in the outline.',
+    defaultMessage: 'Kéo các phần, phần phụ và đơn vị đến vị trí mới trong đề cương.',
   },
   section_2_link: {
     id: 'course-authoring.course-outline.sidebar.section-2.link',
-    defaultMessage: 'Learn more about the course outline',
+    defaultMessage: 'Tìm Hiểu Thêm Về Đề Cương Khóa Học',
   },
   section_3_title: {
     id: 'course-authoring.course-outline.sidebar.section-3.title',
-    defaultMessage: 'Setting release dates and grading policies',
+    defaultMessage: 'Đặt Ngày Phát Hành Và Chính Sách Chấm Điểm',
   },
   section_3_descriptions_1: {
     id: 'course-authoring.course-outline.sidebar.section-3.descriptions-1',
-    defaultMessage: 'Select the Configure icon for a section or subsection to set its release date. When you configure a subsection, you can also set the grading policy and due date.',
+    defaultMessage: 'Chọn biểu tượng Cấu Hình cho một phần hoặc phần phụ để đặt ngày phát hành. Khi bạn cấu hình một phần phụ, bạn cũng có thể đặt chính sách chấm điểm và ngày đến hạn.',
   },
   section_3_link: {
     id: 'course-authoring.course-outline.sidebar.section-3.link',
-    defaultMessage: 'Learn more about grading policy settings',
+    defaultMessage: 'Tìm Hiểu Thêm Về Cài Đặt Chính Sách Chấm Điểm',
   },
   section_4_title: {
     id: 'course-authoring.course-outline.sidebar.section-4.title',
-    defaultMessage: 'Changing the content learners see',
+    defaultMessage: 'Thay Đổi Nội Dung Học Viên Xem',
   },
   section_4_descriptions_1: {
     id: 'course-authoring.course-outline.sidebar.section-4.descriptions-1',
-    defaultMessage: 'To publish draft content, select the Publish icon for a section, subsection, or unit.',
+    defaultMessage: 'Để xuất bản nội dung bản nháp, chọn biểu tượng Xuất Bản cho một phần, phần phụ hoặc đơn vị.',
   },
   section_4_descriptions_2: {
     id: 'course-authoring.course-outline.sidebar.section-4.descriptions-2',
-    defaultMessage: 'To make a section, subsection, or unit unavailable to learners, select the Configure icon for that level, then select the appropriate {hide} option. Grades for hidden sections, subsections, and units are not included in grade calculations.',
+    defaultMessage: 'Để làm cho một phần, phần phụ hoặc đơn vị không khả dụng với học viên, chọn biểu tượng Cấu Hình cho cấp đó, sau đó chọn tùy chọn {hide} phù hợp. Điểm cho các phần, phần phụ và đơn vị bị ẩn không được tính vào tính toán điểm.',
   },
   section_4_descriptions_2_hide: {
     id: 'course-authoring.course-outline.sidebar.section-4.descriptions-2.hide',
-    defaultMessage: 'Hide',
+    defaultMessage: 'Ẩn',
   },
   section_4_descriptions_3: {
     id: 'course-authoring.course-outline.sidebar.section-4.descriptions-3',
-    defaultMessage: 'To hide the content of a subsection from learners after the subsection due date has passed, select the Configure icon for a subsection, then select {hide}. Grades for the subsection remain included in grade calculations.',
+    defaultMessage: 'Để ẩn nội dung của một phần phụ khỏi học viên sau khi hết ngày đến hạn, chọn biểu tượng Cấu Hình cho phần phụ, sau đó chọn {hide}. Điểm cho phần phụ vẫn được tính vào tính toán điểm.',
   },
   section_4_descriptions_3_hide: {
     id: 'course-authoring.course-outline.sidebar.section-4.descriptions-3.hide',
-    defaultMessage: 'Hide content after due date',
+    defaultMessage: 'Ẩn Nội Dung Sau Ngày Đến Hạn',
   },
   section_4_link: {
     id: 'course-authoring.course-outline.sidebar.section-4.link',
-    defaultMessage: 'Learn more about content visibility settings',
+    defaultMessage: 'Tìm Hiểu Thêm Về Cài Đặt Hiển Thị Nội Dung',
   },
 });
 

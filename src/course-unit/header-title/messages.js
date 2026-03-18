@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   altButtonEdit: {
     id: 'course-authoring.course-unit.heading.button.edit.alt',
-    defaultMessage: 'Edit',
+    defaultMessage: 'Chỉnh Sửa',
     description: 'The unit edit button text',
   },
   ariaLabelButtonEdit: {
@@ -13,17 +13,17 @@ const messages = defineMessages({
   },
   altButtonSettings: {
     id: 'course-authoring.course-unit.heading.button.settings.alt',
-    defaultMessage: 'Settings',
+    defaultMessage: 'Cài Đặt',
     description: 'The unit settings button text',
   },
   definedVisibilityMessage: {
     id: 'course-authoring.course-unit.heading.visibility.defined.message',
-    defaultMessage: 'Access to this unit is restricted to: {selectedGroupsLabel}',
+    defaultMessage: 'Quyền truy cập vào đơn vị này bị giới hạn cho: {selectedGroupsLabel}',
     description: 'Group visibility accessibility text for Unit',
   },
   commonVisibilityMessage: {
     id: 'course-authoring.course-unit.heading.visibility.common.message',
-    defaultMessage: 'Access to some content in this unit is restricted to specific groups of learners.',
+    defaultMessage: 'Quyền truy cập vào một số nội dung trong học phần này bị hạn chế đối với các nhóm học viên cụ thể.',
     description: 'The label text of some content restriction in this unit',
   },
 });

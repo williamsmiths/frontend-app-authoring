@@ -4,12 +4,12 @@ const messages = defineMessages({
 
   saveButtonLabel: {
     id: 'authoring.texteditor.sourcecodemodal.next.label',
-    defaultMessage: 'Save',
+    defaultMessage: 'Lưu',
     description: 'Label for Save button for the source code editor',
   },
   titleLabel: {
     id: 'authoring.texteditor.sourcecodemodal.title.label',
-    defaultMessage: 'Edit Source Code',
+    defaultMessage: 'Chỉnh sửa mã nguồn',
     description: 'Title for the source code editor',
   },
 });

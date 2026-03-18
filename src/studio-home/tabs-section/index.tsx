@@ -130,7 +130,7 @@ const TabsSection = ({
           title={(
             <Stack gap={2} direction="horizontal">
               {intl.formatMessage(messages.librariesTabTitle)}
-              <Badge variant="danger">{intl.formatMessage(messages.librariesV2TabBetaBadge)}</Badge>
+              <Badge variant="info">{intl.formatMessage(messages.librariesV2TabBetaBadge)}</Badge>
             </Stack>
           )}
           className="nav-item nav-link custom-nav-link"

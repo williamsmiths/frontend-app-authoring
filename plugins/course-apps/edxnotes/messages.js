@@ -3,22 +3,22 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'course-authoring.pages-resources.notes.heading',
-    defaultMessage: 'Configure notes',
+    defaultMessage: 'Cấu Hình Ghi Chú',
   },
   enableNotesLabel: {
     id: 'course-authoring.pages-resources.notes.enable-notes.label',
-    defaultMessage: 'Notes',
+    defaultMessage: 'Ghi Chú',
   },
   enableNotesHelp: {
     id: 'course-authoring.pages-resources.notes.enable-notes.help',
-    defaultMessage: `Learners can access their notes either in the body of the
-    course of on a notes page. On the notes page, a learner can see all the
-    notes made during the course. The page also contains links to the location
-    of the notes in the course body.`,
+    defaultMessage: `Học viên có thể truy cập ghi chú trong nội dung
+    khóa học hoặc trên trang ghi chú. Trên trang ghi chú, học viên có thể xem tất cả
+    ghi chú được tạo trong khóa học. Trang này cũng chứa liên kết đến vị trí
+    của ghi chú trong nội dung khóa học.`,
   },
   enableNotesLink: {
     id: 'course-authoring.pages-resources.notes.enable-notes.link',
-    defaultMessage: 'Learn more about notes',
+    defaultMessage: 'Tìm Hiểu Thêm Về Ghi Chú',
   },
 });
 

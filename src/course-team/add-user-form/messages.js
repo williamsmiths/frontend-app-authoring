@@ -3,29 +3,28 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   formTitle: {
     id: 'course-authoring.course-team.form.title',
-    defaultMessage: 'Add a user to your course\'s team',
+    defaultMessage: 'Thêm người dùng vào nhóm khóa học',
   },
   formLabel: {
     id: 'course-authoring.course-team.form.label',
-    defaultMessage: 'User\'s email address',
+    defaultMessage: 'Địa chỉ email của người dùng',
   },
   formPlaceholder: {
     id: 'course-authoring.course-team.form.placeholder',
-    defaultMessage: 'example: {email}',
+    defaultMessage: 'ví dụ: {email}',
   },
   formHelperText: {
     id: 'course-authoring.course-team.form.helperText',
-    defaultMessage: 'Provide the email address of the user you want to add as Staff',
+    defaultMessage: 'Nhập địa chỉ email của người dùng mà bạn muốn thêm vào với vai trò Nhân viên (Staff)',
   },
   addUserButton: {
     id: 'course-authoring.course-team.form.button.addUser',
-    defaultMessage: 'Add user',
+    defaultMessage: 'Thêm người dùng',
   },
   cancelButton: {
     id: 'course-authoring.course-team.form.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
-
 });
 
 export default messages;

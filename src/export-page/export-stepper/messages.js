@@ -3,43 +3,43 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   stepperPreparingTitle: {
     id: 'course-authoring.export.stepper.title.preparing',
-    defaultMessage: 'Preparing',
+    defaultMessage: 'Đang Chuẩn Bị',
   },
   stepperExportingTitle: {
     id: 'course-authoring.export.stepper.title.exporting',
-    defaultMessage: 'Exporting',
+    defaultMessage: 'Đang Xuất',
   },
   stepperCompressingTitle: {
     id: 'course-authoring.export.stepper.title.compressing',
-    defaultMessage: 'Compressing',
+    defaultMessage: 'Đang Nén',
   },
   stepperSuccessTitle: {
     id: 'course-authoring.export.stepper.title.success',
-    defaultMessage: 'Success',
+    defaultMessage: 'Thành Công',
   },
   stepperPreparingDescription: {
     id: 'course-authoring.export.stepper.description.preparing',
-    defaultMessage: 'Preparing to start the export',
+    defaultMessage: 'Đang chuẩn bị bắt đầu xuất',
   },
   stepperExportingDescription: {
     id: 'course-authoring.export.stepper.description.exporting',
-    defaultMessage: 'Creating the export data files (You can now leave this page safely, but avoid making drastic changes to content until this export is complete)',
+    defaultMessage: 'Đang tạo các tệp dữ liệu xuất (Bây giờ bạn có thể rời khỏi trang này một cách an toàn, nhưng tránh thực hiện các thay đổi lớn đối với nội dung cho đến khi việc xuất hoàn tất)',
   },
   stepperCompressingDescription: {
     id: 'course-authoring.export.stepper.description.compressing',
-    defaultMessage: 'Compressing the exported data and preparing it for download',
+    defaultMessage: 'Đang nén dữ liệu đã xuất và chuẩn bị để tải xuống',
   },
   stepperSuccessDescription: {
     id: 'course-authoring.export.stepper.description.success',
-    defaultMessage: 'Your exported course can now be downloaded',
+    defaultMessage: 'Khóa học đã xuất của bạn có thể được tải xuống',
   },
   downloadCourseButtonTitle: {
     id: 'course-authoring.export.stepper.download.button.title',
-    defaultMessage: 'Download exported course',
+    defaultMessage: 'Tải Xuống Khóa Học Đã Xuất',
   },
   stepperHeaderTitle: {
     id: 'course-authoring.export.stepper.header.title',
-    defaultMessage: 'Course export status',
+    defaultMessage: 'Trạng Thái Xuất Khóa Học',
   },
 });
 

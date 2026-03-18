@@ -3,88 +3,88 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   expandTooltip: {
     id: 'course-authoring.course-outline.card.expandTooltip',
-    defaultMessage: 'Collapse/Expand this card',
+    defaultMessage: 'Thu Gọn/Mở Rộng Thẻ Này',
   },
   statusBadgeLive: {
     id: 'course-authoring.course-outline.card.status-badge.live',
-    defaultMessage: 'Live',
+    defaultMessage: 'Đang Hoạt Động',
   },
   statusBadgeGated: {
     id: 'course-authoring.course-outline.card.status-badge.gated',
-    defaultMessage: 'Gated',
+    defaultMessage: 'Bị Giới Hạn',
   },
   statusBadgePublishedNotLive: {
     id: 'course-authoring.course-outline.card.status-badge.published-not-live',
-    defaultMessage: 'Published not live',
+    defaultMessage: 'Đã Xuất Bản Nhưng Chưa Hoạt Động',
   },
   statusBadgeStaffOnly: {
     id: 'course-authoring.course-outline.card.status-badge.staff-only',
-    defaultMessage: 'Staff only',
+    defaultMessage: 'Chỉ Dành Cho Nhân Viên',
   },
   statusBadgeDraft: {
     id: 'course-authoring.course-outline.card.status-badge.draft',
-    defaultMessage: 'Draft',
+    defaultMessage: 'Bản Nháp',
   },
   statusBadgeUnpublishedChanges: {
     id: 'course-authoring.course-outline.card.status-badge.draft-unpublished-changes',
-    defaultMessage: 'Draft (Unpublished changes)',
+    defaultMessage: 'Bản Nháp (Thay Đổi Chưa Xuất Bản)',
   },
   altButtonRename: {
     id: 'course-authoring.course-outline.card.button.edit.alt',
-    defaultMessage: 'Rename',
+    defaultMessage: 'Đổi Tên',
   },
   menuPublish: {
     id: 'course-authoring.course-outline.card.menu.publish',
-    defaultMessage: 'Publish',
+    defaultMessage: 'Xuất Bản',
   },
   menuConfigure: {
     id: 'course-authoring.course-outline.card.menu.configure',
-    defaultMessage: 'Configure',
+    defaultMessage: 'Cấu Hình',
   },
   menuDuplicate: {
     id: 'course-authoring.course-outline.card.menu.duplicate',
-    defaultMessage: 'Duplicate',
+    defaultMessage: 'Nhân Đôi',
   },
   menuMoveUp: {
     id: 'course-authoring.course-outline.card.menu.moveup',
-    defaultMessage: 'Move up',
+    defaultMessage: 'Di Chuyển Lên',
   },
   menuMoveDown: {
     id: 'course-authoring.course-outline.card.menu.movedown',
-    defaultMessage: 'Move down',
+    defaultMessage: 'Di Chuyển Xuống',
   },
   menuDelete: {
     id: 'course-authoring.course-outline.card.menu.delete',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Xóa',
   },
   menuCopy: {
     id: 'course-authoring.course-outline.card.menu.copy',
-    defaultMessage: 'Copy to clipboard',
+    defaultMessage: 'Sao Chép Vào Clipboard',
   },
   menuProctoringLinkText: {
     id: 'course-authoring.course-outline.card.menu.proctoring-settings',
-    defaultMessage: 'Proctoring settings',
+    defaultMessage: 'Cài Đặt Giám Sát',
   },
   proctoringLinkTooltip: {
     id: 'course-authoring.course-outline.card.menu.proctoring-settings-tooltip',
-    defaultMessage: 'Proctoring settings',
+    defaultMessage: 'Cài Đặt Giám Sát',
   },
   discussionEnabledBadgeText: {
     id: 'course-authoring.course-outline.card.badge.discussionEnabled',
-    defaultMessage: 'Discussions enabled',
+    defaultMessage: 'Đã Bật Thảo Luận',
   },
   menuManageTags: {
     id: 'course-authoring.course-outline.card.menu.manageTags',
-    defaultMessage: 'Manage tags',
+    defaultMessage: 'Quản Lý Thẻ',
   },
   readyToSyncButtonAlt: {
     id: 'course-authoring.course-outline.card.button.sync.alt',
-    defaultMessage: 'Update available - click to sync',
+    defaultMessage: 'Có bản cập nhật - nhấn để đồng bộ',
     description: 'Alt text for the sync icon button.',
   },
   cannotEditTooltip: {
     id: 'course-authoring.course-outline.card.button.edit.disable.tooltip',
-    defaultMessage: 'This object was added from a library, so it cannot be edited.',
+    defaultMessage: 'Đối tượng này được thêm từ thư viện, vì vậy không thể chỉnh sửa.',
     description: 'Tooltip text of button when the object was added from a library.',
   },
 });

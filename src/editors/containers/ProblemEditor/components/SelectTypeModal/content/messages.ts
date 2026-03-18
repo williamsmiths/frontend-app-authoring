@@ -4,17 +4,17 @@ const messages = defineMessages({
 
   advanceProblemButtonLabel: {
     id: 'authoring.problemEditor.problemSelect.advanceButton.label',
-    defaultMessage: 'Advanced problem types',
+    defaultMessage: 'Các loại bài nâng cao',
     description: 'Button label for advance problem types option',
   },
   advanceMenuTitle: {
     id: 'authoring.problemEditor.advanceProblem.menu.title',
-    defaultMessage: 'Advanced problems',
+    defaultMessage: 'Bài nâng cao',
     description: 'Title for advanced problem menu',
   },
   advanceMenuGoBack: {
     id: 'authoring.problemEditor.advanceProblem.menu.goBack',
-    defaultMessage: 'Go back',
+    defaultMessage: 'Quay lại',
     description: 'Return to the previous menu that shows basic problem types',
   },
   advanceProblemTypeLabel: {
@@ -30,36 +30,29 @@ const messages = defineMessages({
   supportStatusTooltipMessage: {
     id: 'authoring.problemEditor.advanceProblem.supportStatus.tooltipMessage',
     defaultMessage: `{supportStatus,  select,
-      Provisional {Provisionally supported tools might lack the robustness of functionality
-        that your courses require. edX does not have control over the quality of the software,
-        or of the content that can be provided using these tools.
+      Provisional {Các công cụ được hỗ trợ tạm thời có thể thiếu độ ổn định hoặc đầy đủ chức năng mà khóa học của bạn yêu cầu. edX không kiểm soát chất lượng phần mềm hoặc nội dung được cung cấp từ các công cụ này.
         \n \n
-        Test these tools thoroughly before using them in your course, especially in graded
-        sections. Complete documentstion might not be available for provisionally supported
-        tools, or documentation might be available from sources other than edX.}
-      Not_supported {Tools with no support are not maintained by edX, and might be deprecated
-        in the future. They are not recommened for use in courses due to non-compliance with one
-        or more of the base requirements, such as testing, accessibility, internationalization,
-        and documentation.}
+        Hãy kiểm tra kỹ các công cụ này trước khi sử dụng trong khóa học, đặc biệt là ở các phần có chấm điểm. Tài liệu hướng dẫn có thể không đầy đủ hoặc đến từ các nguồn ngoài edX.}
+      Not_supported {Các công cụ không được hỗ trợ không được edX duy trì và có thể bị ngừng trong tương lai. Không khuyến nghị sử dụng trong khóa học do không đáp ứng một hoặc nhiều yêu cầu cơ bản như kiểm thử, khả năng truy cập, quốc tế hóa và tài liệu.}
       other { } 
     }`,
     description: 'Message for support status tooltip',
   },
   previewTitle: {
     id: 'authoring.problemEditor.preview.title',
-    defaultMessage: '{previewTitle} problem',
+    defaultMessage: '{previewTitle} bài',
     description: 'Title for the problem preview column',
   },
   previewAltText: {
     id: 'authoring.problemEditor.preview.altText',
-    defaultMessage: `A preview illustration of a {problemType, select,
-      multiplechoiceresponse {single select}
-      stringreponse {text input}
-      numericalresponse {numerical input}
+    defaultMessage: `Minh họa xem trước cho một bài {problemType, select,
+      multiplechoiceresponse {chọn một}
+      stringreponse {nhập văn bản}
+      numericalresponse {nhập số}
       optionresponse {dropdown}
-      choiceresponse {multiple select}
+      choiceresponse {chọn nhiều}
       other {null}
-    } problem`,
+    }`,
     description: 'Alt text for the illustration of the problem preview',
   },
   previewDescription: {
@@ -69,12 +62,12 @@ const messages = defineMessages({
   },
   learnMoreButtonLabel: {
     id: 'authoring.problemEditor.learnMoreButtonLabel.label',
-    defaultMessage: 'Learn more',
+    defaultMessage: 'Tìm hiểu thêm',
     description: 'Label for Learn more button',
   },
   learnMoreAdvancedButtonLabel: {
     id: 'authoring.problemEditor.advanceProblem.learnMoreButtonLabel.label',
-    defaultMessage: 'Learn more about advanced problem types',
+    defaultMessage: 'Tìm hiểu thêm về các loại bài nâng cao',
     description: 'Label for Learn more about advanced problem types button',
   },
 });

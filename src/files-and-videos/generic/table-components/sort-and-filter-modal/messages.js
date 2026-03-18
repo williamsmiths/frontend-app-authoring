@@ -3,51 +3,51 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   modalTitle: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.title',
-    defaultMessage: 'Sort and Filter',
+    defaultMessage: 'Sắp xếp và lọc',
   },
   sortByHeader: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortBySection.header',
-    defaultMessage: 'Sort by',
+    defaultMessage: 'Sắp xếp theo',
   },
   filterByHeader: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.filterBySection.header',
-    defaultMessage: 'Filter by',
+    defaultMessage: 'Lọc theo',
   },
   clearAllButtonLabel: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.clearAllButton.label',
-    defaultMessage: 'Clear all',
+    defaultMessage: 'Xóa tất cả',
   },
   cancelButtonLabel: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.cancelButton.label',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   sortByNameAscending: {
-    id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByNameAscendingButton.label',
-    defaultMessage: 'Name (A-Z)',
+    id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortByNameAscendingButton.label',
+    defaultMessage: 'Tên (A-Z)',
   },
   sortByNewest: {
-    id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByNewestButton.label',
-    defaultMessage: 'Newest',
+    id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortByNewestButton.label',
+    defaultMessage: 'Mới nhất',
   },
   sortBySizeDescending: {
-    id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortBySizeDescendingButton.label',
-    defaultMessage: 'File size (High to low)',
+    id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortBySizeDescendingButton.label',
+    defaultMessage: 'Kích thước tệp (lớn → nhỏ)',
   },
   sortByNameDescending: {
-    id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByNameDescendingButton.label',
-    defaultMessage: 'Name (Z-A)',
+    id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortByNameDescendingButton.label',
+    defaultMessage: 'Tên (Z-A)',
   },
   sortByOldest: {
-    id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortByOldestButton.label',
-    defaultMessage: 'Oldest',
+    id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortByOldestButton.label',
+    defaultMessage: 'Cũ nhất',
   },
   sortBySizeAscending: {
-    id: 'course-authoring..files-and-videos.sort-and-filter.modal.sortBySizeAscendingButton.label',
-    defaultMessage: 'File size (Low to high)',
+    id: 'course-authoring.files-and-videos.sort-and-filter.modal.sortBySizeAscendingButton.label',
+    defaultMessage: 'Kích thước tệp (nhỏ → lớn)',
   },
   applySortButton: {
-    id: 'course-authoring..files-and-videos.sort-and-filter.modal.applyySortButton.label',
-    defaultMessage: 'Apply',
+    id: 'course-authoring.files-and-videos.sort-and-filter.modal.applyySortButton.label',
+    defaultMessage: 'Áp dụng',
   },
 });
 

@@ -3,27 +3,27 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   exportModalTitle: {
     id: 'course-authoring.taxonomy-list.modal.export.title',
-    defaultMessage: 'Select format to export',
+    defaultMessage: 'Chọn định dạng xuất',
   },
   exportModalBodyDescription: {
     id: 'course-authoring.taxonomy-list.modal.export.body',
-    defaultMessage: 'Select the file format in which you would like the taxonomy to be exported:',
+    defaultMessage: 'Chọn định dạng tệp mà bạn muốn xuất phân loại:',
   },
   exportModalSubmitButtonLabel: {
     id: 'course-authoring.taxonomy-list.modal.export.submit.label',
-    defaultMessage: 'Export',
+    defaultMessage: 'Xuất',
   },
   taxonomyCSVFormat: {
     id: 'course-authoring.taxonomy-list.csv-format',
-    defaultMessage: 'CSV file',
+    defaultMessage: 'Tệp CSV',
   },
   taxonomyJSONFormat: {
     id: 'course-authoring.taxonomy-list.json-format',
-    defaultMessage: 'JSON file',
+    defaultMessage: 'Tệp JSON',
   },
   taxonomyModalsCancelLabel: {
     id: 'course-authoring.taxonomy-list.modal.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
 });
 

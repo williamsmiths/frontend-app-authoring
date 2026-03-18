@@ -4,7 +4,7 @@ const messages = defineMessages({
 
   errorTitle: {
     id: 'authoring.texteditor.selectimagemodal.error.errorTitle',
-    defaultMessage: 'Error',
+    defaultMessage: 'Lỗi',
     description: 'Title of message presented to user when something goes wrong',
   },
 });

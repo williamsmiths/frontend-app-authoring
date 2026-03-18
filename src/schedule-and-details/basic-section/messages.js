@@ -3,39 +3,39 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   basicTitle: {
     id: 'course-authoring.schedule.basic.title',
-    defaultMessage: 'Basic information',
+    defaultMessage: 'Thông tin cơ bản',
   },
   basicDescription: {
     id: 'course-authoring.schedule.basic.description',
-    defaultMessage: 'The nuts and bolts of this course',
+    defaultMessage: 'Những thông tin cốt lõi của khóa học này',
   },
   basicEmailIcon: {
     id: 'course-authoring.schedule.basic.email-icon',
-    defaultMessage: 'Invite your students email icon',
+    defaultMessage: 'Biểu tượng email mời học viên',
   },
   courseOrganization: {
     id: 'course-authoring.schedule.basic.organization',
-    defaultMessage: 'Organization',
+    defaultMessage: 'Tổ chức',
   },
   courseNumber: {
     id: 'course-authoring.schedule.basic.course-number',
-    defaultMessage: 'Course number',
+    defaultMessage: 'Mã khóa học',
   },
   courseRun: {
     id: 'course-authoring.schedule.basic.course-run',
-    defaultMessage: 'Course run',
+    defaultMessage: 'Đợt chạy khóa học',
   },
   basicBannerTitle: {
     id: 'course-authoring.schedule.basic.banner.title',
-    defaultMessage: 'Promoting your course with edX',
+    defaultMessage: 'Quảng bá khóa học của bạn với edX',
   },
   basicBannerText: {
     id: 'course-authoring.schedule.basic.banner.text',
-    defaultMessage: 'Your course summary page will not be viewable until your course has been announced. To provide content for the page and preview it, follow the instructions provided by your Program Manager. Please note that changes here may take up to a business day to appear on your course summary page.',
+    defaultMessage: 'Trang tóm tắt khóa học của bạn sẽ không hiển thị cho đến khi khóa học được công bố. Để cung cấp nội dung cho trang và xem trước, hãy làm theo hướng dẫn từ Quản lý chương trình của bạn. Lưu ý rằng các thay đổi tại đây có thể mất đến một ngày làm việc để xuất hiện trên trang tóm tắt khóa học.',
   },
   basicPromotionButton: {
     id: 'course-authoring.schedule.basic.promotion.button',
-    defaultMessage: 'Invite your students',
+    defaultMessage: 'Mời học viên của bạn',
   },
 });
 

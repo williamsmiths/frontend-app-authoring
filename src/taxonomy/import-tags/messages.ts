@@ -3,156 +3,150 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   importWizardButtonCancel: {
     id: 'course-authoring.import-tags.wizard.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   importWizardButtonNext: {
     id: 'course-authoring.import-tags.wizard.button.next',
-    defaultMessage: 'Next',
+    defaultMessage: 'Tiếp theo',
   },
   importWizardButtonPrevious: {
     id: 'course-authoring.import-tags.wizard.button.previous',
-    defaultMessage: 'Previous',
+    defaultMessage: 'Trước',
   },
   importWizardButtonImport: {
     id: 'course-authoring.import-tags.wizard.button.import',
-    defaultMessage: 'Import',
+    defaultMessage: 'Nhập',
   },
   importWizardButtonContinue: {
     id: 'course-authoring.import-tags.wizard.button.continue',
-    defaultMessage: 'Continue',
+    defaultMessage: 'Tiếp tục',
   },
   importWizardButtonConfirm: {
     id: 'course-authoring.import-tags.wizard.button.confirm',
-    defaultMessage: 'Yes, import file',
+    defaultMessage: 'Có, nhập tệp',
   },
   importWizardStepExportTitle: {
     id: 'course-authoring.import-tags.wizard.step-export.title',
-    defaultMessage: 'Update "{name}"',
+    defaultMessage: 'Cập nhật "{name}"',
   },
   importWizardStepExportBody: {
     id: 'course-authoring.import-tags.wizard.step-export.body',
-    defaultMessage: 'To update this taxonomy you need to import a new CSV or JSON file. The current taxonomy will '
-      + 'be completely replaced by the contents of the imported file (e.g. if a tag in the current taxonomy is not '
-      + 'present in the imported file, it will be removed - both from the taxonomy and from any tagged course '
-      + 'content).'
-      + '{br}You may wish to export the taxonomy in its current state before importing the new file.',
+    defaultMessage: 'Để cập nhật phân loại này, bạn cần nhập một tệp CSV hoặc JSON mới. Phân loại hiện tại sẽ được thay thế hoàn toàn bằng nội dung của tệp đã nhập (ví dụ: nếu một thẻ trong phân loại hiện tại không có trong tệp mới, nó sẽ bị xóa - cả trong phân loại và trong nội dung khóa học đã gắn thẻ).'
+      + '{br}Bạn có thể muốn xuất phân loại hiện tại trước khi nhập tệp mới.',
   },
   importWizardStepExportCSVButton: {
     id: 'course-authoring.import-tags.wizard.step-export.button-csv',
-    defaultMessage: 'CSV file',
+    defaultMessage: 'Tệp CSV',
   },
   importWizardStepExportJSONButton: {
     id: 'course-authoring.import-tags.wizard.step-export.button-json',
-    defaultMessage: 'JSON file',
+    defaultMessage: 'Tệp JSON',
   },
   importWizardStepUploadTitle: {
     id: 'course-authoring.import-tags.wizard.step-upload.title',
-    defaultMessage: 'Upload file',
+    defaultMessage: 'Tải lên tệp',
   },
   importWizardStepUploadClearFile: {
     id: 'course-authoring.import-tags.wizard.step-upload.clear-file',
-    defaultMessage: 'Clear file',
+    defaultMessage: 'Xóa tệp',
   },
   importWizardStepUploadBody: {
     id: 'course-authoring.import-tags.wizard.step-upload.body',
-    defaultMessage: 'You can upload a CSV or JSON file to create a new taxonomy. You may use any spreadsheet tool '
-    + '(for CSV files), or any text editor (for JSON files) to create the file that you wish to import. '
-    + 'For an example of the required format, download the {csvTemplateUrl} or {jsonTemplateUrl}.'
-    + '{br}Once the file is ready to be imported, drag and drop it into the box below, or click to upload.',
+    defaultMessage: 'Bạn có thể tải lên tệp CSV hoặc JSON để tạo phân loại mới. Bạn có thể sử dụng bất kỳ công cụ bảng tính nào (cho CSV) hoặc trình soạn thảo văn bản (cho JSON) để tạo tệp.'
+      + ' Để xem định dạng mẫu, hãy tải xuống {csvTemplateUrl} hoặc {jsonTemplateUrl}.'
+      + '{br}Khi tệp đã sẵn sàng, kéo và thả vào ô bên dưới hoặc nhấp để tải lên.',
   },
   importWizardStepReuploadBody: {
     id: 'course-authoring.import-tags.wizard.step-reupload.body',
-    defaultMessage: 'You may use any spreadsheet tool (for CSV files), or any text editor (for JSON files) to create '
-    + 'the file that you wish to import.'
-    + '{br}Once the file is ready to be imported, drag and drop it into the box below, or click to upload.',
+    defaultMessage: 'Bạn có thể sử dụng bất kỳ công cụ bảng tính (CSV) hoặc trình soạn thảo văn bản (JSON) để tạo tệp.'
+      + '{br}Sau đó kéo thả vào ô bên dưới hoặc nhấp để tải lên.',
   },
   csvTemplateTitle: {
     id: 'course-authoring.import-tags.wizard.step-upload.csv-template',
-    defaultMessage: 'CSV template',
+    defaultMessage: 'Mẫu CSV',
   },
   jsonTemplateTitle: {
     id: 'course-authoring.import-tags.wizard.step-upload.json-template',
-    defaultMessage: 'JSON template',
+    defaultMessage: 'Mẫu JSON',
   },
   importWizardStepPopulateTitle: {
     id: 'course-authoring.import-tags.wizard.step-populate.title',
-    defaultMessage: 'Populate Taxonomy Information',
+    defaultMessage: 'Nhập thông tin phân loại',
   },
   importWizardStepPopulateTaxonomyName: {
     id: 'course-authoring.import-tags.wizard.step-populate.name',
-    defaultMessage: 'Taxonomy Name',
+    defaultMessage: 'Tên phân loại',
   },
   importWizardStepPopulateTaxonomyDesc: {
     id: 'course-authoring.import-tags.wizard.step-populate.desc',
-    defaultMessage: 'Taxonomy Description',
+    defaultMessage: 'Mô tả phân loại',
   },
   importWizardStepPlanTitle: {
     id: 'course-authoring.import-tags.wizard.step-plan.title',
-    defaultMessage: 'Differences between files',
+    defaultMessage: 'Khác biệt giữa các tệp',
   },
   importWizardStepPlanBody: {
     id: 'course-authoring.import-tags.wizard.step-plan.body',
-    defaultMessage: 'Importing this file will make {changeCount} updates to the existing taxonomy. '
-    + 'The content of the imported file will replace any existing values that do not match the new values.'
-    + '{br}Importing this file will cause the following updates:',
+    defaultMessage: 'Việc nhập tệp này sẽ tạo {changeCount} thay đổi cho phân loại hiện tại.'
+      + ' Nội dung mới sẽ thay thế các giá trị không khớp.'
+      + '{br}Các thay đổi bao gồm:',
   },
   importWizardStepPlanNoChanges: {
     id: 'course-authoring.import-tags.wizard.step-plan.no-changes',
-    defaultMessage: 'No changes',
+    defaultMessage: 'Không có thay đổi',
   },
   importWizardStepConfirmTitle: {
     id: 'course-authoring.import-tags.wizard.step-confirm.title',
-    defaultMessage: 'Import and replace tags',
+    defaultMessage: 'Nhập và thay thế thẻ',
   },
   importWizardStepConfirmBody: {
     id: 'course-authoring.import-tags.wizard.step-confirm.body',
-    defaultMessage: 'Warning! You are about to make {changeCount} changes to the existing taxonomy. Any tags applied '
-    + 'to course content will be updated or removed. This cannot be undone.'
-    + '{br}Are you sure you want to continue importing this file?',
+    defaultMessage: 'Cảnh báo! Bạn sắp thực hiện {changeCount} thay đổi. Các thẻ trong nội dung khóa học có thể bị cập nhật hoặc xóa và không thể hoàn tác.'
+      + '{br}Bạn có chắc muốn tiếp tục?',
   },
   promptTaxonomyName: {
     id: 'course-authoring.import-tags.prompt.taxonomy-name',
-    defaultMessage: 'Enter a name for the new taxonomy',
+    defaultMessage: 'Nhập tên phân loại mới',
   },
   promptTaxonomyNameRequired: {
     id: 'course-authoring.import-tags.prompt.taxonomy-name.required',
-    defaultMessage: 'You must enter a name for the new taxonomy',
+    defaultMessage: 'Bạn phải nhập tên phân loại',
   },
   promptTaxonomyExportId: {
     id: 'course-authoring.import-tags.prompt.taxonomy-export-id',
-    defaultMessage: "Enter a Export ID for the new taxonomy. Should only contain alphanumeric characters or '_' '-' '.'",
+    defaultMessage: 'Nhập Export ID (chỉ gồm chữ, số hoặc "_" "-" ".")',
   },
   promptTaxonomyExportIdRequired: {
     id: 'course-authoring.import-tags.prompt.taxonomy-export-id.required',
-    defaultMessage: 'You must enter an Export ID for the new taxonomy.',
+    defaultMessage: 'Bạn phải nhập Export ID',
   },
   promptTaxonomyExportIdInvalid: {
     id: 'course-authoring.import-tags.prompt.taxonomy-export-id.invalid',
-    defaultMessage: "Invalid Export ID. Should only contain alphanumeric characters or '_' '-' '.'",
+    defaultMessage: 'Export ID không hợp lệ (chỉ gồm chữ, số hoặc "_" "-" ".")',
   },
   promptTaxonomyDescription: {
     id: 'course-authoring.import-tags.prompt.taxonomy-description',
-    defaultMessage: 'Enter a description for the new taxonomy',
+    defaultMessage: 'Nhập mô tả phân loại',
   },
   importTaxonomySuccess: {
     id: 'course-authoring.import-tags.success',
-    defaultMessage: 'Taxonomy imported successfully',
+    defaultMessage: 'Nhập phân loại thành công',
   },
   importTaxonomyError: {
     id: 'course-authoring.import-tags.error',
-    defaultMessage: 'Import failed - see details in the browser console',
+    defaultMessage: 'Nhập thất bại - xem chi tiết trong console trình duyệt',
   },
   importNewTaxonomyToast: {
     id: 'course-authoring.import-tags.new.toast.success',
-    defaultMessage: '"{name}" imported',
+    defaultMessage: '"{name}" đã được nhập',
   },
   importTaxonomyToast: {
     id: 'course-authoring.import-tags.toast.success',
-    defaultMessage: '"{name}" updated',
+    defaultMessage: '"{name}" đã được cập nhật',
   },
   importTaxonomyErrorAlert: {
     id: 'course-authoring.import-tags.error-alert.title',
-    defaultMessage: 'Import error',
+    defaultMessage: 'Lỗi nhập dữ liệu',
   },
 });
 

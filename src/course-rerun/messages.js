@@ -7,7 +7,7 @@ const messages = defineMessages({
   },
   cancelButton: {
     id: 'course-authoring.course-rerun.actions.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
 });
 

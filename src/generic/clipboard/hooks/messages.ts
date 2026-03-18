@@ -3,17 +3,17 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   copying: {
     id: 'copypaste.copying',
-    defaultMessage: 'Copying',
+    defaultMessage: 'Đang sao chép',
     description: 'Message shown when copying content to clipboard',
   },
   done: {
     id: 'copypaste.done',
-    defaultMessage: 'Copied to clipboard',
+    defaultMessage: 'Đã sao chép vào clipboard',
     description: 'Message shown when content is copied to clipboard',
   },
   error: {
     id: 'copypaste.error',
-    defaultMessage: 'Error copying to clipboard',
+    defaultMessage: 'Lỗi khi sao chép vào clipboard',
     description: 'Message shown when an error occurs while copying content to clipboard',
   },
 });

@@ -4,123 +4,123 @@ import { MAX_TOTAL_LENGTH } from '../../data/constants';
 const messages = defineMessages({
   courseDisplayNameLabel: {
     id: 'course-authoring.create-or-rerun-course.display-name.label',
-    defaultMessage: 'Course name',
+    defaultMessage: 'Tên khóa học',
   },
   courseDisplayNamePlaceholder: {
     id: 'course-authoring.create-or-rerun-course.display-name.placeholder',
-    defaultMessage: 'e.g. Introduction to Computer Science',
+    defaultMessage: 'ví dụ: Nhập môn Khoa học Máy tính',
   },
   courseDisplayNameCreateHelpText: {
     id: 'course-authoring.create-or-rerun-course.create.display-name.help-text',
-    defaultMessage: 'The public display name for your course. This cannot be changed, but you can set a different display name in advanced settings later.',
+    defaultMessage: 'Tên hiển thị công khai cho khóa học của bạn. Không thể thay đổi, nhưng bạn có thể đặt tên hiển thị khác trong cài đặt nâng cao sau.',
   },
   courseDisplayNameRerunHelpText: {
     id: 'course-authoring.create-or-rerun-course.rerun.display-name.help-text',
-    defaultMessage: 'The public display name for the new course. (This name is often the same as the original course name.)',
+    defaultMessage: 'Tên hiển thị công khai cho khóa học mới. (Thường giống với tên khóa học gốc.)',
   },
   courseOrgLabel: {
     id: 'course-authoring.create-or-rerun-course.org.label',
-    defaultMessage: 'Organization',
+    defaultMessage: 'Tổ chức',
   },
   courseOrgPlaceholder: {
     id: 'course-authoring.create-or-rerun-course.org.placeholder',
-    defaultMessage: 'e.g. UniversityX or OrganizationX',
+    defaultMessage: 'ví dụ: UniversityX hoặc OrganizationX',
   },
   courseOrgNoOptions: {
     id: 'course-authoring.create-or-rerun-course.org.no-options',
-    defaultMessage: 'No options',
+    defaultMessage: 'Không có tùy chọn',
   },
   courseOrgCreateHelpText: {
     id: 'course-authoring.create-or-rerun-course.create.org.help-text',
-    defaultMessage: 'The name of the organization sponsoring the course. {strong} This cannot be changed, but you can set a different display name in advanced settings later.',
+    defaultMessage: 'Tên tổ chức tài trợ khóa học. {strong} Không thể thay đổi, nhưng bạn có thể đặt tên hiển thị khác trong cài đặt nâng cao sau.',
   },
   courseOrgRerunHelpText: {
     id: 'course-authoring.create-or-rerun-course.rerun.org.help-text',
-    defaultMessage: 'The name of the organization sponsoring the new course. (This name is often the same as the original organization name.) {strong}',
+    defaultMessage: 'Tên tổ chức tài trợ khóa học mới. (Thường giống với tên tổ chức ban đầu.) {strong}',
   },
   courseNoteNoSpaceAllowedStrong: {
     id: 'course-authoring.create-or-rerun-course.no-space-allowed.strong',
-    defaultMessage: 'Note: No spaces or special characters are allowed.',
+    defaultMessage: 'Lưu ý: Không được phép có khoảng trắng hoặc ký tự đặc biệt.',
   },
   courseNoteOrgNameIsPartStrong: {
     id: 'course-authoring.create-or-rerun-course.org.help-text.strong',
-    defaultMessage: 'Note: The organization name is part of the course URL.',
+    defaultMessage: 'Lưu ý: Tên tổ chức là một phần của URL khóa học.',
   },
   courseNumberLabel: {
     id: 'course-authoring.create-or-rerun-course.number.label',
-    defaultMessage: 'Course number',
+    defaultMessage: 'Mã khóa học',
   },
   courseNumberPlaceholder: {
     id: 'course-authoring.create-or-rerun-course.number.placeholder',
-    defaultMessage: 'e.g. CS101',
+    defaultMessage: 'ví dụ: CS101',
   },
   courseNumberCreateHelpText: {
     id: 'course-authoring.create-or-rerun-course.create.number.help-text',
-    defaultMessage: 'The unique number that identifies your course within your organization. {strong}',
+    defaultMessage: 'Mã duy nhất xác định khóa học trong tổ chức. {strong}',
   },
   courseNumberRerunHelpText: {
     id: 'course-authoring.create-or-rerun-course.rerun.number.help-text',
-    defaultMessage: 'The unique number that identifies the new course within the organization. (This number will be the same as the original course number and cannot be changed.)',
+    defaultMessage: 'Mã duy nhất xác định khóa học mới trong tổ chức. (Giống với mã cũ và không thể thay đổi.)',
   },
   courseNotePartCourseURLRequireStrong: {
     id: 'course-authoring.create-or-rerun-course.number.help-text.strong',
-    defaultMessage: 'Note: This is part of your course URL, so no spaces or special characters are allowed and it cannot be changed.',
+    defaultMessage: 'Lưu ý: Đây là một phần của URL khóa học, không được có khoảng trắng hoặc ký tự đặc biệt và không thể thay đổi.',
   },
   courseRunLabel: {
     id: 'course-authoring.create-or-rerun-course.run.label',
-    defaultMessage: 'Course run',
+    defaultMessage: 'Đợt học',
   },
   courseRunPlaceholder: {
     id: 'course-authoring.create-or-rerun-course.run.placeholder',
-    defaultMessage: 'e.g. 2014_T1',
+    defaultMessage: 'ví dụ: 2014_T1',
   },
   courseRunCreateHelpText: {
     id: 'course-authoring.create-or-rerun-course.create.run.help-text',
-    defaultMessage: 'The term in which your course will run. {strong}',
+    defaultMessage: 'Kỳ học mà khóa học sẽ diễn ra. {strong}',
   },
   courseRunRerunHelpText: {
     id: 'course-authoring.create-or-rerun-course.create.rerun.help-text',
-    defaultMessage: 'The term in which the new course will run. (This value is often different than the original course run value.){strong}',
+    defaultMessage: 'Kỳ học của khóa học mới. (Thường khác với kỳ học ban đầu.) {strong}',
   },
   defaultPlaceholder: {
     id: 'course-authoring.create-or-rerun-course.default-placeholder',
-    defaultMessage: 'Label',
+    defaultMessage: 'Nhãn',
   },
   createButton: {
     id: 'course-authoring.create-or-rerun-course.create.button.create',
-    defaultMessage: 'Create',
+    defaultMessage: 'Tạo',
   },
   rerunCreateButton: {
     id: 'course-authoring.create-or-rerun-course.rerun.button.create',
-    defaultMessage: 'Create re-run',
+    defaultMessage: 'Tạo lại',
   },
   creatingButton: {
     id: 'course-authoring.create-or-rerun-course.button.creating',
-    defaultMessage: 'Creating',
+    defaultMessage: 'Đang tạo',
   },
   rerunningCreateButton: {
     id: 'course-authoring.create-or-rerun-course.rerun.button.rerunning',
-    defaultMessage: 'Processing re-run request',
+    defaultMessage: 'Đang xử lý yêu cầu tạo lại',
   },
   cancelButton: {
     id: 'course-authoring.create-or-rerun-course.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   requiredFieldError: {
     id: 'course-authoring.create-or-rerun-course.required.error',
-    defaultMessage: 'Required field.',
+    defaultMessage: 'Trường bắt buộc.',
   },
   disallowedCharsError: {
     id: 'course-authoring.create-or-rerun-course.disallowed-chars.error',
-    defaultMessage: 'Please do not use any spaces or special characters in this field.',
+    defaultMessage: 'Vui lòng không sử dụng khoảng trắng hoặc ký tự đặc biệt.',
   },
   noSpaceError: {
     id: 'course-authoring.create-or-rerun-course.no-space.error',
-    defaultMessage: 'Please do not use any spaces in this field.',
+    defaultMessage: 'Vui lòng không sử dụng khoảng trắng.',
   },
   totalLengthError: {
     id: 'course-authoring.create-or-rerun-course.total-length-error.error',
-    defaultMessage: `The combined length of the organization, course number and course run fields cannot be more than ${MAX_TOTAL_LENGTH} characters.`,
+    defaultMessage: `Tổng độ dài của tổ chức, mã khóa học và đợt học không được vượt quá ${MAX_TOTAL_LENGTH} ký tự.`,
   },
   alertErrorExistsAriaLabelledBy: {
     id: 'course-authoring.create-or-rerun-course.error.already-exists.labelledBy',
@@ -128,7 +128,7 @@ const messages = defineMessages({
   },
   alertErrorExistsAriaDescribedBy: {
     id: 'course-authoring.create-or-rerun-course.error.already-exists.aria.describedBy',
-    defaultMessage: 'alert-confirmation-description',
+    defaultMessage: 'mô-tả-xác-nhận',
   },
 });
 

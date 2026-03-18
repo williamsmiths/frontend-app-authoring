@@ -3,55 +3,55 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   cancel: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   save: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.save',
-    defaultMessage: 'Save',
+    defaultMessage: 'Lưu',
   },
   saving: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.saving',
-    defaultMessage: 'Saving',
+    defaultMessage: 'Đang Lưu',
   },
   saved: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.saved',
-    defaultMessage: 'Saved',
+    defaultMessage: 'Đã Lưu',
   },
   retry: {
     id: 'course-authoring.pages-resources.app-settings-modal.button.retry',
-    defaultMessage: 'Retry',
+    defaultMessage: 'Thử Lại',
   },
   enabled: {
     id: 'course-authoring.pages-resources.app-settings-modal.badge.enabled',
-    defaultMessage: 'Enabled',
+    defaultMessage: 'Đã Bật',
   },
   disabled: {
     id: 'course-authoring.pages-resources.app-settings-modal.badge.disabled',
-    defaultMessage: 'Disabled',
+    defaultMessage: 'Đã Tắt',
   },
   resetAllUnits: {
     id: 'course-authoring.pages-resources.app-settings-modal.reset-all-units',
-    defaultMessage: 'Reset all units',
+    defaultMessage: 'Đặt Lại Tất Cả Đơn Vị',
   },
   resetAllUnitsTooltipChecked: {
     id: 'course-authoring.pages-resources.app-settings-modal.reset-all-units-tooltip.checked',
-    defaultMessage: 'Immediately reset any unit-level changes and checked "Enable summaries" on all units.',
+    defaultMessage: 'Ngay lập tức đặt lại mọi thay đổi cấp đơn vị và đánh dấu "Bật tóm tắt" trên tất cả các đơn vị.',
   },
   resetAllUnitsTooltipUnchecked: {
     id: 'course-authoring.pages-resources.app-settings-modal.reset-all-units-tooltip.unchecked',
-    defaultMessage: 'Immediately reset any unit-level changes and unchecked "Enable summaries" on all units.',
+    defaultMessage: 'Ngay lập tức đặt lại mọi thay đổi cấp đơn vị và bỏ đánh dấu "Bật tóm tắt" trên tất cả các đơn vị.',
   },
   reset: {
     id: 'course-authoring.pages-resources.app-settings-modal.reset',
-    defaultMessage: 'Reset',
+    defaultMessage: 'Đặt Lại',
   },
   errorSavingTitle: {
     id: 'course-authoring.pages-resources.app-settings-modal.save-error.title',
-    defaultMessage: 'We couldn\'t apply your changes.',
+    defaultMessage: 'Chúng tôi không thể áp dụng các thay đổi của bạn.',
   },
   errorSavingMessage: {
     id: 'course-authoring.pages-resources.app-settings-modal.save-error.message',
-    defaultMessage: 'Please check your entries and try again.',
+    defaultMessage: 'Vui lòng kiểm tra các mục nhập và thử lại.',
   },
 });
 

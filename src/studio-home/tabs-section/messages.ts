@@ -3,60 +3,60 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   coursesTabTitle: {
     id: 'course-authoring.studio-home.courses.tab.title',
-    defaultMessage: 'Courses',
+    defaultMessage: 'Khóa học',
   },
   courseTabErrorMessage: {
     id: 'course-authoring.studio-home.courses.tab.error.message',
-    defaultMessage: 'Failed to fetch courses. Please try again later.',
+    defaultMessage: 'Không thể tải danh sách khóa học. Vui lòng thử lại sau.',
   },
   coursesPaginationInfo: {
     id: 'course-authoring.studio-home.courses.pagination.info',
-    defaultMessage: 'Showing {length} of {total}',
+    defaultMessage: 'Hiển thị {length} trên {total}',
   },
   librariesTabErrorMessage: {
     id: 'course-authoring.studio-home.libraries.tab.error.message',
-    defaultMessage: 'Failed to fetch libraries. Please try again later.',
+    defaultMessage: 'Không thể tải thư viện. Vui lòng thử lại sau.',
   },
   librariesTabTitle: {
     id: 'course-authoring.studio-home.libraries.tab.title',
-    defaultMessage: 'Libraries',
+    defaultMessage: 'Thư viện',
   },
   legacyLibrariesTabTitle: {
     id: 'course-authoring.studio-home.legacy.libraries.tab.title',
-    defaultMessage: 'Legacy Libraries',
+    defaultMessage: 'Thư viện cũ',
   },
   archivedTabTitle: {
     id: 'course-authoring.studio-home.archived.tab.title',
-    defaultMessage: 'Archived courses',
+    defaultMessage: 'Khóa học đã lưu trữ',
   },
   archiveTabErrorMessage: {
     id: 'course-authoring.studio-home.archived.tab.error.message',
-    defaultMessage: 'Failed to fetch archived courses. Please try again later.',
+    defaultMessage: 'Không thể tải các khóa học đã lưu trữ. Vui lòng thử lại sau.',
   },
   coursesTabCourseNotFoundAlertTitle: {
     id: 'course-authoring.studio-home.courses.tab.course.not.found.alert.title',
-    defaultMessage: 'We could not find any result',
+    defaultMessage: 'Không tìm thấy kết quả',
   },
   coursesTabCourseNotFoundAlertMessage: {
     id: 'course-authoring.studio-home.courses.tab.course.not.found.alert.message',
-    defaultMessage: 'There are no courses with the current filters.',
+    defaultMessage: 'Không có khóa học nào với bộ lọc hiện tại.',
   },
   coursesTabCourseNotFoundAlertCleanFiltersButton: {
     id: 'course-authoring.studio-home.courses.tab.course.not.found.alert.clean.filters.button',
-    defaultMessage: 'Clear filters',
+    defaultMessage: 'Xóa bộ lọc',
   },
   taxonomiesTabTitle: {
     id: 'course-authoring.studio-home.taxonomies.tab.title',
-    defaultMessage: 'Taxonomies',
+    defaultMessage: 'Phân loại',
     description: 'Title of Taxonomies tab on the home page',
   },
   libraryV2PlaceholderTitle: {
     id: 'course-authoring.studio-home.libraries.placeholder.title',
-    defaultMessage: 'Library V2 Placeholder',
+    defaultMessage: 'Trang giữ chỗ Library V2',
   },
   libraryV2PlaceholderBody: {
     id: 'course-authoring.studio-home.libraries.placeholder.body',
-    defaultMessage: 'This is a placeholder page, as the Library Authoring MFE is not enabled.',
+    defaultMessage: 'Đây là trang giữ chỗ vì tính năng Library Authoring MFE chưa được bật.',
   },
   librariesV2TabBetaBadge: {
     id: 'course-authoring.studio-home.libraries.tab.library.beta-badge',
@@ -65,28 +65,25 @@ const messages = defineMessages({
   },
   librariesV2TabBetaText: {
     id: 'course-authoring.studio-home.libraries.tab.library.beta-text',
-    defaultMessage: 'Welcome to the new Beta Libraries experience! Libraries have been redesigned from the ground up,'
-      + ' making it much easier to reuse and remix course content. The new Libraries space lets you create, organize and'
-      + ' manage new content; reuse your content in as many courses as you\'d like; sync updates centrally; and create'
-      + ' and randomize problem sets. See {link} for details.',
+    defaultMessage: 'Chào mừng bạn đến với trải nghiệm Thư viện Beta mới! Thư viện đã được thiết kế lại hoàn toàn, giúp việc tái sử dụng và tùy biến nội dung khóa học trở nên dễ dàng hơn nhiều. Không gian Thư viện mới cho phép bạn tạo, tổ chức và quản lý nội dung mới; tái sử dụng nội dung trong nhiều khóa học; đồng bộ cập nhật tập trung; và tạo cũng như ngẫu nhiên hóa bộ câu hỏi. Xem {link} để biết thêm chi tiết.',
     description: 'Explanatory text shown on the Libraries v2 tab during the beta release.',
   },
   librariesV2TabBetaTutorialLinkText: {
     id: 'course-authoring.studio-home.libraries.tab.library.beta-link-text',
-    defaultMessage: 'Libraries v2 tutorial',
+    defaultMessage: 'Hướng dẫn Libraries v2',
     description: 'Text to use as the link in the "course-authoring.studio-home.libraries.tab.library.beta-text" message',
   },
   librariesV2TabLibrarySearchPlaceholder: {
     id: 'course-authoring.studio-home.libraries.tab.library.search-placeholder',
-    defaultMessage: 'Search',
+    defaultMessage: 'Tìm kiếm',
   },
   librariesV2TabLibraryNotFoundAlertTitle: {
     id: 'course-authoring.studio-home.libraries.tab.library.not.found.alert.title',
-    defaultMessage: 'We could not find any result',
+    defaultMessage: 'Không tìm thấy kết quả',
   },
   librariesV2TabLibraryNotFoundAlertMessage: {
     id: 'course-authoring.studio-home.libraries.tab.library.not.found.alert.message',
-    defaultMessage: 'There are no libraries with the current filters.',
+    defaultMessage: 'Không có thư viện nào với bộ lọc hiện tại.',
   },
 });
 

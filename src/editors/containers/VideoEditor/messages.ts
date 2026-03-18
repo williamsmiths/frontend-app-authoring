@@ -3,12 +3,12 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   spinnerScreenReaderText: {
     id: 'authoring.videoEditor.spinnerScreenReaderText',
-    defaultMessage: 'loading',
+    defaultMessage: 'đang tải',
     description: 'Loading message for spinner screenreader text.',
   },
   replaceVideoButtonLabel: {
     id: 'authoring.videoEditor.replaceVideoButtonLabel',
-    defaultMessage: 'Replace video',
+    defaultMessage: 'Thay thế video',
     description: 'Text of the replace video button to return to the video gallery',
   },
 });
